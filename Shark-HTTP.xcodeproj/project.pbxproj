@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4E319552546A48A000614ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319542546A48A000614ED /* AppDelegate.swift */; };
+		F4E319572546A48A000614ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319562546A48A000614ED /* SceneDelegate.swift */; };
+		F4E319592546A48A000614ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319582546A48A000614ED /* ViewController.swift */; };
+		F4E3195C2546A48A000614ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E3195A2546A48A000614ED /* Main.storyboard */; };
+		F4E3195E2546A48B000614ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E3195D2546A48B000614ED /* Assets.xcassets */; };
+		F4E319612546A48B000614ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E3195F2546A48B000614ED /* LaunchScreen.storyboard */; };
+		F4E3196C2546A48B000614ED /* Shark_HTTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3196B2546A48B000614ED /* Shark_HTTPTests.swift */; };
+		F4E319772546A48B000614ED /* Shark_HTTPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319762546A48B000614ED /* Shark_HTTPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4E319682546A48B000614ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E319492546A48A000614ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E319502546A48A000614ED;
+			remoteInfo = "Shark-HTTP";
+		};
+		F4E319732546A48B000614ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E319492546A48A000614ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E319502546A48A000614ED;
+			remoteInfo = "Shark-HTTP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4E319512546A48A000614ED /* Shark-HTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shark-HTTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E319542546A48A000614ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4E319562546A48A000614ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4E319582546A48A000614ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4E3195B2546A48A000614ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4E3195D2546A48B000614ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4E319602546A48B000614ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4E319622546A48B000614ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E319672546A48B000614ED /* Shark-HTTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shark-HTTPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E3196B2546A48B000614ED /* Shark_HTTPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shark_HTTPTests.swift; sourceTree = "<group>"; };
+		F4E3196D2546A48B000614ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E319722546A48B000614ED /* Shark-HTTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shark-HTTPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E319762546A48B000614ED /* Shark_HTTPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shark_HTTPUITests.swift; sourceTree = "<group>"; };
+		F4E319782546A48B000614ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E3194E2546A48A000614ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E319642546A48B000614ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3196F2546A48B000614ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4E319482546A48A000614ED = {
+			isa = PBXGroup;
+			children = (
+				F4E319532546A48A000614ED /* Shark-HTTP */,
+				F4E3196A2546A48B000614ED /* Shark-HTTPTests */,
+				F4E319752546A48B000614ED /* Shark-HTTPUITests */,
+				F4E319522546A48A000614ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E319522546A48A000614ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E319512546A48A000614ED /* Shark-HTTP.app */,
+				F4E319672546A48B000614ED /* Shark-HTTPTests.xctest */,
+				F4E319722546A48B000614ED /* Shark-HTTPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E319532546A48A000614ED /* Shark-HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				F4E319542546A48A000614ED /* AppDelegate.swift */,
+				F4E319562546A48A000614ED /* SceneDelegate.swift */,
+				F4E319582546A48A000614ED /* ViewController.swift */,
+				F4E3195A2546A48A000614ED /* Main.storyboard */,
+				F4E3195D2546A48B000614ED /* Assets.xcassets */,
+				F4E3195F2546A48B000614ED /* LaunchScreen.storyboard */,
+				F4E319622546A48B000614ED /* Info.plist */,
+			);
+			path = "Shark-HTTP";
+			sourceTree = "<group>";
+		};
+		F4E3196A2546A48B000614ED /* Shark-HTTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3196B2546A48B000614ED /* Shark_HTTPTests.swift */,
+				F4E3196D2546A48B000614ED /* Info.plist */,
+			);
+			path = "Shark-HTTPTests";
+			sourceTree = "<group>";
+		};
+		F4E319752546A48B000614ED /* Shark-HTTPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E319762546A48B000614ED /* Shark_HTTPUITests.swift */,
+				F4E319782546A48B000614ED /* Info.plist */,
+			);
+			path = "Shark-HTTPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E319502546A48A000614ED /* Shark-HTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E3197B2546A48B000614ED /* Build configuration list for PBXNativeTarget "Shark-HTTP" */;
+			buildPhases = (
+				F4E3194D2546A48A000614ED /* Sources */,
+				F4E3194E2546A48A000614ED /* Frameworks */,
+				F4E3194F2546A48A000614ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shark-HTTP";
+			productName = "Shark-HTTP";
+			productReference = F4E319512546A48A000614ED /* Shark-HTTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4E319662546A48B000614ED /* Shark-HTTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E3197E2546A48B000614ED /* Build configuration list for PBXNativeTarget "Shark-HTTPTests" */;
+			buildPhases = (
+				F4E319632546A48B000614ED /* Sources */,
+				F4E319642546A48B000614ED /* Frameworks */,
+				F4E319652546A48B000614ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E319692546A48B000614ED /* PBXTargetDependency */,
+			);
+			name = "Shark-HTTPTests";
+			productName = "Shark-HTTPTests";
+			productReference = F4E319672546A48B000614ED /* Shark-HTTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4E319712546A48B000614ED /* Shark-HTTPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E319812546A48B000614ED /* Build configuration list for PBXNativeTarget "Shark-HTTPUITests" */;
+			buildPhases = (
+				F4E3196E2546A48B000614ED /* Sources */,
+				F4E3196F2546A48B000614ED /* Frameworks */,
+				F4E319702546A48B000614ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E319742546A48B000614ED /* PBXTargetDependency */,
+			);
+			name = "Shark-HTTPUITests";
+			productName = "Shark-HTTPUITests";
+			productReference = F4E319722546A48B000614ED /* Shark-HTTPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E319492546A48A000614ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					F4E319502546A48A000614ED = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					F4E319662546A48B000614ED = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = F4E319502546A48A000614ED;
+					};
+					F4E319712546A48B000614ED = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = F4E319502546A48A000614ED;
+					};
+				};
+			};
+			buildConfigurationList = F4E3194C2546A48A000614ED /* Build configuration list for PBXProject "Shark-HTTP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E319482546A48A000614ED;
+			productRefGroup = F4E319522546A48A000614ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E319502546A48A000614ED /* Shark-HTTP */,
+				F4E319662546A48B000614ED /* Shark-HTTPTests */,
+				F4E319712546A48B000614ED /* Shark-HTTPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E3194F2546A48A000614ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E319612546A48B000614ED /* LaunchScreen.storyboard in Resources */,
+				F4E3195E2546A48B000614ED /* Assets.xcassets in Resources */,
+				F4E3195C2546A48A000614ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E319652546A48B000614ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E319702546A48B000614ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E3194D2546A48A000614ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E319592546A48A000614ED /* ViewController.swift in Sources */,
+				F4E319552546A48A000614ED /* AppDelegate.swift in Sources */,
+				F4E319572546A48A000614ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E319632546A48B000614ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E3196C2546A48B000614ED /* Shark_HTTPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3196E2546A48B000614ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E319772546A48B000614ED /* Shark_HTTPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4E319692546A48B000614ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E319502546A48A000614ED /* Shark-HTTP */;
+			targetProxy = F4E319682546A48B000614ED /* PBXContainerItemProxy */;
+		};
+		F4E319742546A48B000614ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E319502546A48A000614ED /* Shark-HTTP */;
+			targetProxy = F4E319732546A48B000614ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4E3195A2546A48A000614ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E3195B2546A48A000614ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4E3195F2546A48B000614ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E319602546A48B000614ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E319792546A48B000614ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4E3197A2546A48B000614ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E3197C2546A48B000614ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA9F856YHB;
+				INFOPLIST_FILE = "Shark-HTTP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei-tsung-cheng.Shark-HTTP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4E3197D2546A48B000614ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA9F856YHB;
+				INFOPLIST_FILE = "Shark-HTTP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei-tsung-cheng.Shark-HTTP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4E3197F2546A48B000614ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA9F856YHB;
+				INFOPLIST_FILE = "Shark-HTTPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei-tsung-cheng.Shark-HTTPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shark-HTTP.app/Shark-HTTP";
+			};
+			name = Debug;
+		};
+		F4E319802546A48B000614ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA9F856YHB;
+				INFOPLIST_FILE = "Shark-HTTPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei-tsung-cheng.Shark-HTTPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shark-HTTP.app/Shark-HTTP";
+			};
+			name = Release;
+		};
+		F4E319822546A48B000614ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA9F856YHB;
+				INFOPLIST_FILE = "Shark-HTTPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei-tsung-cheng.Shark-HTTPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shark-HTTP";
+			};
+			name = Debug;
+		};
+		F4E319832546A48B000614ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA9F856YHB;
+				INFOPLIST_FILE = "Shark-HTTPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei-tsung-cheng.Shark-HTTPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shark-HTTP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E3194C2546A48A000614ED /* Build configuration list for PBXProject "Shark-HTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E319792546A48B000614ED /* Debug */,
+				F4E3197A2546A48B000614ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E3197B2546A48B000614ED /* Build configuration list for PBXNativeTarget "Shark-HTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E3197C2546A48B000614ED /* Debug */,
+				F4E3197D2546A48B000614ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E3197E2546A48B000614ED /* Build configuration list for PBXNativeTarget "Shark-HTTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E3197F2546A48B000614ED /* Debug */,
+				F4E319802546A48B000614ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E319812546A48B000614ED /* Build configuration list for PBXNativeTarget "Shark-HTTPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E319822546A48B000614ED /* Debug */,
+				F4E319832546A48B000614ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E319492546A48A000614ED /* Project object */;
+}
