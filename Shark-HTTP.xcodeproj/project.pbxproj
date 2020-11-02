@@ -15,6 +15,25 @@
 		F4E319612546A48B000614ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E3195F2546A48B000614ED /* LaunchScreen.storyboard */; };
 		F4E3196C2546A48B000614ED /* Shark_HTTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3196B2546A48B000614ED /* Shark_HTTPTests.swift */; };
 		F4E319772546A48B000614ED /* Shark_HTTPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319762546A48B000614ED /* Shark_HTTPUITests.swift */; };
+		F4E319892546A4F4000614ED /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319882546A4F4000614ED /* HTTPMethod.swift */; };
+		F4E319D02546CAF4000614ED /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319CF2546CAF4000614ED /* HTTPRequest.swift */; };
+		F4E319D52546D858000614ED /* HTTPStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319D42546D858000614ED /* HTTPStatus.swift */; };
+		F4E319DA2546DA52000614ED /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319D92546DA52000614ED /* HTTPResponse.swift */; };
+		F4E319DF2546DA74000614ED /* HTTPResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319DE2546DA74000614ED /* HTTPResult.swift */; };
+		F4E319E72546DBA8000614ED /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319E62546DBA8000614ED /* HTTPError.swift */; };
+		F4E319EC2547B2C6000614ED /* HTTPBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319EB2547B2C6000614ED /* HTTPBody.swift */; };
+		F4E319F125484FF8000614ED /* HTTPLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319F025484FF8000614ED /* HTTPLoader.swift */; };
+		F4E319FA25494BD7000614ED /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319F925494BD7000614ED /* TestAPI.swift */; };
+		F4E31A0025495BD8000614ED /* MockLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319FF25495BD8000614ED /* MockLoader.swift */; };
+		F4E31A05254BB4F5000614ED /* SrtarWarsAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E31A04254BB4F5000614ED /* SrtarWarsAPITests.swift */; };
+		F4E31A0B254C00E9000614ED /* LoaderChainingPrecedence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E31A0A254C00E9000614ED /* LoaderChainingPrecedence.swift */; };
+		F4E31A17254C018E000614ED /* URLSessionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E31A16254C018E000614ED /* URLSessionLoader.swift */; };
+		F4E31A1D254C01D7000614ED /* PrintLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E31A1C254C01D7000614ED /* PrintLoader.swift */; };
+		F4E31A2B254C0458000614ED /* ModifyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E31A2A254C0458000614ED /* ModifyRequest.swift */; };
+		F4E31A31254C231A000614ED /* ServerEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E31A30254C231A000614ED /* ServerEnvironment.swift */; };
+		F4E31A39254FA322000614ED /* ApplyEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E31A38254FA322000614ED /* ApplyEnvironment.swift */; };
+		F4E31A44254FAE8D000614ED /* StarWarsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E31A43254FAE8D000614ED /* StarWarsAPI.swift */; };
+		F4E31A4A254FD9FC000614ED /* HTTPRequestOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E31A49254FD9FC000614ED /* HTTPRequestOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +68,25 @@
 		F4E319722546A48B000614ED /* Shark-HTTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shark-HTTPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E319762546A48B000614ED /* Shark_HTTPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shark_HTTPUITests.swift; sourceTree = "<group>"; };
 		F4E319782546A48B000614ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E319882546A4F4000614ED /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		F4E319CF2546CAF4000614ED /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		F4E319D42546D858000614ED /* HTTPStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatus.swift; sourceTree = "<group>"; };
+		F4E319D92546DA52000614ED /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+		F4E319DE2546DA74000614ED /* HTTPResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResult.swift; sourceTree = "<group>"; };
+		F4E319E62546DBA8000614ED /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		F4E319EB2547B2C6000614ED /* HTTPBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPBody.swift; sourceTree = "<group>"; };
+		F4E319F025484FF8000614ED /* HTTPLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPLoader.swift; sourceTree = "<group>"; };
+		F4E319F925494BD7000614ED /* TestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPI.swift; sourceTree = "<group>"; };
+		F4E319FF25495BD8000614ED /* MockLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoader.swift; sourceTree = "<group>"; };
+		F4E31A04254BB4F5000614ED /* SrtarWarsAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrtarWarsAPITests.swift; sourceTree = "<group>"; };
+		F4E31A0A254C00E9000614ED /* LoaderChainingPrecedence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderChainingPrecedence.swift; sourceTree = "<group>"; };
+		F4E31A16254C018E000614ED /* URLSessionLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionLoader.swift; sourceTree = "<group>"; };
+		F4E31A1C254C01D7000614ED /* PrintLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintLoader.swift; sourceTree = "<group>"; };
+		F4E31A2A254C0458000614ED /* ModifyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyRequest.swift; sourceTree = "<group>"; };
+		F4E31A30254C231A000614ED /* ServerEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerEnvironment.swift; sourceTree = "<group>"; };
+		F4E31A38254FA322000614ED /* ApplyEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyEnvironment.swift; sourceTree = "<group>"; };
+		F4E31A43254FAE8D000614ED /* StarWarsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsAPI.swift; sourceTree = "<group>"; };
+		F4E31A49254FD9FC000614ED /* HTTPRequestOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +140,9 @@
 				F4E319542546A48A000614ED /* AppDelegate.swift */,
 				F4E319562546A48A000614ED /* SceneDelegate.swift */,
 				F4E319582546A48A000614ED /* ViewController.swift */,
+				F4E31A2F254C22D6000614ED /* ServerEnvironment */,
+				F4E319F825494BBD000614ED /* Model */,
+				F4E319872546A4CE000614ED /* HTTP-Layer */,
 				F4E3195A2546A48A000614ED /* Main.storyboard */,
 				F4E3195D2546A48B000614ED /* Assets.xcassets */,
 				F4E3195F2546A48B000614ED /* LaunchScreen.storyboard */,
@@ -114,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				F4E3196B2546A48B000614ED /* Shark_HTTPTests.swift */,
+				F4E31A04254BB4F5000614ED /* SrtarWarsAPITests.swift */,
 				F4E3196D2546A48B000614ED /* Info.plist */,
 			);
 			path = "Shark-HTTPTests";
@@ -126,6 +168,77 @@
 				F4E319782546A48B000614ED /* Info.plist */,
 			);
 			path = "Shark-HTTPUITests";
+			sourceTree = "<group>";
+		};
+		F4E319872546A4CE000614ED /* HTTP-Layer */ = {
+			isa = PBXGroup;
+			children = (
+				F4E319882546A4F4000614ED /* HTTPMethod.swift */,
+				F4E319D42546D858000614ED /* HTTPStatus.swift */,
+				F4E31A48254FD9AF000614ED /* HTTPRequest */,
+				F4E319D92546DA52000614ED /* HTTPResponse.swift */,
+				F4E319E62546DBA8000614ED /* HTTPError.swift */,
+				F4E319DE2546DA74000614ED /* HTTPResult.swift */,
+				F4E319EB2547B2C6000614ED /* HTTPBody.swift */,
+				F4E31A12254C0144000614ED /* HTTPLoader */,
+				F4E31A09254C00B4000614ED /* Operator */,
+				F4E319FE25495BB1000614ED /* HTTP-Mock */,
+			);
+			path = "HTTP-Layer";
+			sourceTree = "<group>";
+		};
+		F4E319F825494BBD000614ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4E319F925494BD7000614ED /* TestAPI.swift */,
+				F4E31A43254FAE8D000614ED /* StarWarsAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4E319FE25495BB1000614ED /* HTTP-Mock */ = {
+			isa = PBXGroup;
+			children = (
+				F4E319FF25495BD8000614ED /* MockLoader.swift */,
+			);
+			path = "HTTP-Mock";
+			sourceTree = "<group>";
+		};
+		F4E31A09254C00B4000614ED /* Operator */ = {
+			isa = PBXGroup;
+			children = (
+				F4E31A0A254C00E9000614ED /* LoaderChainingPrecedence.swift */,
+			);
+			path = Operator;
+			sourceTree = "<group>";
+		};
+		F4E31A12254C0144000614ED /* HTTPLoader */ = {
+			isa = PBXGroup;
+			children = (
+				F4E319F025484FF8000614ED /* HTTPLoader.swift */,
+				F4E31A2A254C0458000614ED /* ModifyRequest.swift */,
+				F4E31A16254C018E000614ED /* URLSessionLoader.swift */,
+				F4E31A1C254C01D7000614ED /* PrintLoader.swift */,
+			);
+			path = HTTPLoader;
+			sourceTree = "<group>";
+		};
+		F4E31A2F254C22D6000614ED /* ServerEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				F4E31A30254C231A000614ED /* ServerEnvironment.swift */,
+				F4E31A38254FA322000614ED /* ApplyEnvironment.swift */,
+			);
+			path = ServerEnvironment;
+			sourceTree = "<group>";
+		};
+		F4E31A48254FD9AF000614ED /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F4E319CF2546CAF4000614ED /* HTTPRequest.swift */,
+				F4E31A49254FD9FC000614ED /* HTTPRequestOption.swift */,
+			);
+			path = HTTPRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +371,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E31A1D254C01D7000614ED /* PrintLoader.swift in Sources */,
+				F4E31A39254FA322000614ED /* ApplyEnvironment.swift in Sources */,
+				F4E319892546A4F4000614ED /* HTTPMethod.swift in Sources */,
+				F4E319E72546DBA8000614ED /* HTTPError.swift in Sources */,
 				F4E319592546A48A000614ED /* ViewController.swift in Sources */,
+				F4E31A44254FAE8D000614ED /* StarWarsAPI.swift in Sources */,
+				F4E31A0B254C00E9000614ED /* LoaderChainingPrecedence.swift in Sources */,
+				F4E319F125484FF8000614ED /* HTTPLoader.swift in Sources */,
+				F4E319D02546CAF4000614ED /* HTTPRequest.swift in Sources */,
 				F4E319552546A48A000614ED /* AppDelegate.swift in Sources */,
+				F4E31A31254C231A000614ED /* ServerEnvironment.swift in Sources */,
+				F4E319FA25494BD7000614ED /* TestAPI.swift in Sources */,
+				F4E31A2B254C0458000614ED /* ModifyRequest.swift in Sources */,
+				F4E31A4A254FD9FC000614ED /* HTTPRequestOption.swift in Sources */,
+				F4E319DF2546DA74000614ED /* HTTPResult.swift in Sources */,
 				F4E319572546A48A000614ED /* SceneDelegate.swift in Sources */,
+				F4E31A17254C018E000614ED /* URLSessionLoader.swift in Sources */,
+				F4E319DA2546DA52000614ED /* HTTPResponse.swift in Sources */,
+				F4E319D52546D858000614ED /* HTTPStatus.swift in Sources */,
+				F4E319EC2547B2C6000614ED /* HTTPBody.swift in Sources */,
+				F4E31A0025495BD8000614ED /* MockLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E31A05254BB4F5000614ED /* SrtarWarsAPITests.swift in Sources */,
 				F4E3196C2546A48B000614ED /* Shark_HTTPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

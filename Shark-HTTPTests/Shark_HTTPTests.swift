@@ -29,5 +29,23 @@ class Shark_HTTPTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func test_sequentialExecutions() {
+        let mock = MockLoader()
+        for i in 0 ..< 5 {
+            mock.then { request, handler in
+                XCTAssert(request.path! == "/\(i)")
+            }
+        }
+
+        for i in 0 ..< 5 {
+            var r = HTTPRequest()
+            r.path = "/\(i)"
+            mock.load(request: r) { result in
+                XCTAssertEqual(result.response?.status, .success)
+            }
+        }
+
+    }
 
 }
