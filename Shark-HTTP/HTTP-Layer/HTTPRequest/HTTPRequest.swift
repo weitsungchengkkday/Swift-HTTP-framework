@@ -17,15 +17,20 @@ public struct HTTPRequest {
     
     public subscript<O: HTTPRequestOption>(option type: O.Type) -> O.Value {
         get {
+        
             let id = ObjectIdentifier(type)
+            
+            print(type.defaultOptionValue)
             guard let value = options[id] as? O.Value else {
                 return type.defaultOptionValue
             }
+            
             return value
         }
 
         set {
             let id = ObjectIdentifier(type)
+            print(newValue)
             options[id] = newValue
         }
     }

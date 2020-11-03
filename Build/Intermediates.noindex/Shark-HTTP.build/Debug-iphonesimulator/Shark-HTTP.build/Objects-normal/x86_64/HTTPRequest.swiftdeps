@@ -29,6 +29,7 @@ depends-top-level:
 - "URLComponents"
 - "URLQueryItem"
 - !private "options"
+- !private "print"
 - !private "urlComponents"
 depends-member:
 - ["s7CVarArgP", "init"]
@@ -110,6 +111,7 @@ depends-member:
 - ["10Shark_HTTP11HTTPRequestV", "method"]
 - !private ["10Shark_HTTP11HTTPRequestV", "options"]
 - ["10Shark_HTTP11HTTPRequestV", "path"]
+- !private ["10Shark_HTTP11HTTPRequestV", "print"]
 - ["10Shark_HTTP11HTTPRequestV", "queryItems"]
 - ["10Shark_HTTP11HTTPRequestV", "scheme"]
 - ["10Shark_HTTP11HTTPRequestV", "serverEnvironment"]

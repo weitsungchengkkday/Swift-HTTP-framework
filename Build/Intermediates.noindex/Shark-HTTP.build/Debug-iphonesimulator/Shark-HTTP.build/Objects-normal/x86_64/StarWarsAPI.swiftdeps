@@ -17,6 +17,7 @@ depends-top-level:
 - "AssignmentPrecedence"
 - !private "CastingPrecedence"
 - "Codable"
+- !private "Dictionary"
 - "FloatLiteralType"
 - "HTTPLoader"
 - !private "HTTPRequest"
@@ -74,8 +75,10 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "shared"]
 - ["s28CustomDebugStringConvertibleP", "stringValue"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "testServer"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "testServer"]
 - ["s23CustomStringConvertibleP", "=="]
 - ["s23CustomStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "_rawHashValue"]
@@ -99,6 +102,7 @@ depends-member:
 - ["Se", "init"]
 - !private ["Se", "name"]
 - !private ["Se", "subscript"]
+- !private ["Se", "testServer"]
 - !private ["s7DecoderP", "container"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
@@ -109,6 +113,7 @@ depends-member:
 - ["SE", "init"]
 - !private ["SE", "name"]
 - !private ["SE", "subscript"]
+- !private ["SE", "testServer"]
 - !private ["s7EncoderP", "container"]
 - ["SQ", "=="]
 - !private ["SQ", "ArrayLiteralElement"]
@@ -126,25 +131,31 @@ depends-member:
 - !private ["SQ", "shared"]
 - ["SQ", "stringValue"]
 - !private ["SQ", "subscript"]
+- !private ["SQ", "testServer"]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
 - !private ["s25ExpressibleByArrayLiteralP", "Element"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "testServer"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["s17FixedWidthIntegerP", "init"]
 - !private ["10Shark_HTTP9HTTPErrorV", ""]
 - ["10Shark_HTTP10HTTPLoaderC", ""]
 - !private ["10Shark_HTTP10HTTPLoaderC", "load"]
-- !private ["10Shark_HTTP11HTTPRequestV", "headers"]
 - !private ["10Shark_HTTP11HTTPRequestV", "init"]
 - !private ["10Shark_HTTP11HTTPRequestV", "path"]
 - !private ["10Shark_HTTP11HTTPRequestV", "queryItems"]
+- !private ["10Shark_HTTP11HTTPRequestV", "serverEnvironment"]
+- !private ["10Shark_HTTP17HTTPRequestOptionP", "testServer"]
 - !private ["10Shark_HTTP12HTTPResponseV", "body"]
 - ["SH", "=="]
 - !private ["SH", ""]
@@ -160,6 +171,7 @@ depends-member:
 - !private ["SH", "shared"]
 - ["SH", "stringValue"]
 - !private ["SH", "subscript"]
+- !private ["SH", "testServer"]
 - !private ["s6HasherV", "combine"]
 - !private ["Si", "init"]
 - !private ["So19NSJSONSerializationC", "jsonObject"]
@@ -189,6 +201,7 @@ depends-member:
 - !private ["s9OptionSetP", "ArrayLiteralElement"]
 - !private ["s9OptionSetP", "Element"]
 - !private ["s9OptionSetP", "init"]
+- !private ["Sq", "testServer"]
 - !private ["Sk", ""]
 - !private ["Sk", "subscript"]
 - !private ["Sm", ""]
@@ -205,6 +218,7 @@ depends-member:
 - !private ["s10SIMDScalarP", "init"]
 - !private ["ST", ""]
 - !private ["ST", "subscript"]
+- !private ["10Shark_HTTP17ServerEnvironmentV", "testServer"]
 - !private ["s10SetAlgebraP", "ArrayLiteralElement"]
 - !private ["s10SetAlgebraP", "Element"]
 - !private ["s10SetAlgebraP", ""]
@@ -260,6 +274,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "testServer"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - !private "Sa"
@@ -285,11 +300,13 @@ depends-nominal:
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s17FixedWidthIntegerP"
 - !private "10Shark_HTTP9HTTPErrorV"
 - "10Shark_HTTP10HTTPLoaderC"
 - !private "10Shark_HTTP11HTTPRequestV"
+- !private "10Shark_HTTP17HTTPRequestOptionP"
 - !private "10Shark_HTTP12HTTPResponseV"
 - "SH"
 - !private "s6HasherV"
@@ -308,6 +325,7 @@ depends-nominal:
 - "So8NSObjectP"
 - !private "Sj"
 - !private "s9OptionSetP"
+- !private "Sq"
 - !private "Sk"
 - !private "Sm"
 - !private "SY"
@@ -316,6 +334,7 @@ depends-nominal:
 - !private "s6ResultO"
 - !private "s10SIMDScalarP"
 - !private "ST"
+- !private "10Shark_HTTP17ServerEnvironmentV"
 - !private "s10SetAlgebraP"
 - !private "SZ"
 - !private "s13SignedNumericP"

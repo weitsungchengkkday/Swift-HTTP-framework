@@ -18,13 +18,11 @@ class StarWarsAPI {
     public func requestPeople(completion: @escaping ([StartWarsPeople]) -> Void) {
         
         var r = HTTPRequest()
-        
+        r.serverEnvironment = .testServer
         r.path = "/people"
         r.queryItems = [
             URLQueryItem(name: "search", value: "anakin")
         ]
-        r.headers["Content-Type"] = "application/json"
-       
 
         loader.load(request: r) { result in
             let data = result.response?.body

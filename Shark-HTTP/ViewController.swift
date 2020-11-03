@@ -46,11 +46,19 @@ class ViewController: UIViewController {
 //        api2.requestPeople { peoples in
 //            print(peoples[1].first_name)
 //        }
-        let applyLoader = ApplyEnvironment(environment: .testServer)
+        
+       
+        
+        
+        let applyLoader = ApplyEnvironment(environment: ServerEnvironment(host: ""))
+        
         let sessionLoader = URLSessionLoader(session: URLSession.shared)
         applyLoader.nextLoader = sessionLoader
         
-        let loader: HTTPLoader = applyLoader
+        let printLoader = PrintLoader()
+        printLoader.nextLoader = applyLoader
+
+        let loader: HTTPLoader = printLoader
 
         let api3 = StarWarsAPI(loader: loader)
         api3.requestPeople { peoples in
