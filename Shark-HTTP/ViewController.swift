@@ -46,25 +46,55 @@ class ViewController: UIViewController {
 //        api2.requestPeople { peoples in
 //            print(peoples[1].first_name)
 //        }
+      
         
        
+//        let applyLoader = ApplyEnvironment(environment: ServerEnvironment(host: ""))
+//        let sessionLoader = URLSessionLoader(session: URLSession.shared)
+//        applyLoader.nextLoader = sessionLoader
+//        let printLoader = PrintLoader()
+//        printLoader.nextLoader = applyLoader
+//        let loader: HTTPLoader = printLoader
+//        let api3 = StarWarsAPI(loader: loader)
+//        api3.requestPeople { peoples in
+//            print(peoples[0].name)
+//        }
+//        api3.resetTest()
         
         
-        let applyLoader = ApplyEnvironment(environment: ServerEnvironment(host: ""))
+//        let sessionLoader = URLSessionLoader(session: URLSession.shared)
+//        let m1 = MyCustomLoader()
+//        let m2 = MyCustomLoaderTwo()
+//        m1.nextLoader = m2
+//        m2.nextLoader = sessionLoader
+//        let loader: HTTPLoader = m1
+//        let api3 = StarWarsAPI(loader: loader)
+//        api3.requestPeople { peoples in
+//            print(peoples[0].name)
+//        }
+//        api3.resetTestV2()
+        
+        
+        
+    
         
         let sessionLoader = URLSessionLoader(session: URLSession.shared)
-        applyLoader.nextLoader = sessionLoader
+        let mr = ResetGuard()
+        let applyLoader = ApplyEnvironment(environment: ServerEnvironment(host: ""))
+        let m1 = MyCustomLoader()
+        let m2 = MyCustomLoaderTwo()
         
-        let printLoader = PrintLoader()
-        printLoader.nextLoader = applyLoader
-
-        let loader: HTTPLoader = printLoader
-
+        mr.nextLoader = applyLoader
+        applyLoader --> m1
+        m1 --> m2
+        m2 --> sessionLoader
+        let loader: HTTPLoader = mr
         let api3 = StarWarsAPI(loader: loader)
+
+//        api3.resetTestV2()
         api3.requestPeople { peoples in
             print(peoples[0].name)
         }
-  
        
     }
 

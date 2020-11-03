@@ -28,6 +28,31 @@ open class HTTPLoader {
             completion(.failure(error))
         }
     }
+    
+//    open func reset(compleitonHandler: @escaping () -> Void) {
+//        print("reset")
+//        if let next = nextLoader {
+//            print(next)
+//            next.reset(compleitonHandler: compleitonHandler)
+//        } else {
+//            print("no more reset")
+//            compleitonHandler()
+//        }
+//    }
+    
+    open func reset(with group: DispatchGroup) {
+        nextLoader?.reset(with: group)
+    }
+}
+
+extension HTTPLoader {
+    
+    public final func reset(on queue: DispatchQueue = .main, completionHandler: @escaping ()-> Void) {
+        let group = DispatchGroup()
+        self.reset(with: group)
+        
+        group.notify(queue: queue, execute: completionHandler)
+    }
 }
 
 

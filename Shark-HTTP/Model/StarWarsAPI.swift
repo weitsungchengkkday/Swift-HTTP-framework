@@ -23,32 +23,58 @@ class StarWarsAPI {
         r.queryItems = [
             URLQueryItem(name: "search", value: "anakin")
         ]
-
+    
         loader.load(request: r) { result in
-            let data = result.response?.body
-            do {
-                let json = try JSONSerialization.jsonObject(with: data!, options: []) // Read Option
-                if let jsonString = json as? [String: Any],
-                   let results = jsonString["results"] as? [[String: Any]]{
-                    
-                   let name = results[0]["name"] as! String
-                   let height = results[0]["height"] as! String
-                    
-                    completion([StartWarsPeople(name: name, height: Int(height)!)])
-
+            
+            switch result{
+            case.failure(let error):
+                 print("ERROR: \(error)")
+            case .success(let response):
+                print("SUCCESS")
+                guard let data = response.body else {
+                    return
                 }
-                   
-//                   , let results = jsonString["results"] as? [String: Any] {
-//
-//                    print(results)
-//
-//                }
-            } catch {
-                print("JSON error: \(error.localizedDescription)")
+                
+                do {
+                    let json = try JSONSerialization.jsonObject(with: data, options: []) // Read Option
+                    if let jsonString = json as? [String: Any],
+                       let results = jsonString["results"] as? [[String: Any]]{
+                        
+                        let name = results[0]["name"] as! String
+                        let height = results[0]["height"] as! String
+                        
+                        completion([StartWarsPeople(name: name, height: Int(height)!)])
+                        
+                    }
+                    
+                    //                   , let results = jsonString["results"] as? [String: Any] {
+                    //
+                    //                    print(results)
+                    //
+                    //                }
+                } catch {
+                    print("JSON error: \(error.localizedDescription)")
+                }
+                
+                
             }
-           
+            
         }
     }
+    
+    
+//    func resetTest() {
+//        loader.reset {
+//            print("reset finish")
+//        }
+//    }
+    
+        func resetTestV2() {
+            loader.reset {
+                print("Reset-Finish")
+            }
+        }
+    
 }
 
 

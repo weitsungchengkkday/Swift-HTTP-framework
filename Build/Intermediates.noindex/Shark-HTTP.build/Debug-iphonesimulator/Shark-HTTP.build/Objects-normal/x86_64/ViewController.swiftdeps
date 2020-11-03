@@ -10,6 +10,7 @@ provides-dynamic-lookup:
 - "viewDidLoad"
 depends-top-level:
 - "*"
+- !private "-->"
 - !private "..<"
 - !private "ApplyEnvironment"
 - !private "Array"
@@ -23,7 +24,10 @@ depends-top-level:
 - !private "IntegerLiteralType"
 - "JSONSerialization"
 - !private "MockLoader"
-- !private "PrintLoader"
+- !private "MyCustomLoader"
+- !private "MyCustomLoaderTwo"
+- "NilCoalescingPrecedence"
+- !private "ResetGuard"
 - !private "ServerEnvironment"
 - !private "StarWarsAPI"
 - "StringLiteralType"
@@ -36,7 +40,6 @@ depends-top-level:
 - "sequentialExecutions"
 depends-member:
 - !private ["10Shark_HTTP16ApplyEnvironmentC", "init"]
-- !private ["10Shark_HTTP16ApplyEnvironmentC", "nextLoader"]
 - !private ["Sa", "subscript"]
 - !private ["s10ArraySliceV", "name"]
 - ["SK", ""]
@@ -45,7 +48,9 @@ depends-member:
 - !private ["SK", "subscript"]
 - !private ["SK", "utf8"]
 - !private ["s7CVarArgP", "ApplyEnvironment"]
-- !private ["s7CVarArgP", "PrintLoader"]
+- !private ["s7CVarArgP", "MyCustomLoader"]
+- !private ["s7CVarArgP", "MyCustomLoaderTwo"]
+- !private ["s7CVarArgP", "ResetGuard"]
 - !private ["s7CVarArgP", "ServerEnvironment"]
 - !private ["s7CVarArgP", "StarWarsAPI"]
 - !private ["s7CVarArgP", "URLSession"]
@@ -69,7 +74,9 @@ depends-member:
 - !private ["10Foundation15ContiguousBytesP", "name"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "ApplyEnvironment"]
-- !private ["s28CustomDebugStringConvertibleP", "PrintLoader"]
+- !private ["s28CustomDebugStringConvertibleP", "MyCustomLoader"]
+- !private ["s28CustomDebugStringConvertibleP", "MyCustomLoaderTwo"]
+- !private ["s28CustomDebugStringConvertibleP", "ResetGuard"]
 - !private ["s28CustomDebugStringConvertibleP", "ServerEnvironment"]
 - !private ["s28CustomDebugStringConvertibleP", "StarWarsAPI"]
 - !private ["s28CustomDebugStringConvertibleP", "URLSession"]
@@ -88,7 +95,9 @@ depends-member:
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "utf8"]
 - !private ["s23CustomStringConvertibleP", "ApplyEnvironment"]
-- !private ["s23CustomStringConvertibleP", "PrintLoader"]
+- !private ["s23CustomStringConvertibleP", "MyCustomLoader"]
+- !private ["s23CustomStringConvertibleP", "MyCustomLoaderTwo"]
+- !private ["s23CustomStringConvertibleP", "ResetGuard"]
 - !private ["s23CustomStringConvertibleP", "ServerEnvironment"]
 - !private ["s23CustomStringConvertibleP", "StarWarsAPI"]
 - !private ["s23CustomStringConvertibleP", "URLSession"]
@@ -122,7 +131,9 @@ depends-member:
 - !private ["SQ", "ApplyEnvironment"]
 - !private ["SQ", "ArrayLiteralElement"]
 - !private ["SQ", "Element"]
-- !private ["SQ", "PrintLoader"]
+- !private ["SQ", "MyCustomLoader"]
+- !private ["SQ", "MyCustomLoaderTwo"]
+- !private ["SQ", "ResetGuard"]
 - !private ["SQ", "ServerEnvironment"]
 - !private ["SQ", "StarWarsAPI"]
 - !private ["SQ", "URLSession"]
@@ -168,7 +179,9 @@ depends-member:
 - !private ["10Shark_HTTP12HTTPResponseV", "init"]
 - !private ["So17NSHTTPURLResponseC", "init"]
 - !private ["SH", "ApplyEnvironment"]
-- !private ["SH", "PrintLoader"]
+- !private ["SH", "MyCustomLoader"]
+- !private ["SH", "MyCustomLoaderTwo"]
+- !private ["SH", "ResetGuard"]
 - !private ["SH", "ServerEnvironment"]
 - !private ["SH", "StarWarsAPI"]
 - !private ["SH", "URLSession"]
@@ -198,9 +211,13 @@ depends-member:
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "init"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["10Shark_HTTP14MyCustomLoaderC", "init"]
+- !private ["10Shark_HTTP17MyCustomLoaderTwoC", "init"]
 - !private ["So8NSCodingP", "ApplyEnvironment"]
 - !private ["So8NSCodingP", "HTTPLoader"]
-- !private ["So8NSCodingP", "PrintLoader"]
+- !private ["So8NSCodingP", "MyCustomLoader"]
+- !private ["So8NSCodingP", "MyCustomLoaderTwo"]
+- !private ["So8NSCodingP", "ResetGuard"]
 - !private ["So8NSCodingP", "ServerEnvironment"]
 - !private ["So8NSCodingP", "StarWarsAPI"]
 - !private ["So8NSCodingP", "URLSession"]
@@ -214,7 +231,9 @@ depends-member:
 - !private ["So9NSCopyingP", "utf8"]
 - !private ["So26NSExtensionRequestHandlingP", "ApplyEnvironment"]
 - !private ["So26NSExtensionRequestHandlingP", "HTTPLoader"]
-- !private ["So26NSExtensionRequestHandlingP", "PrintLoader"]
+- !private ["So26NSExtensionRequestHandlingP", "MyCustomLoader"]
+- !private ["So26NSExtensionRequestHandlingP", "MyCustomLoaderTwo"]
+- !private ["So26NSExtensionRequestHandlingP", "ResetGuard"]
 - !private ["So26NSExtensionRequestHandlingP", "ServerEnvironment"]
 - !private ["So26NSExtensionRequestHandlingP", "StarWarsAPI"]
 - !private ["So26NSExtensionRequestHandlingP", "URLSession"]
@@ -230,7 +249,9 @@ depends-member:
 - !private ["So8NSObjectC", "HTTPLoader"]
 - !private ["So8NSObjectC", "JSONObjectWithData"]
 - !private ["So8NSObjectC", "JSONObjectWithStream"]
-- !private ["So8NSObjectC", "PrintLoader"]
+- !private ["So8NSObjectC", "MyCustomLoader"]
+- !private ["So8NSObjectC", "MyCustomLoaderTwo"]
+- !private ["So8NSObjectC", "ResetGuard"]
 - !private ["So8NSObjectC", "ServerEnvironment"]
 - !private ["So8NSObjectC", "StarWarsAPI"]
 - !private ["So8NSObjectC", "URLSession"]
@@ -246,7 +267,9 @@ depends-member:
 - !private ["So8NSObjectP", "HTTPLoader"]
 - !private ["So8NSObjectP", "JSONObjectWithData"]
 - !private ["So8NSObjectP", "JSONObjectWithStream"]
-- !private ["So8NSObjectP", "PrintLoader"]
+- !private ["So8NSObjectP", "MyCustomLoader"]
+- !private ["So8NSObjectP", "MyCustomLoaderTwo"]
+- !private ["So8NSObjectP", "ResetGuard"]
 - !private ["So8NSObjectP", "ServerEnvironment"]
 - !private ["So8NSObjectP", "StarWarsAPI"]
 - !private ["So8NSObjectP", "URLSession"]
@@ -264,8 +287,6 @@ depends-member:
 - !private ["s9OptionSetP", "ArrayLiteralElement"]
 - !private ["s9OptionSetP", "Element"]
 - !private ["s9OptionSetP", "init"]
-- !private ["10Shark_HTTP11PrintLoaderC", "init"]
-- !private ["10Shark_HTTP11PrintLoaderC", "nextLoader"]
 - !private ["Sk", ""]
 - !private ["Sk", "init"]
 - !private ["Sk", "name"]
@@ -292,6 +313,8 @@ depends-member:
 - !private ["So20NSJSONReadingOptionsV", "Element"]
 - !private ["So20NSJSONReadingOptionsV", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Shark_HTTP10ResetGuardC", "init"]
+- !private ["10Shark_HTTP10ResetGuardC", "nextLoader"]
 - !private ["s6ResultO", "response"]
 - !private ["s6ResultO", "success"]
 - !private ["ST", "Element"]
@@ -324,7 +347,9 @@ depends-member:
 - !private ["s20TextOutputStreamableP", "utf8"]
 - !private ["So21UIAppearanceContainerP", "ApplyEnvironment"]
 - !private ["So21UIAppearanceContainerP", "HTTPLoader"]
-- !private ["So21UIAppearanceContainerP", "PrintLoader"]
+- !private ["So21UIAppearanceContainerP", "MyCustomLoader"]
+- !private ["So21UIAppearanceContainerP", "MyCustomLoaderTwo"]
+- !private ["So21UIAppearanceContainerP", "ResetGuard"]
 - !private ["So21UIAppearanceContainerP", "ServerEnvironment"]
 - !private ["So21UIAppearanceContainerP", "StarWarsAPI"]
 - !private ["So21UIAppearanceContainerP", "URLSession"]
@@ -335,7 +360,9 @@ depends-member:
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So18UIContentContainerP", "ApplyEnvironment"]
 - !private ["So18UIContentContainerP", "HTTPLoader"]
-- !private ["So18UIContentContainerP", "PrintLoader"]
+- !private ["So18UIContentContainerP", "MyCustomLoader"]
+- !private ["So18UIContentContainerP", "MyCustomLoaderTwo"]
+- !private ["So18UIContentContainerP", "ResetGuard"]
 - !private ["So18UIContentContainerP", "ServerEnvironment"]
 - !private ["So18UIContentContainerP", "StarWarsAPI"]
 - !private ["So18UIContentContainerP", "URLSession"]
@@ -346,7 +373,9 @@ depends-member:
 - ["So18UIContentContainerP", "viewDidLoad"]
 - !private ["So18UIFocusEnvironmentP", "ApplyEnvironment"]
 - !private ["So18UIFocusEnvironmentP", "HTTPLoader"]
-- !private ["So18UIFocusEnvironmentP", "PrintLoader"]
+- !private ["So18UIFocusEnvironmentP", "MyCustomLoader"]
+- !private ["So18UIFocusEnvironmentP", "MyCustomLoaderTwo"]
+- !private ["So18UIFocusEnvironmentP", "ResetGuard"]
 - !private ["So18UIFocusEnvironmentP", "ServerEnvironment"]
 - !private ["So18UIFocusEnvironmentP", "StarWarsAPI"]
 - !private ["So18UIFocusEnvironmentP", "URLSession"]
@@ -357,7 +386,9 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - !private ["So30UIPasteConfigurationSupportingP", "ApplyEnvironment"]
 - !private ["So30UIPasteConfigurationSupportingP", "HTTPLoader"]
-- !private ["So30UIPasteConfigurationSupportingP", "PrintLoader"]
+- !private ["So30UIPasteConfigurationSupportingP", "MyCustomLoader"]
+- !private ["So30UIPasteConfigurationSupportingP", "MyCustomLoaderTwo"]
+- !private ["So30UIPasteConfigurationSupportingP", "ResetGuard"]
 - !private ["So30UIPasteConfigurationSupportingP", "ServerEnvironment"]
 - !private ["So30UIPasteConfigurationSupportingP", "StarWarsAPI"]
 - !private ["So30UIPasteConfigurationSupportingP", "URLSession"]
@@ -368,7 +399,9 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So11UIResponderC", "ApplyEnvironment"]
 - !private ["So11UIResponderC", "HTTPLoader"]
-- !private ["So11UIResponderC", "PrintLoader"]
+- !private ["So11UIResponderC", "MyCustomLoader"]
+- !private ["So11UIResponderC", "MyCustomLoaderTwo"]
+- !private ["So11UIResponderC", "ResetGuard"]
 - !private ["So11UIResponderC", "ServerEnvironment"]
 - !private ["So11UIResponderC", "StarWarsAPI"]
 - !private ["So11UIResponderC", "URLSession"]
@@ -379,7 +412,9 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "ApplyEnvironment"]
 - !private ["So30UIResponderStandardEditActionsP", "HTTPLoader"]
-- !private ["So30UIResponderStandardEditActionsP", "PrintLoader"]
+- !private ["So30UIResponderStandardEditActionsP", "MyCustomLoader"]
+- !private ["So30UIResponderStandardEditActionsP", "MyCustomLoaderTwo"]
+- !private ["So30UIResponderStandardEditActionsP", "ResetGuard"]
 - !private ["So30UIResponderStandardEditActionsP", "ServerEnvironment"]
 - !private ["So30UIResponderStandardEditActionsP", "StarWarsAPI"]
 - !private ["So30UIResponderStandardEditActionsP", "URLSession"]
@@ -390,7 +425,9 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - !private ["So16UIStateRestoringP", "ApplyEnvironment"]
 - !private ["So16UIStateRestoringP", "HTTPLoader"]
-- !private ["So16UIStateRestoringP", "PrintLoader"]
+- !private ["So16UIStateRestoringP", "MyCustomLoader"]
+- !private ["So16UIStateRestoringP", "MyCustomLoaderTwo"]
+- !private ["So16UIStateRestoringP", "ResetGuard"]
 - !private ["So16UIStateRestoringP", "ServerEnvironment"]
 - !private ["So16UIStateRestoringP", "StarWarsAPI"]
 - !private ["So16UIStateRestoringP", "URLSession"]
@@ -401,7 +438,9 @@ depends-member:
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So18UITraitEnvironmentP", "ApplyEnvironment"]
 - !private ["So18UITraitEnvironmentP", "HTTPLoader"]
-- !private ["So18UITraitEnvironmentP", "PrintLoader"]
+- !private ["So18UITraitEnvironmentP", "MyCustomLoader"]
+- !private ["So18UITraitEnvironmentP", "MyCustomLoaderTwo"]
+- !private ["So18UITraitEnvironmentP", "ResetGuard"]
 - !private ["So18UITraitEnvironmentP", "ServerEnvironment"]
 - !private ["So18UITraitEnvironmentP", "StarWarsAPI"]
 - !private ["So18UITraitEnvironmentP", "URLSession"]
@@ -412,7 +451,9 @@ depends-member:
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So23UIUserActivityRestoringP", "ApplyEnvironment"]
 - !private ["So23UIUserActivityRestoringP", "HTTPLoader"]
-- !private ["So23UIUserActivityRestoringP", "PrintLoader"]
+- !private ["So23UIUserActivityRestoringP", "MyCustomLoader"]
+- !private ["So23UIUserActivityRestoringP", "MyCustomLoaderTwo"]
+- !private ["So23UIUserActivityRestoringP", "ResetGuard"]
 - !private ["So23UIUserActivityRestoringP", "ServerEnvironment"]
 - !private ["So23UIUserActivityRestoringP", "StarWarsAPI"]
 - !private ["So23UIUserActivityRestoringP", "URLSession"]
@@ -423,7 +464,9 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - !private ["So16UIViewControllerC", "ApplyEnvironment"]
 - !private ["So16UIViewControllerC", "HTTPLoader"]
-- !private ["So16UIViewControllerC", "PrintLoader"]
+- !private ["So16UIViewControllerC", "MyCustomLoader"]
+- !private ["So16UIViewControllerC", "MyCustomLoaderTwo"]
+- !private ["So16UIViewControllerC", "ResetGuard"]
 - !private ["So16UIViewControllerC", "ServerEnvironment"]
 - !private ["So16UIViewControllerC", "StarWarsAPI"]
 - !private ["So16UIViewControllerC", "URLSession"]
@@ -438,7 +481,9 @@ depends-member:
 - !private ["10Shark_HTTP16URLSessionLoaderC", "init"]
 - !private ["10Shark_HTTP14ViewControllerC", "ApplyEnvironment"]
 - !private ["10Shark_HTTP14ViewControllerC", "HTTPLoader"]
-- !private ["10Shark_HTTP14ViewControllerC", "PrintLoader"]
+- !private ["10Shark_HTTP14ViewControllerC", "MyCustomLoader"]
+- !private ["10Shark_HTTP14ViewControllerC", "MyCustomLoaderTwo"]
+- !private ["10Shark_HTTP14ViewControllerC", "ResetGuard"]
 - !private ["10Shark_HTTP14ViewControllerC", "ServerEnvironment"]
 - !private ["10Shark_HTTP14ViewControllerC", "StarWarsAPI"]
 - !private ["10Shark_HTTP14ViewControllerC", "URLSession"]
@@ -465,7 +510,9 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ApplyEnvironment"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "PrintLoader"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MyCustomLoader"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MyCustomLoaderTwo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ResetGuard"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ServerEnvironment"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "StarWarsAPI"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
@@ -478,7 +525,9 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ApplyEnvironment"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PrintLoader"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MyCustomLoader"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MyCustomLoaderTwo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ResetGuard"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ServerEnvironment"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "StarWarsAPI"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSession"]
@@ -536,6 +585,8 @@ depends-nominal:
 - !private "10Shark_HTTP10MockLoaderC"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
+- !private "10Shark_HTTP14MyCustomLoaderC"
+- !private "10Shark_HTTP17MyCustomLoaderTwoC"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
@@ -547,12 +598,12 @@ depends-nominal:
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
 - !private "s9OptionSetP"
-- !private "10Shark_HTTP11PrintLoaderC"
 - !private "Sk"
 - !private "Sm"
 - !private "SY"
 - !private "So20NSJSONReadingOptionsV"
 - !private "10Foundation20ReferenceConvertibleP"
+- !private "10Shark_HTTP10ResetGuardC"
 - !private "s6ResultO"
 - "ST"
 - !private "10Shark_HTTP17ServerEnvironmentV"
