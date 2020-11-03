@@ -11,6 +11,7 @@ provides-member:
 provides-dynamic-lookup:
 - "loader"
 - "requestPeople"
+- "resetTestV2"
 depends-top-level:
 - "=="
 - !private "Array"
@@ -122,15 +123,16 @@ depends-member:
 - ["SQ", "_rawHashValue"]
 - ["SQ", "debugDescription"]
 - ["SQ", "description"]
+- !private ["SQ", "failure"]
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
 - ["SQ", "init"]
 - ["SQ", "intValue"]
 - !private ["SQ", "jsonObject"]
-- !private ["SQ", "response"]
 - !private ["SQ", "shared"]
 - ["SQ", "stringValue"]
 - !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
 - !private ["SQ", "testServer"]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
@@ -151,6 +153,7 @@ depends-member:
 - !private ["10Shark_HTTP9HTTPErrorV", ""]
 - ["10Shark_HTTP10HTTPLoaderC", ""]
 - !private ["10Shark_HTTP10HTTPLoaderC", "load"]
+- !private ["10Shark_HTTP10HTTPLoaderC", "reset"]
 - !private ["10Shark_HTTP11HTTPRequestV", "init"]
 - !private ["10Shark_HTTP11HTTPRequestV", "path"]
 - !private ["10Shark_HTTP11HTTPRequestV", "queryItems"]
@@ -162,15 +165,16 @@ depends-member:
 - ["SH", "_rawHashValue"]
 - ["SH", "debugDescription"]
 - ["SH", "description"]
+- !private ["SH", "failure"]
 - ["SH", "hash"]
 - ["SH", "hashValue"]
 - ["SH", "init"]
 - ["SH", "intValue"]
 - !private ["SH", "jsonObject"]
-- !private ["SH", "response"]
 - !private ["SH", "shared"]
 - ["SH", "stringValue"]
 - !private ["SH", "subscript"]
+- !private ["SH", "success"]
 - !private ["SH", "testServer"]
 - !private ["s6HasherV", "combine"]
 - !private ["Si", "init"]
@@ -214,7 +218,8 @@ depends-member:
 - !private ["So20NSJSONReadingOptionsV", "Element"]
 - !private ["So20NSJSONReadingOptionsV", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
-- !private ["s6ResultO", "response"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
 - !private ["s10SIMDScalarP", "init"]
 - !private ["ST", ""]
 - !private ["ST", "subscript"]
@@ -241,6 +246,7 @@ depends-member:
 - !private ["10Shark_HTTP11StarWarsAPIC", "loader"]
 - !private ["10Shark_HTTP11StarWarsAPIC", "print"]
 - ["10Shark_HTTP11StarWarsAPIC", "requestPeople"]
+- ["10Shark_HTTP11StarWarsAPIC", "resetTestV2"]
 - ["10Shark_HTTP15StartWarsPeopleV", "CodingKeys"]
 - ["10Shark_HTTP15StartWarsPeopleV", "Int"]
 - ["10Shark_HTTP15StartWarsPeopleV", "String"]
@@ -386,4 +392,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "934a87a9492933e6041a3d3ba658a0fe"
+interface-hash: "c84451497bbda341353ca7175f2debf6"

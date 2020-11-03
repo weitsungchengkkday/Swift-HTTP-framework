@@ -5,11 +5,15 @@ provides-nominal:
 - "10Shark_HTTP10HTTPLoaderC"
 provides-member:
 - ["10Shark_HTTP10HTTPLoaderC", ""]
+- ["10Shark_HTTP10HTTPLoaderC", "reset"]
 provides-dynamic-lookup:
 - "load"
 - "nextLoader"
+- "reset"
 depends-top-level:
 - !private "=="
+- "DispatchGroup"
+- "DispatchQueue"
 - !private "HTTPError"
 - "HTTPLoader"
 - "HTTPRequest"
@@ -19,32 +23,106 @@ depends-top-level:
 - !private "fatalError"
 - !private "nextLoader"
 depends-member:
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "notify"]
 - !private ["10Shark_HTTP9HTTPErrorV4CodeO", "cannotConnect"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "notify"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "notify"]
+- !private ["So17OS_dispatch_groupC", "init"]
+- !private ["So17OS_dispatch_groupC", "notify"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "enter"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "leave"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "notify"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "main"]
 - !private ["SQ", ""]
 - !private ["SQ", "cannotConnect"]
 - !private ["SQ", "failure"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "notify"]
 - !private ["s5ErrorP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "init"]
 - ["10Shark_HTTP9HTTPErrorV", ""]
 - !private ["10Shark_HTTP9HTTPErrorV", "init"]
+- ["10Shark_HTTP10HTTPLoaderC", "DispatchGroup"]
+- ["10Shark_HTTP10HTTPLoaderC", "DispatchQueue"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "HTTPError"]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPLoader"]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPRequest"]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPResult"]
 - ["10Shark_HTTP10HTTPLoaderC", "Void"]
+- ["10Shark_HTTP10HTTPLoaderC", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "deinit"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "fatalError"]
 - ["10Shark_HTTP10HTTPLoaderC", "init"]
 - ["10Shark_HTTP10HTTPLoaderC", "load"]
 - ["10Shark_HTTP10HTTPLoaderC", "nextLoader"]
+- ["10Shark_HTTP10HTTPLoaderC", "reset"]
 - !private ["SH", "cannotConnect"]
 - !private ["SH", "failure"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "notify"]
 - !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "enter"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "leave"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "notify"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
 - !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "enter"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "leave"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "notify"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "enter"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "leave"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "notify"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
 - !private ["s6ResultO", "failure"]
+- !private ["7Combine9SchedulerP", "main"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notify"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "notify"]
 depends-nominal:
+- !private "s7CVarArgP"
 - !private "10Shark_HTTP9HTTPErrorV4CodeO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "So17OS_dispatch_groupC"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
 - !private "SQ"
 - !private "s5ErrorP"
 - !private "s23ExpressibleByNilLiteralP"
@@ -52,9 +130,14 @@ depends-nominal:
 - "10Shark_HTTP10HTTPLoaderC"
 - !private "SH"
 - !private "So8NSCodingP"
+- "So8NSObjectC"
 - !private "So8NSObjectP"
+- "So9OS_objectC"
 - !private "s6ResultO"
+- !private "7Combine9SchedulerP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -85,4 +168,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a5443b655cae8771d5b3d9a5ff01f49d"
+interface-hash: "beb78167630eeeed395ce62138d6c1d8"

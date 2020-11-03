@@ -17,7 +17,7 @@ public struct HTTPRequest {
     
     public subscript<O: HTTPRequestOption>(option type: O.Type) -> O.Value {
         get {
-        
+            
             let id = ObjectIdentifier(type)
             
             print(type.defaultOptionValue)

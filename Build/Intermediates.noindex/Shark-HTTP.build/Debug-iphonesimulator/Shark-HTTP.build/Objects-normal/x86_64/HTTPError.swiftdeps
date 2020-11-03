@@ -29,6 +29,7 @@ depends-member:
 - ["10Shark_HTTP9HTTPErrorV4CodeO", "insecureConnection"]
 - ["10Shark_HTTP9HTTPErrorV4CodeO", "invalidRequest"]
 - ["10Shark_HTTP9HTTPErrorV4CodeO", "invalidResponse"]
+- ["10Shark_HTTP9HTTPErrorV4CodeO", "resetInProgress"]
 - ["10Shark_HTTP9HTTPErrorV4CodeO", "unknown"]
 - ["Se", "init"]
 - ["SQ", "=="]
@@ -110,4 +111,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "7003c911c27362a485658eb198f53135"
+interface-hash: "94a8bf0064e8a5067998c9b79e4b2e7a"

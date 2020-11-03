@@ -1,6 +1,8 @@
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/PrintLoader.swift
-/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/ServerEnvironment/ApplyEnvironment.swift
+/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/ApplyEnvironment.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPMethod.swift
+/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/MyCustomLoaderTwo.swift
+/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/MyCustomLoader.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPError.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/ViewController.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/Model/StarWarsAPI.swift
@@ -13,6 +15,7 @@
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/ModifyRequest.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPRequest/HTTPRequestOption.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPResult.swift
+/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/ResetGuard.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/SceneDelegate.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/URLSessionLoader.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPResponse.swift

@@ -17,5 +17,13 @@ public class PrintLoader: HTTPLoader {
             completion(result)
         }
     }
+    
+//    public override func reset(compleitonHandler: @escaping () -> Void) {
+//       
+//        super.reset() {
+//            print("reset print loader")
+//            compleitonHandler()
+//        }
+//    }
 }
 

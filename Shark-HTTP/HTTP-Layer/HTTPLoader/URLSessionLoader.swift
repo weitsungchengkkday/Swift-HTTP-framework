@@ -71,5 +71,13 @@ open class URLSessionLoader: HTTPLoader {
         
         dataTask.resume()
     }
+    
+//    public override func reset(compleitonHandler: @escaping () -> Void) {
+//        
+//        super.reset() {
+//            print("reset session loader")
+//            compleitonHandler()
+//        }
+//    }
 }
 
