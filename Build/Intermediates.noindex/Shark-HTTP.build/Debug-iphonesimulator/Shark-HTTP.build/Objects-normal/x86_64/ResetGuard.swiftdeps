@@ -14,13 +14,10 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "BooleanLiteralType"
 - "DispatchGroup"
-- !private "HTTPError"
 - "HTTPLoader"
-- "HTTPRequest"
-- "HTTPResult"
+- "HTTPTask"
 - "ResetGuard"
 - !private "StringLiteralType"
-- "Void"
 - !private "isResetting"
 - !private "nextLoader"
 - "print"
@@ -40,17 +37,11 @@ depends-member:
 - !private ["So18OS_dispatch_objectC", "leave"]
 - !private ["SQ", ""]
 - !private ["SQ", "enter"]
-- !private ["SQ", "failure"]
 - !private ["SQ", "leave"]
 - !private ["SQ", "resetInProgress"]
-- !private ["s5ErrorP", "init"]
-- ["10Shark_HTTP9HTTPErrorV", ""]
-- !private ["10Shark_HTTP9HTTPErrorV", "init"]
+- !private ["10Shark_HTTP9HTTPErrorV", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "DispatchGroup"]
-- !private ["10Shark_HTTP10HTTPLoaderC", "HTTPError"]
-- ["10Shark_HTTP10HTTPLoaderC", "HTTPRequest"]
-- ["10Shark_HTTP10HTTPLoaderC", "HTTPResult"]
-- ["10Shark_HTTP10HTTPLoaderC", "Void"]
+- ["10Shark_HTTP10HTTPLoaderC", "HTTPTask"]
 - ["10Shark_HTTP10HTTPLoaderC", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "init"]
 - ["10Shark_HTTP10HTTPLoaderC", "isResetting"]
@@ -58,8 +49,8 @@ depends-member:
 - !private ["10Shark_HTTP10HTTPLoaderC", "nextLoader"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "print"]
 - ["10Shark_HTTP10HTTPLoaderC", "reset"]
+- !private ["10Shark_HTTP8HTTPTaskC", "fail"]
 - !private ["SH", "enter"]
-- !private ["SH", "failure"]
 - !private ["SH", "leave"]
 - !private ["SH", "resetInProgress"]
 - !private ["So8NSCodingP", ""]
@@ -88,10 +79,7 @@ depends-member:
 - !private ["So9OS_objectC", "setTarget"]
 - !private ["So9OS_objectC", "suspend"]
 - ["10Shark_HTTP10ResetGuardC", "DispatchGroup"]
-- !private ["10Shark_HTTP10ResetGuardC", "HTTPError"]
-- ["10Shark_HTTP10ResetGuardC", "HTTPRequest"]
-- ["10Shark_HTTP10ResetGuardC", "HTTPResult"]
-- ["10Shark_HTTP10ResetGuardC", "Void"]
+- ["10Shark_HTTP10ResetGuardC", "HTTPTask"]
 - ["10Shark_HTTP10ResetGuardC", "deinit"]
 - ["10Shark_HTTP10ResetGuardC", "init"]
 - !private ["10Shark_HTTP10ResetGuardC", "isResetting"]
@@ -99,7 +87,6 @@ depends-member:
 - !private ["10Shark_HTTP10ResetGuardC", "nextLoader"]
 - !private ["10Shark_HTTP10ResetGuardC", "print"]
 - ["10Shark_HTTP10ResetGuardC", "reset"]
-- !private ["s6ResultO", "failure"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "enter"]
@@ -114,16 +101,15 @@ depends-nominal:
 - !private "So17OS_dispatch_groupC"
 - "So18OS_dispatch_objectC"
 - !private "SQ"
-- !private "s5ErrorP"
-- "10Shark_HTTP9HTTPErrorV"
+- !private "10Shark_HTTP9HTTPErrorV"
 - "10Shark_HTTP10HTTPLoaderC"
+- !private "10Shark_HTTP8HTTPTaskC"
 - !private "SH"
 - !private "So8NSCodingP"
 - "So8NSObjectC"
 - !private "So8NSObjectP"
 - "So9OS_objectC"
 - "10Shark_HTTP10ResetGuardC"
-- !private "s6ResultO"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
@@ -158,4 +144,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d4761a79807792648ea3ef52820f70e2"
+interface-hash: "e1f4abebded8f445705881f274695875"

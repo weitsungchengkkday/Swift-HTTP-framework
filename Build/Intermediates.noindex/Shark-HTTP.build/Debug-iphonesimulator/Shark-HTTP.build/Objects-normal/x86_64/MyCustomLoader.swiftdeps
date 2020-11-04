@@ -6,17 +6,13 @@ provides-nominal:
 provides-member:
 - ["10Shark_HTTP14MyCustomLoaderC", ""]
 provides-dynamic-lookup:
-- "load"
 - "reset"
 depends-top-level:
 - "DispatchGroup"
 - !private "DispatchQueue"
 - "HTTPLoader"
-- "HTTPRequest"
-- "HTTPResult"
 - "MyCustomLoader"
 - "StringLiteralType"
-- "Void"
 - "print"
 depends-member:
 - !private ["s7CVarArgP", "async"]
@@ -48,15 +44,10 @@ depends-member:
 - !private ["SQ", "global"]
 - !private ["SQ", "leave"]
 - !private ["SQ", "userInitiated"]
-- ["10Shark_HTTP9HTTPErrorV", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "DispatchGroup"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "DispatchQueue"]
-- ["10Shark_HTTP10HTTPLoaderC", "HTTPRequest"]
-- ["10Shark_HTTP10HTTPLoaderC", "HTTPResult"]
-- ["10Shark_HTTP10HTTPLoaderC", "Void"]
 - ["10Shark_HTTP10HTTPLoaderC", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "init"]
-- ["10Shark_HTTP10HTTPLoaderC", "load"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "print"]
 - ["10Shark_HTTP10HTTPLoaderC", "reset"]
 - !private ["SH", "async"]
@@ -66,12 +57,8 @@ depends-member:
 - !private ["SH", "userInitiated"]
 - ["10Shark_HTTP14MyCustomLoaderC", "DispatchGroup"]
 - !private ["10Shark_HTTP14MyCustomLoaderC", "DispatchQueue"]
-- ["10Shark_HTTP14MyCustomLoaderC", "HTTPRequest"]
-- ["10Shark_HTTP14MyCustomLoaderC", "HTTPResult"]
-- ["10Shark_HTTP14MyCustomLoaderC", "Void"]
 - ["10Shark_HTTP14MyCustomLoaderC", "deinit"]
 - ["10Shark_HTTP14MyCustomLoaderC", "init"]
-- ["10Shark_HTTP14MyCustomLoaderC", "load"]
 - !private ["10Shark_HTTP14MyCustomLoaderC", "print"]
 - ["10Shark_HTTP14MyCustomLoaderC", "reset"]
 - ["So8NSObjectC", ""]
@@ -126,7 +113,6 @@ depends-nominal:
 - "So18OS_dispatch_objectC"
 - !private "So17OS_dispatch_queueC"
 - !private "SQ"
-- "10Shark_HTTP9HTTPErrorV"
 - "10Shark_HTTP10HTTPLoaderC"
 - !private "SH"
 - "10Shark_HTTP14MyCustomLoaderC"
@@ -168,4 +154,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "12f8856bddaf8eb380f1f84f0c2666a4"
+interface-hash: "b355d28fd8ea14cdeeb4dcf891db2f5a"

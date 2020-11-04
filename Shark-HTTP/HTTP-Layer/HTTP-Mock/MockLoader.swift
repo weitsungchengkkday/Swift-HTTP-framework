@@ -40,17 +40,26 @@ public class MockLoader: HTTPLoader {
     
     public var nextHandlers = Array<MockHandler>()
     
-    public override func load(request: HTTPRequest, completion: @escaping HTTPHandler) {
-        
-//        print(nextHandlers)
+    open override func load(task: HTTPTask) {
         if nextHandlers.isEmpty == false {
             let next = nextHandlers.removeFirst()
-            next(request, completion)
+            next(task.request, task.completion)
         } else {
-            let error = HTTPError(code: .cannotConnect, request: request, response: nil, underlyingError: nil)
-            completion(.failure(error))
+            task.fail(.cannotConnect)
         }
     }
+    
+//    public override func load(request: HTTPRequest, completion: @escaping HTTPHandler) {
+//
+////        print(nextHandlers)
+//        if nextHandlers.isEmpty == false {
+//            let next = nextHandlers.removeFirst()
+//            next(request, completion)
+//        } else {
+//            let error = HTTPError(code: .cannotConnect, request: request, response: nil, underlyingError: nil)
+//            completion(.failure(error))
+//        }
+//    }
     
     @discardableResult
     public func then(_ handler: @escaping MockHandler) -> MockLoader {

@@ -20,12 +20,11 @@ open class HTTPLoader {
     
     public init() { }
     
-    open func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) {
+    open func load(task: HTTPTask) {
         if let next = nextLoader {
-            next.load(request: request, completion: completion)
+            next.load(task: task)
         } else {
-            let error = HTTPError(code: .cannotConnect, request: request, response: nil, underlyingError: nil)
-            completion(.failure(error))
+            task.fail(.cannotConnect)
         }
     }
     
@@ -43,6 +42,7 @@ open class HTTPLoader {
     open func reset(with group: DispatchGroup) {
         nextLoader?.reset(with: group)
     }
+    
 }
 
 extension HTTPLoader {
@@ -53,6 +53,14 @@ extension HTTPLoader {
         
         group.notify(queue: queue, execute: completionHandler)
     }
+    
+    @discardableResult
+    public func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) -> HTTPTask {
+        let task = HTTPTask(request: request, completion: completion)
+        load(task: task)
+        return task
+    }
+
 }
 
 

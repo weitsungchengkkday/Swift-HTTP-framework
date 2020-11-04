@@ -9,10 +9,6 @@ import Foundation
 
 class MyCustomLoader: HTTPLoader {
     
-    override func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) {
-        super.load(request: request, completion: completion)
-    }
-    
     override func reset(with group: DispatchGroup) {
         group.enter()
         DispatchQueue.global(qos: .userInitiated).async {

@@ -13,11 +13,11 @@ depends-top-level:
 - !private "=="
 - "Array"
 - !private "BooleanLiteralType"
-- !private "HTTPError"
 - "HTTPHandler"
 - "HTTPLoader"
 - "HTTPRequest"
 - "HTTPResult"
+- "HTTPTask"
 - "MockHandler"
 - "MockLoader"
 - "Void"
@@ -74,23 +74,20 @@ depends-member:
 - ["SQ", ""]
 - !private ["SQ", "append"]
 - !private ["SQ", "cannotConnect"]
-- !private ["SQ", "failure"]
 - ["SQ", "init"]
 - !private ["SQ", "isEmpty"]
 - !private ["SQ", "removeFirst"]
-- !private ["s5ErrorP", "init"]
 - ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
 - !private ["s25ExpressibleByArrayLiteralP", "removeFirst"]
 - ["10Shark_HTTP9HTTPErrorV", ""]
-- !private ["10Shark_HTTP9HTTPErrorV", "init"]
 - ["10Shark_HTTP10HTTPLoaderC", "Array"]
-- !private ["10Shark_HTTP10HTTPLoaderC", "HTTPError"]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPHandler"]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPRequest"]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPResult"]
+- ["10Shark_HTTP10HTTPLoaderC", "HTTPTask"]
 - ["10Shark_HTTP10HTTPLoaderC", "MockHandler"]
 - ["10Shark_HTTP10HTTPLoaderC", "MockLoader"]
 - ["10Shark_HTTP10HTTPLoaderC", "Void"]
@@ -99,17 +96,19 @@ depends-member:
 - ["10Shark_HTTP10HTTPLoaderC", "load"]
 - ["10Shark_HTTP10HTTPLoaderC", "nextHandlers"]
 - ["10Shark_HTTP10HTTPLoaderC", "then"]
+- !private ["10Shark_HTTP8HTTPTaskC", "completion"]
+- !private ["10Shark_HTTP8HTTPTaskC", "fail"]
+- !private ["10Shark_HTTP8HTTPTaskC", "request"]
 - !private ["SH", "append"]
 - !private ["SH", "cannotConnect"]
-- !private ["SH", "failure"]
 - ["SH", "init"]
 - !private ["SH", "isEmpty"]
 - !private ["SH", "removeFirst"]
 - ["10Shark_HTTP10MockLoaderC", "Array"]
-- !private ["10Shark_HTTP10MockLoaderC", "HTTPError"]
 - ["10Shark_HTTP10MockLoaderC", "HTTPHandler"]
 - ["10Shark_HTTP10MockLoaderC", "HTTPRequest"]
 - ["10Shark_HTTP10MockLoaderC", "HTTPResult"]
+- ["10Shark_HTTP10MockLoaderC", "HTTPTask"]
 - ["10Shark_HTTP10MockLoaderC", "MockHandler"]
 - ["10Shark_HTTP10MockLoaderC", "MockLoader"]
 - ["10Shark_HTTP10MockLoaderC", "Void"]
@@ -139,7 +138,6 @@ depends-member:
 - ["Sm", "init"]
 - !private ["Sm", "isEmpty"]
 - !private ["Sm", "removeFirst"]
-- !private ["s6ResultO", "failure"]
 - ["ST", ""]
 - !private ["ST", "append"]
 - ["ST", "init"]
@@ -180,10 +178,10 @@ depends-nominal:
 - "Se"
 - "SE"
 - "SQ"
-- !private "s5ErrorP"
 - "s25ExpressibleByArrayLiteralP"
 - "10Shark_HTTP9HTTPErrorV"
 - "10Shark_HTTP10HTTPLoaderC"
+- !private "10Shark_HTTP8HTTPTaskC"
 - "SH"
 - "10Shark_HTTP10MockLoaderC"
 - "SM"
@@ -192,7 +190,6 @@ depends-nominal:
 - !private "So8NSObjectP"
 - "Sk"
 - "Sm"
-- !private "s6ResultO"
 - "ST"
 - "s14_ArrayProtocolP"
 - "s24_DestructorSafeContainerP"
@@ -230,4 +227,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "12e3e26c954597c7991a3452c3b5f732"
+interface-hash: "f7f268b0364a9268a5724f74b5b650e3"

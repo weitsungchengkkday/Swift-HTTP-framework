@@ -12,22 +12,20 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "HTTPLoader"
 - "HTTPRequest"
-- "HTTPResult"
+- "HTTPTask"
 - "ModifyRequest"
-- "Void"
 - !private "modifier"
 depends-member:
-- ["10Shark_HTTP9HTTPErrorV", ""]
+- !private ["10Shark_HTTP9HTTPErrorV", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPRequest"]
-- ["10Shark_HTTP10HTTPLoaderC", "HTTPResult"]
-- ["10Shark_HTTP10HTTPLoaderC", "Void"]
+- ["10Shark_HTTP10HTTPLoaderC", "HTTPTask"]
 - ["10Shark_HTTP10HTTPLoaderC", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "init"]
 - ["10Shark_HTTP10HTTPLoaderC", "load"]
 - ["10Shark_HTTP10HTTPLoaderC", "modifier"]
+- !private ["10Shark_HTTP8HTTPTaskC", "request"]
 - ["10Shark_HTTP13ModifyRequestC", "HTTPRequest"]
-- ["10Shark_HTTP13ModifyRequestC", "HTTPResult"]
-- ["10Shark_HTTP13ModifyRequestC", "Void"]
+- ["10Shark_HTTP13ModifyRequestC", "HTTPTask"]
 - ["10Shark_HTTP13ModifyRequestC", "deinit"]
 - ["10Shark_HTTP13ModifyRequestC", "init"]
 - ["10Shark_HTTP13ModifyRequestC", "load"]
@@ -35,8 +33,9 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 depends-nominal:
-- "10Shark_HTTP9HTTPErrorV"
+- !private "10Shark_HTTP9HTTPErrorV"
 - "10Shark_HTTP10HTTPLoaderC"
+- !private "10Shark_HTTP8HTTPTaskC"
 - "10Shark_HTTP13ModifyRequestC"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
@@ -70,4 +69,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "bc04872541691f153d07b04b9c11625e"
+interface-hash: "9fbde7cf9764462f58734f3822718b6f"

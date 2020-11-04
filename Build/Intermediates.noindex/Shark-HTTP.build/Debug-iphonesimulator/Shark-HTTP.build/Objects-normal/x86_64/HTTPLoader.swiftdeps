@@ -6,6 +6,7 @@ provides-nominal:
 provides-member:
 - ["10Shark_HTTP10HTTPLoaderC", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "reset"]
+- ["10Shark_HTTP10HTTPLoaderC", "load"]
 provides-dynamic-lookup:
 - "load"
 - "nextLoader"
@@ -14,13 +15,14 @@ depends-top-level:
 - !private "=="
 - "DispatchGroup"
 - "DispatchQueue"
-- !private "HTTPError"
 - "HTTPLoader"
 - "HTTPRequest"
 - "HTTPResult"
+- "HTTPTask"
 - !private "StringLiteralType"
 - "Void"
 - !private "fatalError"
+- !private "load"
 - !private "nextLoader"
 depends-member:
 - !private ["s7CVarArgP", "init"]
@@ -45,20 +47,17 @@ depends-member:
 - !private ["So17OS_dispatch_queueC", "main"]
 - !private ["SQ", ""]
 - !private ["SQ", "cannotConnect"]
-- !private ["SQ", "failure"]
 - !private ["SQ", "init"]
 - !private ["SQ", "main"]
 - !private ["SQ", "notify"]
-- !private ["s5ErrorP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "init"]
 - ["10Shark_HTTP9HTTPErrorV", ""]
-- !private ["10Shark_HTTP9HTTPErrorV", "init"]
 - ["10Shark_HTTP10HTTPLoaderC", "DispatchGroup"]
 - ["10Shark_HTTP10HTTPLoaderC", "DispatchQueue"]
-- !private ["10Shark_HTTP10HTTPLoaderC", "HTTPError"]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPLoader"]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPRequest"]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPResult"]
+- ["10Shark_HTTP10HTTPLoaderC", "HTTPTask"]
 - ["10Shark_HTTP10HTTPLoaderC", "Void"]
 - ["10Shark_HTTP10HTTPLoaderC", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "deinit"]
@@ -67,8 +66,9 @@ depends-member:
 - ["10Shark_HTTP10HTTPLoaderC", "load"]
 - ["10Shark_HTTP10HTTPLoaderC", "nextLoader"]
 - ["10Shark_HTTP10HTTPLoaderC", "reset"]
+- !private ["10Shark_HTTP8HTTPTaskC", "fail"]
+- !private ["10Shark_HTTP8HTTPTaskC", "init"]
 - !private ["SH", "cannotConnect"]
-- !private ["SH", "failure"]
 - !private ["SH", "init"]
 - !private ["SH", "main"]
 - !private ["SH", "notify"]
@@ -106,7 +106,6 @@ depends-member:
 - !private ["So9OS_objectC", "setTarget"]
 - !private ["So9OS_objectC", "suspend"]
 - !private ["So9OS_objectC", "sync"]
-- !private ["s6ResultO", "failure"]
 - !private ["7Combine9SchedulerP", "main"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
@@ -124,16 +123,15 @@ depends-nominal:
 - "So18OS_dispatch_objectC"
 - !private "So17OS_dispatch_queueC"
 - !private "SQ"
-- !private "s5ErrorP"
 - !private "s23ExpressibleByNilLiteralP"
 - "10Shark_HTTP9HTTPErrorV"
 - "10Shark_HTTP10HTTPLoaderC"
+- !private "10Shark_HTTP8HTTPTaskC"
 - !private "SH"
 - !private "So8NSCodingP"
 - "So8NSObjectC"
 - !private "So8NSObjectP"
 - "So9OS_objectC"
-- !private "s6ResultO"
 - !private "7Combine9SchedulerP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
@@ -168,4 +166,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "beb78167630eeeed395ce62138d6c1d8"
+interface-hash: "7e68b130b20a65086f92440dc7a1520c"

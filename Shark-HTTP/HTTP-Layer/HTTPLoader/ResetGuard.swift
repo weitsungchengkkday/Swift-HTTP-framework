@@ -10,16 +10,23 @@ import Foundation
 public class ResetGuard: HTTPLoader {
     private var isResetting = false
     
-    public override func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) {
-        
+    open override func load(task: HTTPTask) {
         if isResetting == false {
-            super.load(request: request, completion: completion)
+            super.load(task: task)
         } else {
-            let error = HTTPError(code: .resetInProgress, request: request, response: nil, underlyingError: nil)
-            completion(.failure(error))
+            task.fail(.resetInProgress)
         }
     }
-
+    
+//    public override func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) {
+//
+//        if isResetting == false {
+//            super.load(request: request, completion: completion)
+//        } else {
+//            let error = HTTPError(code: .resetInProgress, request: request, response: nil, underlyingError: nil)
+//            completion(.failure(error))
+//        }
+//    }
     
     public override func reset(with group: DispatchGroup) {
         

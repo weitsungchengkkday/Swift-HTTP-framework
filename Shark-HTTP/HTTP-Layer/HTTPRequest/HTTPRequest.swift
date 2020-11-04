@@ -12,6 +12,7 @@ public struct HTTPRequest {
     public var method: HTTPMethod = .get
     public var headers: [String: String] = [:]
     public var body: HTTPBody = EmptyBody()
+    public var id: UUID = UUID()
     
     private var options = [ObjectIdentifier: Any]()
     

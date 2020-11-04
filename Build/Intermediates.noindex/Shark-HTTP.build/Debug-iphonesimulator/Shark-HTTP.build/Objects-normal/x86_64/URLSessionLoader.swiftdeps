@@ -15,15 +15,13 @@ depends-top-level:
 - !private "CastingPrecedence"
 - "HTTPError"
 - "HTTPLoader"
-- "HTTPRequest"
 - "HTTPResponse"
-- "HTTPResult"
+- "HTTPTask"
 - "HTTPURLResponse"
 - "URLError"
 - !private "URLRequest"
 - "URLSession"
 - "URLSessionLoader"
-- "Void"
 - !private "session"
 - !private "~="
 depends-member:
@@ -61,7 +59,6 @@ depends-member:
 - !private ["SQ", "cannotFindHost"]
 - !private ["SQ", "code"]
 - !private ["SQ", "dataTask"]
-- !private ["SQ", "failure"]
 - !private ["SQ", "httpBody"]
 - !private ["SQ", "httpMethod"]
 - !private ["SQ", "init"]
@@ -75,22 +72,18 @@ depends-member:
 - !private ["s5ErrorP", "Code"]
 - !private ["s5ErrorP", ""]
 - !private ["s5ErrorP", "code"]
-- !private ["s5ErrorP", "init"]
 - !private ["10Shark_HTTP8HTTPBodyP", "additionalHeaders"]
 - !private ["10Shark_HTTP8HTTPBodyP", "encode"]
 - !private ["10Shark_HTTP8HTTPBodyP", "isEmpty"]
 - !private ["10Shark_HTTP9HTTPErrorV", "Code"]
-- ["10Shark_HTTP9HTTPErrorV", ""]
-- !private ["10Shark_HTTP9HTTPErrorV", "init"]
+- !private ["10Shark_HTTP9HTTPErrorV", ""]
 - !private ["10Shark_HTTP10HTTPLoaderC", "HTTPError"]
-- ["10Shark_HTTP10HTTPLoaderC", "HTTPRequest"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "HTTPResponse"]
-- ["10Shark_HTTP10HTTPLoaderC", "HTTPResult"]
+- ["10Shark_HTTP10HTTPLoaderC", "HTTPTask"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "HTTPURLResponse"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "URLError"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "URLRequest"]
 - ["10Shark_HTTP10HTTPLoaderC", "URLSession"]
-- ["10Shark_HTTP10HTTPLoaderC", "Void"]
 - ["10Shark_HTTP10HTTPLoaderC", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "init"]
 - ["10Shark_HTTP10HTTPLoaderC", "load"]
@@ -101,13 +94,15 @@ depends-member:
 - !private ["10Shark_HTTP11HTTPRequestV", "method"]
 - !private ["10Shark_HTTP11HTTPRequestV", "url"]
 - !private ["10Shark_HTTP12HTTPResponseV", "init"]
+- !private ["10Shark_HTTP8HTTPTaskC", "complete"]
+- !private ["10Shark_HTTP8HTTPTaskC", "fail"]
+- !private ["10Shark_HTTP8HTTPTaskC", "request"]
 - !private ["SH", ""]
 - !private ["SH", "addValue"]
 - !private ["SH", "badURL"]
 - !private ["SH", "cannotFindHost"]
 - !private ["SH", "code"]
 - !private ["SH", "dataTask"]
-- !private ["SH", "failure"]
 - !private ["SH", "httpBody"]
 - !private ["SH", "httpMethod"]
 - !private ["SH", "init"]
@@ -138,7 +133,6 @@ depends-member:
 - !private ["10Foundation20ReferenceConvertibleP", "httpBody"]
 - !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
-- !private ["s6ResultO", "failure"]
 - !private ["s6ResultO", "success"]
 - !private ["ST", "Element"]
 - !private ["ST", "Iterator"]
@@ -152,14 +146,12 @@ depends-member:
 - !private ["So12NSURLSessionC", "dataTask"]
 - !private ["So20NSURLSessionDataTaskC", "resume"]
 - !private ["10Shark_HTTP16URLSessionLoaderC", "HTTPError"]
-- ["10Shark_HTTP16URLSessionLoaderC", "HTTPRequest"]
 - !private ["10Shark_HTTP16URLSessionLoaderC", "HTTPResponse"]
-- ["10Shark_HTTP16URLSessionLoaderC", "HTTPResult"]
+- ["10Shark_HTTP16URLSessionLoaderC", "HTTPTask"]
 - !private ["10Shark_HTTP16URLSessionLoaderC", "HTTPURLResponse"]
 - !private ["10Shark_HTTP16URLSessionLoaderC", "URLError"]
 - !private ["10Shark_HTTP16URLSessionLoaderC", "URLRequest"]
 - ["10Shark_HTTP16URLSessionLoaderC", "URLSession"]
-- ["10Shark_HTTP16URLSessionLoaderC", "Void"]
 - ["10Shark_HTTP16URLSessionLoaderC", "deinit"]
 - ["10Shark_HTTP16URLSessionLoaderC", "init"]
 - ["10Shark_HTTP16URLSessionLoaderC", "load"]
@@ -196,11 +188,12 @@ depends-nominal:
 - !private "SQ"
 - !private "s5ErrorP"
 - !private "10Shark_HTTP8HTTPBodyP"
-- "10Shark_HTTP9HTTPErrorV"
+- !private "10Shark_HTTP9HTTPErrorV"
 - "10Shark_HTTP10HTTPLoaderC"
 - !private "10Shark_HTTP10HTTPMethodV"
 - !private "10Shark_HTTP11HTTPRequestV"
 - !private "10Shark_HTTP12HTTPResponseV"
+- !private "10Shark_HTTP8HTTPTaskC"
 - !private "SH"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
@@ -257,4 +250,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "bb0c255fe093c07c156269204806d6bc"
+interface-hash: "c840af13cead65c01b191337efa57797"

@@ -15,11 +15,10 @@ public class ApplyEnvironment: HTTPLoader {
         super.init()
     }
     
-    public override func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) {
+    open override func load(task: HTTPTask) {
+        var copy = task.request
         
-        var copy = request
-        
-        let requestEnvironment = request.serverEnvironment ?? environment
+        let requestEnvironment = copy.serverEnvironment ?? environment
         
         if let host = copy.host, host.isEmpty {
             copy.host = requestEnvironment.host
@@ -40,8 +39,10 @@ public class ApplyEnvironment: HTTPLoader {
             copy.headers[header] = value
         }
         
-        super.load(request: copy, completion: completion)
-    }
+        task.request = copy
+        
+        super.load(task: task)
+  }
     
 //    public override func reset(compleitonHandler: @escaping () -> Void) {
 //

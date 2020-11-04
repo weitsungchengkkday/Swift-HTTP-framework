@@ -8,14 +8,13 @@ provides-member:
 provides-dynamic-lookup:
 - "load"
 depends-top-level:
+- "AssignmentPrecedence"
 - !private "FloatLiteralType"
 - "HTTPLoader"
-- "HTTPRequest"
-- "HTTPResult"
+- "HTTPTask"
 - !private "IntegerLiteralType"
 - "PrintLoader"
 - !private "StringLiteralType"
-- "Void"
 - "print"
 depends-member:
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
@@ -24,17 +23,15 @@ depends-member:
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- ["10Shark_HTTP9HTTPErrorV", ""]
-- ["10Shark_HTTP10HTTPLoaderC", "HTTPRequest"]
-- ["10Shark_HTTP10HTTPLoaderC", "HTTPResult"]
-- ["10Shark_HTTP10HTTPLoaderC", "Void"]
+- !private ["10Shark_HTTP9HTTPErrorV", ""]
+- ["10Shark_HTTP10HTTPLoaderC", "HTTPTask"]
 - ["10Shark_HTTP10HTTPLoaderC", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "init"]
 - ["10Shark_HTTP10HTTPLoaderC", "load"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "print"]
-- ["10Shark_HTTP11PrintLoaderC", "HTTPRequest"]
-- ["10Shark_HTTP11PrintLoaderC", "HTTPResult"]
-- ["10Shark_HTTP11PrintLoaderC", "Void"]
+- !private ["10Shark_HTTP8HTTPTaskC", "completion"]
+- !private ["10Shark_HTTP8HTTPTaskC", "request"]
+- ["10Shark_HTTP11PrintLoaderC", "HTTPTask"]
 - ["10Shark_HTTP11PrintLoaderC", "deinit"]
 - ["10Shark_HTTP11PrintLoaderC", "init"]
 - ["10Shark_HTTP11PrintLoaderC", "load"]
@@ -50,8 +47,9 @@ depends-nominal:
 - !private "s23CustomStringConvertibleP"
 - !private "s26DefaultStringInterpolationV"
 - !private "s32ExpressibleByStringInterpolationP"
-- "10Shark_HTTP9HTTPErrorV"
+- !private "10Shark_HTTP9HTTPErrorV"
 - "10Shark_HTTP10HTTPLoaderC"
+- !private "10Shark_HTTP8HTTPTaskC"
 - "10Shark_HTTP11PrintLoaderC"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
@@ -87,4 +85,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d4868e5bd14e3583ee466782507336a4"
+interface-hash: "4a5de7835c9ac61f789763a0db48fa3e"

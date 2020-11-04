@@ -8,14 +8,19 @@
 import Foundation
 
 public class PrintLoader: HTTPLoader {
-    public override func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) {
-        print("Loading \(request)")
+    
+    open override func load(task: HTTPTask) {
+        print("Loading \(task.request)")
         print("_________________")
-        super.load(request: request) { result in
+        let completion = task.completion
+        
+        task.completion = { result in
             print("GO result: \(result)")
             print("___________________")
             completion(result)
         }
+        
+        super.load(task: task)
     }
     
 //    public override func reset(compleitonHandler: @escaping () -> Void) {

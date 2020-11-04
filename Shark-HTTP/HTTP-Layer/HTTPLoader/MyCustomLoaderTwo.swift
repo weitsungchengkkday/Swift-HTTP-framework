@@ -8,10 +8,7 @@
 import Foundation
 
 class MyCustomLoaderTwo: HTTPLoader {
-    
-    override func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) {
-        super.load(request: request, completion: completion)
-    }
+
     
     override func reset(with group: DispatchGroup) {
         group.enter()
