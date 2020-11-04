@@ -1,152 +1,106 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "ResetGuard"
-provides-nominal:
-- "10Shark_HTTP10ResetGuardC"
-provides-member:
-- ["10Shark_HTTP10ResetGuardC", ""]
-provides-dynamic-lookup:
-- "_isResetting"
-- "isResetting"
-- "load"
-- "reset"
-depends-top-level:
-- !private "=="
-- !private "AssignmentPrecedence"
 - "AtomicTransaction"
-- "BooleanLiteralType"
-- "DispatchGroup"
+provides-nominal:
+- "10Shark_HTTP17AtomicTransactionC"
+provides-member:
+- ["10Shark_HTTP17AtomicTransactionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "AtomicTransaction"
 - "DispatchQueue"
-- "HTTPLoader"
-- "HTTPTask"
-- "ResetGuard"
-- "StringLiteralType"
-- !private "_isResetting"
-- !private "isResetting"
-- !private "nextLoader"
-- "print"
+- "V"
+- "Void"
+- !private "queue"
+- "value"
 depends-member:
+- ["10Shark_HTTP17AtomicTransactionC", "DispatchQueue"]
+- ["10Shark_HTTP17AtomicTransactionC", "Void"]
+- ["10Shark_HTTP17AtomicTransactionC", "deinit"]
 - ["10Shark_HTTP17AtomicTransactionC", "init"]
-- !private ["10Shark_HTTP17AtomicTransactionC", "mutate"]
+- ["10Shark_HTTP17AtomicTransactionC", "mutate"]
+- ["10Shark_HTTP17AtomicTransactionC", "projectedValue"]
+- !private ["10Shark_HTTP17AtomicTransactionC", "queue"]
 - ["10Shark_HTTP17AtomicTransactionC", "subscript"]
+- !private ["10Shark_HTTP17AtomicTransactionC", "value"]
 - ["10Shark_HTTP17AtomicTransactionC", "wrappedValue"]
-- !private ["s7CVarArgP", "enter"]
-- ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "leave"]
-- !private ["10Shark_HTTP9HTTPErrorV4CodeO", "resetInProgress"]
-- !private ["s28CustomDebugStringConvertibleP", "enter"]
-- ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "leave"]
-- !private ["s23CustomStringConvertibleP", "enter"]
-- ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "leave"]
-- !private ["So17OS_dispatch_groupC", "enter"]
-- !private ["So17OS_dispatch_groupC", "leave"]
+- ["10Shark_HTTP17AtomicTransactionC", "wrapperValue"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "sync"]
 - ["So18OS_dispatch_objectC", ""]
-- !private ["So18OS_dispatch_objectC", "enter"]
-- ["So18OS_dispatch_objectC", "init"]
-- !private ["So18OS_dispatch_objectC", "leave"]
-- ["So18OS_dispatch_objectC", "sync"]
-- ["8Dispatch0A3QoSV", "background"]
-- ["So17OS_dispatch_queueC", "init"]
-- ["SQ", ""]
-- ["SQ", "background"]
-- !private ["SQ", "enter"]
-- ["SQ", "init"]
-- !private ["SQ", "leave"]
-- !private ["SQ", "resetInProgress"]
-- !private ["10Shark_HTTP9HTTPErrorV", ""]
-- ["10Shark_HTTP10HTTPLoaderC", "AtomicTransaction"]
-- ["10Shark_HTTP10HTTPLoaderC", "DispatchGroup"]
-- ["10Shark_HTTP10HTTPLoaderC", "DispatchQueue"]
-- ["10Shark_HTTP10HTTPLoaderC", "HTTPTask"]
-- ["10Shark_HTTP10HTTPLoaderC", ""]
-- ["10Shark_HTTP10HTTPLoaderC", "_isResetting"]
-- ["10Shark_HTTP10HTTPLoaderC", "init"]
-- ["10Shark_HTTP10HTTPLoaderC", "isResetting"]
-- ["10Shark_HTTP10HTTPLoaderC", "load"]
-- !private ["10Shark_HTTP10HTTPLoaderC", "nextLoader"]
-- !private ["10Shark_HTTP10HTTPLoaderC", "print"]
-- ["10Shark_HTTP10HTTPLoaderC", "reset"]
-- !private ["10Shark_HTTP8HTTPTaskC", "fail"]
-- !private ["SH", "enter"]
-- ["SH", "init"]
-- !private ["SH", "leave"]
-- !private ["SH", "resetInProgress"]
-- !private ["So8NSCodingP", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "sync"]
+- !private ["8Dispatch0A13WorkItemFlagsV", "barrier"]
+- !private ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "barrier"]
+- !private ["SQ", "sync"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "barrier"]
+- !private ["SH", "async"]
+- !private ["SH", "sync"]
 - ["So8NSObjectC", ""]
-- ["So8NSObjectC", "activate"]
-- !private ["So8NSObjectC", "enter"]
-- ["So8NSObjectC", "init"]
-- !private ["So8NSObjectC", "leave"]
-- ["So8NSObjectC", "resume"]
-- ["So8NSObjectC", "setTarget"]
-- ["So8NSObjectC", "suspend"]
-- ["So8NSObjectC", "sync"]
-- !private ["So8NSObjectP", ""]
-- ["So8NSObjectP", "activate"]
-- !private ["So8NSObjectP", "enter"]
-- ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "leave"]
-- ["So8NSObjectP", "resume"]
-- ["So8NSObjectP", "setTarget"]
-- ["So8NSObjectP", "suspend"]
-- ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
 - ["So9OS_objectC", ""]
-- ["So9OS_objectC", "activate"]
-- !private ["So9OS_objectC", "enter"]
-- ["So9OS_objectC", "init"]
-- !private ["So9OS_objectC", "leave"]
-- ["So9OS_objectC", "resume"]
-- ["So9OS_objectC", "setTarget"]
-- ["So9OS_objectC", "suspend"]
-- ["So9OS_objectC", "sync"]
-- ["10Shark_HTTP10ResetGuardC", "AtomicTransaction"]
-- ["10Shark_HTTP10ResetGuardC", "DispatchGroup"]
-- ["10Shark_HTTP10ResetGuardC", "DispatchQueue"]
-- ["10Shark_HTTP10ResetGuardC", "HTTPTask"]
-- !private ["10Shark_HTTP10ResetGuardC", "_isResetting"]
-- ["10Shark_HTTP10ResetGuardC", "deinit"]
-- ["10Shark_HTTP10ResetGuardC", "init"]
-- !private ["10Shark_HTTP10ResetGuardC", "isResetting"]
-- ["10Shark_HTTP10ResetGuardC", "load"]
-- !private ["10Shark_HTTP10ResetGuardC", "nextLoader"]
-- !private ["10Shark_HTTP10ResetGuardC", "print"]
-- ["10Shark_HTTP10ResetGuardC", "reset"]
-- ["7Combine9SchedulerP", "init"]
-- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "enter"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "leave"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "enter"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leave"]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["s9OptionSetP", "barrier"]
+- !private ["SY", ""]
+- !private ["SY", "barrier"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "sync"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "barrier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sync"]
 depends-nominal:
 - "10Shark_HTTP17AtomicTransactionC"
-- "s7CVarArgP"
-- !private "10Shark_HTTP9HTTPErrorV4CodeO"
-- "s28CustomDebugStringConvertibleP"
-- "s23CustomStringConvertibleP"
-- !private "So17OS_dispatch_groupC"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
 - "So18OS_dispatch_objectC"
-- "8Dispatch0A3QoSV"
-- "So17OS_dispatch_queueC"
-- "SQ"
-- !private "10Shark_HTTP9HTTPErrorV"
-- "10Shark_HTTP10HTTPLoaderC"
-- !private "10Shark_HTTP8HTTPTaskC"
-- "SH"
-- !private "So8NSCodingP"
+- !private "So17OS_dispatch_queueC"
+- !private "8Dispatch0A13WorkItemFlagsV"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
 - "So8NSObjectC"
-- "So8NSObjectP"
+- !private "So8NSObjectP"
 - "So9OS_objectC"
-- "10Shark_HTTP10ResetGuardC"
-- "7Combine9SchedulerP"
-- "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s34_ExpressibleByBuiltinStringLiteralP"
-- "10Foundation27_KeyValueCodingAndObservingP"
-- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "7Combine9SchedulerP"
+- !private "s10SetAlgebraP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -177,4 +131,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "23121f66a052c1a7a613101ab6659c98"
+interface-hash: "f732e5baa816175ddf31b33db6d12d08"

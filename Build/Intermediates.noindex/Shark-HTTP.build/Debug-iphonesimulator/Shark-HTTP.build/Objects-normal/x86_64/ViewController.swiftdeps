@@ -42,6 +42,7 @@ depends-member:
 - !private ["10Shark_HTTP16ApplyEnvironmentC", "init"]
 - !private ["Sa", "subscript"]
 - !private ["s10ArraySliceV", "name"]
+- !private ["10Shark_HTTP17AtomicTransactionC", "subscript"]
 - ["SK", ""]
 - !private ["SK", "init"]
 - !private ["SK", "name"]
@@ -498,6 +499,7 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "utf8"]
 - !private ["s24_DestructorSafeContainerP", "name"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
@@ -552,6 +554,7 @@ depends-nominal:
 - !private "10Shark_HTTP16ApplyEnvironmentC"
 - !private "Sa"
 - !private "s10ArraySliceV"
+- !private "10Shark_HTTP17AtomicTransactionC"
 - "SK"
 - "s7CVarArgP"
 - "Sl"
@@ -633,6 +636,7 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"

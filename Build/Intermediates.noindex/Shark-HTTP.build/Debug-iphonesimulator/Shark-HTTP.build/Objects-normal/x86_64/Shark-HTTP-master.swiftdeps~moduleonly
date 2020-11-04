@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
 options: "12b8daa360d0d42e35deceb3b13d1fc8"
-build_time: [1604474557, 839684000]
+build_time: [1604545493, 272061000]
 inputs:
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/PrintLoader.swift": [1604471786, 275861901]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/ApplyEnvironment.swift": [1604473250, 33541501]
@@ -9,6 +9,7 @@ inputs:
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/MyCustomLoader.swift": [1604471786, 221938588]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPError.swift": [1604394196, 307871523]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/ViewController.swift": [1604397363, 798021977]
+  "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/Helper/AtomicTransaction.swift": [1604545493, 194762584]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/Model/StarWarsAPI.swift": [1604397310, 896348350]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/Operator/LoaderChainingPrecedence.swift": [1604051047, 205915196]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/HTTPLoader.swift": [1604474557, 731452111]
@@ -20,7 +21,7 @@ inputs:
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPRequest/HTTPRequestOption.swift": [1604387709, 957560228]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPTask.swift": [1604471831, 227558804]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPResult.swift": [1604396177, 105622200]
-  "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/ResetGuard.swift": [1604474137, 517839235]
+  "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/ResetGuard.swift": [1604487038, 397275287]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/SceneDelegate.swift": [1603693834, 937944150]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/URLSessionLoader.swift": [1604463196, 191746433]
   "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPResponse.swift": [1603854643, 749597998]

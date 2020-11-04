@@ -11,6 +11,7 @@
 		F48F921E255133A30074F956 /* MyCustomLoaderTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48F921D255133A30074F956 /* MyCustomLoaderTwo.swift */; };
 		F48F922325513A5B0074F956 /* ResetGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48F922225513A5B0074F956 /* ResetGuard.swift */; };
 		F48F9228255241700074F956 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48F9227255241700074F956 /* HTTPTask.swift */; };
+		F48F926D2552B4A70074F956 /* AtomicTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48F926C2552B4A70074F956 /* AtomicTransaction.swift */; };
 		F4E319552546A48A000614ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319542546A48A000614ED /* AppDelegate.swift */; };
 		F4E319572546A48A000614ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319562546A48A000614ED /* SceneDelegate.swift */; };
 		F4E319592546A48A000614ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319582546A48A000614ED /* ViewController.swift */; };
@@ -62,6 +63,7 @@
 		F48F921D255133A30074F956 /* MyCustomLoaderTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomLoaderTwo.swift; sourceTree = "<group>"; };
 		F48F922225513A5B0074F956 /* ResetGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetGuard.swift; sourceTree = "<group>"; };
 		F48F9227255241700074F956 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		F48F926C2552B4A70074F956 /* AtomicTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicTransaction.swift; sourceTree = "<group>"; };
 		F4E319512546A48A000614ED /* Shark-HTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shark-HTTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E319542546A48A000614ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E319562546A48A000614ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F48F926B2552B1BE0074F956 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F48F926C2552B4A70074F956 /* AtomicTransaction.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		F4E319482546A48A000614ED = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +158,7 @@
 				F4E319542546A48A000614ED /* AppDelegate.swift */,
 				F4E319562546A48A000614ED /* SceneDelegate.swift */,
 				F4E319582546A48A000614ED /* ViewController.swift */,
+				F48F926B2552B1BE0074F956 /* Helper */,
 				F4E31A2F254C22D6000614ED /* ServerEnvironment */,
 				F4E319F825494BBD000614ED /* Model */,
 				F4E319872546A4CE000614ED /* HTTP-Layer */,
@@ -390,6 +401,7 @@
 				F48F921925512DB30074F956 /* MyCustomLoader.swift in Sources */,
 				F4E319E72546DBA8000614ED /* HTTPError.swift in Sources */,
 				F4E319592546A48A000614ED /* ViewController.swift in Sources */,
+				F48F926D2552B4A70074F956 /* AtomicTransaction.swift in Sources */,
 				F4E31A44254FAE8D000614ED /* StarWarsAPI.swift in Sources */,
 				F4E31A0B254C00E9000614ED /* LoaderChainingPrecedence.swift in Sources */,
 				F4E319F125484FF8000614ED /* HTTPLoader.swift in Sources */,
