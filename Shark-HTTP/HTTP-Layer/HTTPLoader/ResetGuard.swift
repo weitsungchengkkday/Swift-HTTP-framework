@@ -9,7 +9,7 @@ import Foundation
 
 public class ResetGuard: HTTPLoader {
     @AtomicTransaction(wrappedValue: false, queue: DispatchQueue(label: "reset Guard Queue", qos: .background))
-    private var isResetting
+    private var isResetting: Bool
     
     open override func load(task: HTTPTask) {
         if isResetting == false {
@@ -38,7 +38,7 @@ public class ResetGuard: HTTPLoader {
         guard let next = nextLoader else { return }
         print("guard reset in")
         group.enter()
-        
+    
         _isResetting.mutate { bool in
             bool = true
         }

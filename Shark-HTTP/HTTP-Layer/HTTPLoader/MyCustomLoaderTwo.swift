@@ -8,7 +8,6 @@
 import Foundation
 
 class MyCustomLoaderTwo: HTTPLoader {
-
     
     override func reset(with group: DispatchGroup) {
         group.enter()

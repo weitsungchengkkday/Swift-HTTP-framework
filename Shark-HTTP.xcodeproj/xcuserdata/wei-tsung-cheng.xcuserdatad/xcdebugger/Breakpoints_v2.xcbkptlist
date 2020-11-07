@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "891611BD-3433-4474-827F-D93AE013C3D8"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Shark-HTTP/Model/StartWarsAPI.swift"
@@ -24,7 +24,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "76666521-3E68-4890-8CAD-C1DA11B339E3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Shark-HTTP/Model/StartWarsAPI.swift"
@@ -40,7 +40,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E0C4F141-A7BF-4B60-9534-5BC983A84AF1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Shark-HTTP/Model/StartWarsAPI.swift"
@@ -56,7 +56,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "4A26E2F7-0CFD-4299-AC54-8A2F7BA2CB59"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Shark-HTTP/Model/StartWarsAPI.swift"
@@ -72,7 +72,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "83E16532-B921-4558-9007-9FF12EA17CFD"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Shark-HTTP/Model/StartWarsAPI.swift"
@@ -82,22 +82,6 @@
             endingLineNumber = "37"
             landmarkName = "init(loader:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FF67D487-6266-4A77-B47D-76E9F9B8E0A8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPRequest/HTTPRequest.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "serverEnvironment"
-            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -119,47 +103,79 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "69A549CC-71B4-4F11-BCE9-C3DEB4821F26"
+            uuid = "15DBA2D7-F95C-423C-8DFD-2AC240AE5AB4"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/HTTPLoader.swift"
+            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/URLSessionLoader.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "HTTPLoader"
-            landmarkType = "3">
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "load(task:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5278386F-1D35-4BB7-8AA1-45682596C9AF"
+            uuid = "052C1BDE-D3B5-4990-B761-BD2EE4B47F6F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/URLSessionLoader.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "URLSessionLoader"
-            landmarkType = "3">
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "load(task:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1C2047B5-0EC4-495A-9633-949B57227D1B"
+            uuid = "54AAFF76-F559-4D35-956D-5FFE0AE7C4C8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/HTTPLoader.swift"
+            filePath = "Shark-HTTP/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "CallAPI1(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF51A6B0-FF05-493D-9446-1E5A2A104112"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shark-HTTP/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "CallAPI1(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C20D63F-6A1E-43F7-8076-B14E2F706D5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/AutoCancel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "reset(with:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -167,15 +183,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0518DDBB-11BC-4B06-B3B2-6237F6241E79"
+            uuid = "ABAE66E0-7C99-45A1-BD44-FEE64C6B6DEB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/MyCustomLoader.swift"
+            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/AutoCancel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "reset(with:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -183,15 +199,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CC1A6C27-7E88-4B84-BDEC-DF5CC193B195"
+            uuid = "9B108425-7482-43B2-9C61-9EF46739317A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/MyCustomLoaderTwo.swift"
+            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/AutoCancel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "reset(with:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -199,15 +215,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D805B79E-246A-4FD0-B6D5-500C8BF18192"
+            uuid = "8593B429-D887-495F-93B6-BD69A73E9245"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/MyCustomLoader.swift"
+            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/AutoCancel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "reset(with:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -215,81 +231,81 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "ECB92452-6A00-45B8-93C9-0F32CB201BEF"
+            uuid = "9E0D1C7B-64EA-4E0C-B948-DB51A49120EA"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/MyCustomLoaderTwo.swift"
+            filePath = "Shark-HTTP/Model/StarWarsAPI.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "reset(with:)"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "resetPlanets()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3AD4CFBF-5828-410A-B857-F74F3F473CF8"
+            uuid = "466592E8-4EB5-416E-B466-EF28F3BB72FA"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/MyCustomLoaderTwo.swift"
+            filePath = "Shark-HTTP/HTTP-Layer/HTTPTask.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "reset(with:)"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "fail(_:response:underlyingError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5DDD5D1C-6DCD-4298-A6FC-7DF00D442070"
+            uuid = "DAAAF4A8-4D1B-4597-B898-2FE8A4A9D365"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/MyCustomLoader.swift"
+            filePath = "Shark-HTTP/HTTP-Layer/HTTPTask.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "reset(with:)"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "cancel()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C3C1D8CF-4DFF-4B58-93F0-0BB4C12F3FF2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/ResetGuard.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "reset(with:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BCF19D22-1B4C-4062-9B3E-A5B84622EFB7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Shark-HTTP/HTTP-Layer/HTTPLoader/ResetGuard.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "ResetGuard"
-            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DAAAF4A8-4D1B-4597-B898-2FE8A4A9D365 - b963a257899c0bc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shark_HTTP.HTTPTask.cancel() -&gt; ()"
+                  moduleName = "Shark-HTTP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPTask.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "DAAAF4A8-4D1B-4597-B898-2FE8A4A9D365 - 556eb234436a5f62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Shark_HTTP.HTTPTask.cancel() -&gt; ()"
+                  moduleName = "Shark-HTTP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPTask.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

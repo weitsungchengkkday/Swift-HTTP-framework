@@ -2,16 +2,20 @@
 provides-top-level:
 - "StarWarsAPI"
 - "StartWarsPeople"
+- "StartWarsPlanets"
 provides-nominal:
 - "10Shark_HTTP11StarWarsAPIC"
 - "10Shark_HTTP15StartWarsPeopleV"
+- "10Shark_HTTP16StartWarsPlanetsV"
 provides-member:
 - ["10Shark_HTTP11StarWarsAPIC", ""]
 - ["10Shark_HTTP15StartWarsPeopleV", ""]
+- ["10Shark_HTTP16StartWarsPlanetsV", ""]
 provides-dynamic-lookup:
 - "loader"
 - "requestPeople"
-- "resetTestV2"
+- "requestPlanets"
+- "resetPlanets"
 depends-top-level:
 - "=="
 - !private "Array"
@@ -27,6 +31,7 @@ depends-top-level:
 - "JSONSerialization"
 - "StarWarsAPI"
 - "StartWarsPeople"
+- "StartWarsPlanets"
 - "String"
 - "StringLiteralType"
 - !private "URLQueryItem"
@@ -99,6 +104,7 @@ depends-member:
 - !private ["10Foundation12DataProtocolP", "subscript"]
 - ["Se", ""]
 - ["Se", "encode"]
+- !private ["Se", "gravity"]
 - !private ["Se", "height"]
 - ["Se", "init"]
 - !private ["Se", "name"]
@@ -110,6 +116,7 @@ depends-member:
 - !private ["SD", "subscript"]
 - ["SE", ""]
 - ["SE", "encode"]
+- !private ["SE", "gravity"]
 - !private ["SE", "height"]
 - ["SE", "init"]
 - !private ["SE", "name"]
@@ -236,6 +243,7 @@ depends-member:
 - !private ["10Shark_HTTP11StarWarsAPIC", "Int"]
 - !private ["10Shark_HTTP11StarWarsAPIC", "JSONSerialization"]
 - ["10Shark_HTTP11StarWarsAPIC", "StartWarsPeople"]
+- ["10Shark_HTTP11StarWarsAPIC", "StartWarsPlanets"]
 - !private ["10Shark_HTTP11StarWarsAPIC", "String"]
 - !private ["10Shark_HTTP11StarWarsAPIC", "URLQueryItem"]
 - !private ["10Shark_HTTP11StarWarsAPIC", "URLSession"]
@@ -246,7 +254,8 @@ depends-member:
 - !private ["10Shark_HTTP11StarWarsAPIC", "loader"]
 - !private ["10Shark_HTTP11StarWarsAPIC", "print"]
 - ["10Shark_HTTP11StarWarsAPIC", "requestPeople"]
-- ["10Shark_HTTP11StarWarsAPIC", "resetTestV2"]
+- ["10Shark_HTTP11StarWarsAPIC", "requestPlanets"]
+- ["10Shark_HTTP11StarWarsAPIC", "resetPlanets"]
 - ["10Shark_HTTP15StartWarsPeopleV", "CodingKeys"]
 - ["10Shark_HTTP15StartWarsPeopleV", "Int"]
 - ["10Shark_HTTP15StartWarsPeopleV", "String"]
@@ -255,6 +264,13 @@ depends-member:
 - ["10Shark_HTTP15StartWarsPeopleV", "height"]
 - ["10Shark_HTTP15StartWarsPeopleV", "init"]
 - ["10Shark_HTTP15StartWarsPeopleV", "name"]
+- ["10Shark_HTTP16StartWarsPlanetsV", "CodingKeys"]
+- ["10Shark_HTTP16StartWarsPlanetsV", "String"]
+- ["10Shark_HTTP16StartWarsPlanetsV", ""]
+- ["10Shark_HTTP16StartWarsPlanetsV", "encode"]
+- ["10Shark_HTTP16StartWarsPlanetsV", "gravity"]
+- ["10Shark_HTTP16StartWarsPlanetsV", "init"]
+- ["10Shark_HTTP16StartWarsPlanetsV", "name"]
 - !private ["Sx", ""]
 - !private ["Sx", "init"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
@@ -346,6 +362,7 @@ depends-nominal:
 - !private "s13SignedNumericP"
 - "10Shark_HTTP11StarWarsAPIC"
 - "10Shark_HTTP15StartWarsPeopleV"
+- "10Shark_HTTP16StartWarsPlanetsV"
 - !private "Sx"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
@@ -392,4 +409,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c84451497bbda341353ca7175f2debf6"
+interface-hash: "1a7da3a6cc66a85464aa8c93092cb2ba"

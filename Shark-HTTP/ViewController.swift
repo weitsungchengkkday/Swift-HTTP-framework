@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var api3: StarWarsAPI!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -75,28 +77,69 @@ class ViewController: UIViewController {
 //        api3.resetTestV2()
         
         
-        
+//        var arr = ThreadSafeArray<Int>(array: [1,2,3,4])
+//        let p = arr.remove(at: 3)
+//
     
         
-        let sessionLoader = URLSessionLoader(session: URLSession.shared)
+        let printLoader = PrintLoader()
         let mr = ResetGuard()
+        let autoCancelLoader = AutoCancel()
         let applyLoader = ApplyEnvironment(environment: ServerEnvironment(host: ""))
-        let m1 = MyCustomLoader()
-        let m2 = MyCustomLoaderTwo()
+        let sessionLoader = URLSessionLoader(session: URLSession.shared)
         
-        mr.nextLoader = applyLoader
-        applyLoader --> m1
-        m1 --> m2
-        m2 --> sessionLoader
-        let loader: HTTPLoader = mr
-        let api3 = StarWarsAPI(loader: loader)
-
-//        api3.resetTestV2()
+        let loader: HTTPLoader = printLoader
+        
+        printLoader --> mr
+        mr --> autoCancelLoader
+        autoCancelLoader --> applyLoader
+        applyLoader --> sessionLoader
+        
+        api3 = StarWarsAPI(loader: loader)
+       
+       
+        
+    }
+    
+    
+    @IBAction func CallAPI1(_ sender: UIButton) {
         api3.requestPeople { peoples in
-            print(peoples[0].name)
+            print("API 1: \(peoples[0].name)")
         }
+        
+//        print(autoCancelLoader.currentTasks.count)
+        
+        api3.requestPlanets { planets in
+            print("API 2: \(planets[0].name)")
+        }
+        
+     //   print(autoCancelLoader.currentTasks.count)
+
+//
+        
+    }
+    
+    
+    @IBAction func CallAPI2(_ sender: UIButton) {
+//        print(autoCancelLoader.currentTasks.count)
+        api3.resetPlanets()
+
+    }
+    
+    @IBAction func CancelAPI1(_ sender: UIButton) {
        
     }
+    
+    
+    
+    @IBAction func CancelAPI2(_ sender: UIButton) {
+    
+    }
+    
+    
+    
+    
+    
 
 }
 

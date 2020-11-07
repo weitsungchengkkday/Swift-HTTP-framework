@@ -20,8 +20,8 @@ public struct HTTPRequest {
         get {
             
             let id = ObjectIdentifier(type)
-            
-            print(type.defaultOptionValue)
+             
+        //    print(type.defaultOptionValue)
             guard let value = options[id] as? O.Value else {
                 return type.defaultOptionValue
             }
@@ -31,7 +31,7 @@ public struct HTTPRequest {
 
         set {
             let id = ObjectIdentifier(type)
-            print(newValue)
+          //  print(newValue)
             options[id] = newValue
         }
     }

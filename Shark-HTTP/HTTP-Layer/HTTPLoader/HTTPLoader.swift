@@ -54,11 +54,11 @@ extension HTTPLoader {
         group.notify(queue: queue, execute: completionHandler)
     }
     
-    @discardableResult
-    public func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) -> HTTPTask {
+//    @discardableResult
+    public func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) {
         let task = HTTPTask(request: request, completion: completion)
         load(task: task)
-        return task
+        return 
     }
 
 }

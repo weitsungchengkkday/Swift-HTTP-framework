@@ -234,12 +234,17 @@ SWIFT_CLASS("_TtC10Shark_HTTP13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10Shark_HTTP14ViewController")
 @interface ViewController : UIViewController
 - (void)viewDidLoad;
+- (IBAction)CallAPI1:(UIButton * _Nonnull)sender;
+- (IBAction)CallAPI2:(UIButton * _Nonnull)sender;
+- (IBAction)CancelAPI1:(UIButton * _Nonnull)sender;
+- (IBAction)CancelAPI2:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
