@@ -33,6 +33,7 @@ depends-member:
 - ["10Shark_HTTP10HTTPMethodV", "hash"]
 - ["10Shark_HTTP10HTTPMethodV", "hashValue"]
 - ["10Shark_HTTP10HTTPMethodV", "init"]
+- ["10Shark_HTTP10HTTPMethodV", "patch"]
 - ["10Shark_HTTP10HTTPMethodV", "post"]
 - ["10Shark_HTTP10HTTPMethodV", "put"]
 - ["10Shark_HTTP10HTTPMethodV", "rawValue"]
@@ -45,8 +46,6 @@ depends-member:
 - ["SH", "hashValue"]
 - ["SH", "init"]
 - !private ["s6HasherV", "combine"]
-- ["So8NSCodingP", ""]
-- ["So8NSObjectP", ""]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 depends-nominal:
@@ -54,8 +53,6 @@ depends-nominal:
 - "10Shark_HTTP10HTTPMethodV"
 - "SH"
 - !private "s6HasherV"
-- "So8NSCodingP"
-- "So8NSObjectP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 depends-dynamic-lookup:
@@ -88,4 +85,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f9f50d509fbfb39c12f9df0f9b3f3dbe"
+interface-hash: "054374706e3c6270748995bf186c002b"

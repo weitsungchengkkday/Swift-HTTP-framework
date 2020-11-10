@@ -16,22 +16,21 @@ public class ApplyEnvironment: HTTPLoader {
     }
     
     open override func load(task: HTTPTask) {
-        var copy = task.request
         
+        var copy = task.request
         let requestEnvironment = copy.serverEnvironment ?? environment
         
-        if let host = copy.host, host.isEmpty {
-            copy.host = requestEnvironment.host
+        if let host = copy.host, !host.isEmpty {
+            
         } else {
             copy.host = requestEnvironment.host
         }
         
         if let path = copy.path {
             if path.hasPrefix("/") == false {
-                copy.path = requestEnvironment.pathPrefix + path
+                copy.path = requestEnvironment.pathPrefix + "/" + path
             } else {
                 copy.path = requestEnvironment.pathPrefix + path
-                
             }
         }
         
@@ -40,16 +39,6 @@ public class ApplyEnvironment: HTTPLoader {
         }
         
         task.request = copy
-        
         super.load(task: task)
-  }
-    
-//    public override func reset(compleitonHandler: @escaping () -> Void) {
-//
-//        super.reset() {
-//            print("reset apply env loader")
-//            compleitonHandler()
-//        }
-//    }
-    
+    }
 }

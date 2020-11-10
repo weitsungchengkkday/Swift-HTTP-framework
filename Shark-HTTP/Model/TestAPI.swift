@@ -8,20 +8,12 @@
 import Foundation
 
 class TestAPI {
-   // private let loader: HTTPLoading
+
     private let loader: HTTPLoader
-    
-//    public init(loader: HTTPLoading = URLSession.shared) {
-//        self.loader = loader
-//    }
-//    public init(loader: HTTPLoader = URLSessionLoader(session: URLSession.shared)) {
-//        self.loader = loader
-//    }
-    
+        
     public init(loader: HTTPLoader = URLSessionLoader(session: URLSession.shared)) {
         
         let modifier = ModifyRequest { request -> HTTPRequest in
-//            print(request.url)
             
             var copy = request
             

@@ -23,6 +23,4 @@ public struct HTTPError: Error {
         case resetInProgress
         case unknown
     }
-    
-    
 }

@@ -1,0 +1,448 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SrtartWarsAPITests"
+provides-nominal:
+- "15Shark_HTTPTests18SrtartWarsAPITestsC"
+provides-member:
+- ["15Shark_HTTPTests18SrtartWarsAPITestsC", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_api"
+- "api"
+- "mock"
+- "test_200_OK_WithValidBody"
+depends-top-level:
+- !private "Data"
+- "FloatLiteralType"
+- "HTTPURLResponse"
+- !private "IntegerLiteralType"
+- "MockLoader"
+- "SrtartWarsAPITests"
+- !private "StringLiteralType"
+- "TestAPI"
+- "XCTAssertEqual"
+- "XCTestCase"
+- !private "api"
+- "mock"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "first_name"]
+- !private ["SK", ""]
+- !private ["SK", "first_name"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["SK", "utf8"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "HTTPURLResponse"]
+- ["s7CVarArgP", "MockLoader"]
+- ["s7CVarArgP", "TestAPI"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "api"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "mock"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "test_200_OK_WithValidBody"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["Sl", ""]
+- !private ["Sl", "first_name"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "utf8"]
+- !private ["SL", ""]
+- !private ["SL", "utf8"]
+- !private ["10Foundation15ContiguousBytesP", "first_name"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPURLResponse"]
+- ["s28CustomDebugStringConvertibleP", "MockLoader"]
+- ["s28CustomDebugStringConvertibleP", "TestAPI"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "api"]
+- !private ["s28CustomDebugStringConvertibleP", "first_name"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "mock"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "test_200_OK_WithValidBody"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s17CustomReflectableP", "first_name"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "HTTPURLResponse"]
+- ["s23CustomStringConvertibleP", "MockLoader"]
+- ["s23CustomStringConvertibleP", "TestAPI"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "api"]
+- !private ["s23CustomStringConvertibleP", "first_name"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "mock"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "test_200_OK_WithValidBody"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "first_name"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "first_name"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "utf8"]
+- !private ["SE", "first_name"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "utf8"]
+- !private ["SQ", "Data"]
+- !private ["SQ", "HTTPURLResponse"]
+- ["SQ", "MockLoader"]
+- ["SQ", "TestAPI"]
+- !private ["SQ", "XCTAssertEqual"]
+- ["SQ", ""]
+- !private ["SQ", "api"]
+- !private ["SQ", "first_name"]
+- !private ["SQ", "init"]
+- ["SQ", "mock"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
+- !private ["SQ", "test_200_OK_WithValidBody"]
+- !private ["SQ", "utf8"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first_name"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- ["10Shark_HTTP10HTTPLoaderC", ""]
+- ["10Shark_HTTP10HTTPLoaderC", "init"]
+- !private ["10Shark_HTTP10HTTPLoaderC", "then"]
+- !private ["10Shark_HTTP11HTTPRequestV", "url"]
+- !private ["10Shark_HTTP12HTTPResponseV", "init"]
+- !private ["So17NSHTTPURLResponseC", "init"]
+- !private ["SH", "Data"]
+- !private ["SH", "HTTPURLResponse"]
+- ["SH", "MockLoader"]
+- ["SH", "TestAPI"]
+- !private ["SH", "XCTAssertEqual"]
+- ["SH", ""]
+- !private ["SH", "api"]
+- !private ["SH", "first_name"]
+- !private ["SH", "init"]
+- ["SH", "mock"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- !private ["SH", "test_200_OK_WithValidBody"]
+- !private ["SH", "utf8"]
+- !private ["s20LazySequenceProtocolP", "first_name"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s10MirrorPathP", "utf8"]
+- ["10Shark_HTTP10MockLoaderC", "init"]
+- !private ["10Shark_HTTP10MockLoaderC", "then"]
+- !private ["SM", ""]
+- !private ["SM", "first_name"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- ["So8NSObjectC", "$__lazy_storage_$_api"]
+- !private ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "HTTPURLResponse"]
+- ["So8NSObjectC", "MockLoader"]
+- ["So8NSObjectC", "TestAPI"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "__lazy_storage_$_api"]
+- ["So8NSObjectC", "api"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "mock"]
+- ["So8NSObjectC", "testCaseWithInvocation"]
+- ["So8NSObjectC", "testCaseWithSelector"]
+- ["So8NSObjectC", "test_200_OK_WithValidBody"]
+- !private ["So8NSObjectC", "utf8"]
+- ["So8NSObjectP", "$__lazy_storage_$_api"]
+- !private ["So8NSObjectP", "Data"]
+- !private ["So8NSObjectP", "HTTPURLResponse"]
+- ["So8NSObjectP", "MockLoader"]
+- ["So8NSObjectP", "TestAPI"]
+- !private ["So8NSObjectP", "XCTAssertEqual"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "__lazy_storage_$_api"]
+- ["So8NSObjectP", "api"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "mock"]
+- ["So8NSObjectP", "testCaseWithInvocation"]
+- ["So8NSObjectP", "testCaseWithSelector"]
+- ["So8NSObjectP", "test_200_OK_WithValidBody"]
+- !private ["So8NSObjectP", "utf8"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "utf8"]
+- !private ["Sk", ""]
+- !private ["Sk", "first_name"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "_customRemoveLast"]
+- !private ["Sm", "append"]
+- !private ["Sm", "first_name"]
+- !private ["Sm", "init"]
+- !private ["Sm", "insert"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "removeSubrange"]
+- !private ["Sm", "replaceSubrange"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["ST", "first_name"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "utf8"]
+- !private ["s5SliceV", "first_name"]
+- !private ["15Shark_HTTPTests18SrtartWarsAPITestsC", "$__lazy_storage_$_api"]
+- !private ["15Shark_HTTPTests18SrtartWarsAPITestsC", "Data"]
+- !private ["15Shark_HTTPTests18SrtartWarsAPITestsC", "HTTPURLResponse"]
+- ["15Shark_HTTPTests18SrtartWarsAPITestsC", "MockLoader"]
+- ["15Shark_HTTPTests18SrtartWarsAPITestsC", "TestAPI"]
+- !private ["15Shark_HTTPTests18SrtartWarsAPITestsC", "XCTAssertEqual"]
+- ["15Shark_HTTPTests18SrtartWarsAPITestsC", ""]
+- ["15Shark_HTTPTests18SrtartWarsAPITestsC", "api"]
+- ["15Shark_HTTPTests18SrtartWarsAPITestsC", "deinit"]
+- ["15Shark_HTTPTests18SrtartWarsAPITestsC", "init"]
+- ["15Shark_HTTPTests18SrtartWarsAPITestsC", "mock"]
+- ["15Shark_HTTPTests18SrtartWarsAPITestsC", "test_200_OK_WithValidBody"]
+- !private ["SS", "utf8"]
+- !private ["Sy", "utf8"]
+- ["10Shark_HTTP7TestAPIC", "init"]
+- !private ["10Shark_HTTP7TestAPIC", "requestPeople"]
+- !private ["10Shark_HTTP10TestPeopleV", "first_name"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- ["So13NSURLResponseC", ""]
+- !private ["So13NSURLResponseC", "init"]
+- ["So11XCTActivityP", "$__lazy_storage_$_api"]
+- !private ["So11XCTActivityP", "Data"]
+- !private ["So11XCTActivityP", "HTTPURLResponse"]
+- ["So11XCTActivityP", "MockLoader"]
+- ["So11XCTActivityP", "TestAPI"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- ["So11XCTActivityP", ""]
+- ["So11XCTActivityP", "__lazy_storage_$_api"]
+- ["So11XCTActivityP", "api"]
+- ["So11XCTActivityP", "init"]
+- ["So11XCTActivityP", "mock"]
+- ["So11XCTActivityP", "test_200_OK_WithValidBody"]
+- ["So17XCTWaiterDelegateP", "$__lazy_storage_$_api"]
+- !private ["So17XCTWaiterDelegateP", "Data"]
+- !private ["So17XCTWaiterDelegateP", "HTTPURLResponse"]
+- ["So17XCTWaiterDelegateP", "MockLoader"]
+- ["So17XCTWaiterDelegateP", "TestAPI"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So17XCTWaiterDelegateP", "__lazy_storage_$_api"]
+- ["So17XCTWaiterDelegateP", "api"]
+- ["So17XCTWaiterDelegateP", "init"]
+- ["So17XCTWaiterDelegateP", "mock"]
+- ["So17XCTWaiterDelegateP", "test_200_OK_WithValidBody"]
+- ["So6XCTestC", "$__lazy_storage_$_api"]
+- !private ["So6XCTestC", "Data"]
+- !private ["So6XCTestC", "HTTPURLResponse"]
+- ["So6XCTestC", "MockLoader"]
+- ["So6XCTestC", "TestAPI"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- ["So6XCTestC", ""]
+- ["So6XCTestC", "__lazy_storage_$_api"]
+- ["So6XCTestC", "api"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "mock"]
+- ["So6XCTestC", "testCaseWithInvocation"]
+- ["So6XCTestC", "testCaseWithSelector"]
+- ["So6XCTestC", "test_200_OK_WithValidBody"]
+- ["So10XCTestCaseC", "$__lazy_storage_$_api"]
+- !private ["So10XCTestCaseC", "Data"]
+- !private ["So10XCTestCaseC", "HTTPURLResponse"]
+- ["So10XCTestCaseC", "MockLoader"]
+- ["So10XCTestCaseC", "TestAPI"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "__lazy_storage_$_api"]
+- ["So10XCTestCaseC", "api"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "mock"]
+- ["So10XCTestCaseC", "test_200_OK_WithValidBody"]
+- !private ["s14_ArrayProtocolP", "first_name"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s24_DestructorSafeContainerP", "first_name"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HTTPURLResponse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MockLoader"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "TestAPI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "api"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "test_200_OK_WithValidBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "HTTPURLResponse"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MockLoader"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TestAPI"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertEqual"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "api"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "test_200_OK_WithValidBody"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+depends-nominal:
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "10Shark_HTTP10HTTPLoaderC"
+- !private "10Shark_HTTP11HTTPRequestV"
+- !private "10Shark_HTTP12HTTPResponseV"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "10Shark_HTTP10MockLoaderC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s6ResultO"
+- !private "ST"
+- !private "s5SliceV"
+- "15Shark_HTTPTests18SrtartWarsAPITestsC"
+- !private "SS"
+- !private "Sy"
+- "10Shark_HTTP7TestAPIC"
+- !private "10Shark_HTTP10TestPeopleV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So13NSURLResponseC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Build/Products/Debug-iphonesimulator/Shark_HTTP.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f9a108e89493cc38f4dd8d4554b969da"

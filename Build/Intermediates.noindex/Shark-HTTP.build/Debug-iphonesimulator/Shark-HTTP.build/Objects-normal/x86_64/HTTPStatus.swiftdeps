@@ -29,14 +29,21 @@ depends-member:
 - ["10Shark_HTTP10HTTPStatusV", ""]
 - ["10Shark_HTTP10HTTPStatusV", "__derived_struct_equals"]
 - ["10Shark_HTTP10HTTPStatusV", "_rawHashValue"]
+- ["10Shark_HTTP10HTTPStatusV", "badRequest"]
 - ["10Shark_HTTP10HTTPStatusV", "create"]
+- ["10Shark_HTTP10HTTPStatusV", "forbidden"]
+- ["10Shark_HTTP10HTTPStatusV", "found"]
 - ["10Shark_HTTP10HTTPStatusV", "hash"]
 - ["10Shark_HTTP10HTTPStatusV", "hashValue"]
 - ["10Shark_HTTP10HTTPStatusV", "init"]
+- ["10Shark_HTTP10HTTPStatusV", "methodNotAllowed"]
+- ["10Shark_HTTP10HTTPStatusV", "movedPermanently"]
 - ["10Shark_HTTP10HTTPStatusV", "notFound"]
 - ["10Shark_HTTP10HTTPStatusV", "rawValue"]
+- ["10Shark_HTTP10HTTPStatusV", "seeOther"]
 - ["10Shark_HTTP10HTTPStatusV", "serverError"]
 - ["10Shark_HTTP10HTTPStatusV", "success"]
+- ["10Shark_HTTP10HTTPStatusV", "unauthorized"]
 - ["SH", "=="]
 - ["SH", "HTTPStatus"]
 - ["SH", ""]
@@ -46,8 +53,6 @@ depends-member:
 - ["SH", "hashValue"]
 - ["SH", "init"]
 - !private ["s6HasherV", "combine"]
-- ["So8NSCodingP", ""]
-- ["So8NSObjectP", ""]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 depends-nominal:
@@ -55,8 +60,6 @@ depends-nominal:
 - "10Shark_HTTP10HTTPStatusV"
 - "SH"
 - !private "s6HasherV"
-- "So8NSCodingP"
-- "So8NSObjectP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 depends-dynamic-lookup:
@@ -89,4 +92,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "9e8c68e9eff8013ec3590348c96b15e3"
+interface-hash: "0815f494862d34712b4dd53c6a9c738a"

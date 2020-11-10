@@ -10,6 +10,7 @@ provides-member:
 - ["10Shark_HTTP11HTTPRequestV", "host"]
 - ["10Shark_HTTP11HTTPRequestV", "path"]
 - ["10Shark_HTTP11HTTPRequestV", "queryItems"]
+- ["10Shark_HTTP11HTTPRequestV", "port"]
 - ["10Shark_HTTP11HTTPRequestV", "serverEnvironment"]
 provides-dynamic-lookup:
 depends-top-level:
@@ -21,10 +22,11 @@ depends-top-level:
 - "HTTPMethod"
 - "HTTPRequest"
 - "HTTPRequestOption"
+- "Int"
 - "ObjectIdentifier"
 - "ServerEnvironment"
 - "String"
-- !private "StringLiteralType"
+- "StringLiteralType"
 - "URL"
 - "URLComponents"
 - "URLQueryItem"
@@ -41,6 +43,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "host"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "port"]
 - !private ["s28CustomDebugStringConvertibleP", "queryItems"]
 - !private ["s28CustomDebugStringConvertibleP", "scheme"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
@@ -48,6 +51,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "host"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "path"]
+- !private ["s17CustomReflectableP", "port"]
 - !private ["s17CustomReflectableP", "queryItems"]
 - !private ["s17CustomReflectableP", "scheme"]
 - !private ["s17CustomReflectableP", "subscript"]
@@ -56,6 +60,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "host"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "port"]
 - !private ["s23CustomStringConvertibleP", "queryItems"]
 - !private ["s23CustomStringConvertibleP", "scheme"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
@@ -63,6 +68,7 @@ depends-member:
 - !private ["Se", "host"]
 - ["Se", "init"]
 - !private ["Se", "path"]
+- !private ["Se", "port"]
 - !private ["Se", "queryItems"]
 - !private ["Se", "scheme"]
 - !private ["Se", "subscript"]
@@ -74,6 +80,7 @@ depends-member:
 - !private ["SE", "host"]
 - ["SE", "init"]
 - !private ["SE", "path"]
+- !private ["SE", "port"]
 - !private ["SE", "queryItems"]
 - !private ["SE", "scheme"]
 - !private ["SE", "subscript"]
@@ -83,6 +90,7 @@ depends-member:
 - !private ["SQ", "host"]
 - ["SQ", "init"]
 - !private ["SQ", "path"]
+- !private ["SQ", "port"]
 - !private ["SQ", "queryItems"]
 - !private ["SQ", "scheme"]
 - !private ["SQ", "subscript"]
@@ -97,6 +105,7 @@ depends-member:
 - ["10Shark_HTTP11HTTPRequestV", "HTTPBody"]
 - ["10Shark_HTTP11HTTPRequestV", "HTTPMethod"]
 - ["10Shark_HTTP11HTTPRequestV", "HTTPRequestOption"]
+- ["10Shark_HTTP11HTTPRequestV", "Int"]
 - ["10Shark_HTTP11HTTPRequestV", "ObjectIdentifier"]
 - ["10Shark_HTTP11HTTPRequestV", "ServerEnvironment"]
 - ["10Shark_HTTP11HTTPRequestV", "String"]
@@ -113,6 +122,7 @@ depends-member:
 - ["10Shark_HTTP11HTTPRequestV", "method"]
 - !private ["10Shark_HTTP11HTTPRequestV", "options"]
 - ["10Shark_HTTP11HTTPRequestV", "path"]
+- ["10Shark_HTTP11HTTPRequestV", "port"]
 - ["10Shark_HTTP11HTTPRequestV", "queryItems"]
 - ["10Shark_HTTP11HTTPRequestV", "scheme"]
 - ["10Shark_HTTP11HTTPRequestV", "serverEnvironment"]
@@ -126,6 +136,7 @@ depends-member:
 - !private ["SH", "host"]
 - ["SH", "init"]
 - !private ["SH", "path"]
+- !private ["SH", "port"]
 - !private ["SH", "queryItems"]
 - !private ["SH", "scheme"]
 - !private ["SH", "subscript"]
@@ -135,6 +146,7 @@ depends-member:
 - !private ["10Foundation20ReferenceConvertibleP", "host"]
 - ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["10Foundation20ReferenceConvertibleP", "port"]
 - !private ["10Foundation20ReferenceConvertibleP", "queryItems"]
 - !private ["10Foundation20ReferenceConvertibleP", "scheme"]
 - !private ["10Foundation20ReferenceConvertibleP", "url"]
@@ -145,6 +157,7 @@ depends-member:
 - !private ["10Foundation13URLComponentsV", "host"]
 - ["10Foundation13URLComponentsV", "init"]
 - !private ["10Foundation13URLComponentsV", "path"]
+- !private ["10Foundation13URLComponentsV", "port"]
 - !private ["10Foundation13URLComponentsV", "queryItems"]
 - !private ["10Foundation13URLComponentsV", "scheme"]
 - !private ["10Foundation13URLComponentsV", "url"]
@@ -156,6 +169,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "host"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "port"]
 - !private ["s21_ObjectiveCBridgeableP", "queryItems"]
 - !private ["s21_ObjectiveCBridgeableP", "scheme"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
@@ -218,4 +232,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "526b05caebc0ac9d63670e009bd9dcf0"
+interface-hash: "b082f2cca2ff9f63997a85ad9dd0fe21"

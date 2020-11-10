@@ -8,36 +8,31 @@
 import Foundation
 
 public struct HTTPRequest {
+    
     private var urlComponents = URLComponents()
     public var method: HTTPMethod = .get
     public var headers: [String: String] = [:]
     public var body: HTTPBody = EmptyBody()
-    public var id: UUID = UUID()
+    private(set) var id: UUID = UUID()
     
     private var options = [ObjectIdentifier: Any]()
     
     public subscript<O: HTTPRequestOption>(option type: O.Type) -> O.Value {
         get {
-            
             let id = ObjectIdentifier(type)
-             
-        //    print(type.defaultOptionValue)
             guard let value = options[id] as? O.Value else {
                 return type.defaultOptionValue
             }
-            
             return value
         }
-
         set {
             let id = ObjectIdentifier(type)
-          //  print(newValue)
             options[id] = newValue
         }
     }
     
-    public init() {
-        urlComponents.scheme = "https"
+    public init(scheme: String = "https") {
+        urlComponents.scheme = scheme
     }
 }
 
@@ -63,9 +58,14 @@ public extension HTTPRequest {
         set { urlComponents.queryItems = newValue}
     }
     
+    var port: Int? {
+        get { urlComponents.port }
+        set { urlComponents.port = newValue}
+    }
 }
 
 extension HTTPRequest {
+    
     public var serverEnvironment: ServerEnvironment? {
         get {
             self[option: ServerEnvironment.self]

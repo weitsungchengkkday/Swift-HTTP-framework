@@ -8,6 +8,7 @@
 import Foundation
 
 public struct HTTPResponse {
+    
     public let request: HTTPRequest
     private let response: HTTPURLResponse
     public let body: Data?
@@ -21,7 +22,6 @@ public struct HTTPResponse {
     }
     
     public var headers: [AnyHashable: Any] { response.allHeaderFields }
-    
     
     public init(request: HTTPRequest, response: HTTPURLResponse, body: Data?) {
         self.request = request

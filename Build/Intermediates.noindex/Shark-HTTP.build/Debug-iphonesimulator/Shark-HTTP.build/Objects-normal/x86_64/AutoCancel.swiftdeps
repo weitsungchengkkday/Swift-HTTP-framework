@@ -16,14 +16,12 @@ depends-top-level:
 - !private "Dictionary"
 - "DispatchGroup"
 - "DispatchQueue"
-- "ExtendedGraphemeClusterType"
 - "HTTPLoader"
 - "HTTPTask"
 - "StringLiteralType"
 - "UUID"
 - "currentTasks"
 - !private "nextLoader"
-- "print"
 - !private "queue"
 depends-member:
 - ["10Shark_HTTP10AutoCancelC", "DispatchGroup"]
@@ -35,7 +33,6 @@ depends-member:
 - ["10Shark_HTTP10AutoCancelC", "init"]
 - ["10Shark_HTTP10AutoCancelC", "load"]
 - !private ["10Shark_HTTP10AutoCancelC", "nextLoader"]
-- !private ["10Shark_HTTP10AutoCancelC", "print"]
 - !private ["10Shark_HTTP10AutoCancelC", "queue"]
 - ["10Shark_HTTP10AutoCancelC", "reset"]
 - !private ["s7CVarArgP", "async"]
@@ -46,13 +43,10 @@ depends-member:
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "sync"]
 - !private ["s7CVarArgP", "values"]
-- !private ["Sl", ""]
-- !private ["Sl", "count"]
 - ["Sl", "init"]
 - !private ["Sl", "subscript"]
 - !private ["Sl", "values"]
 - !private ["s28CustomDebugStringConvertibleP", "async"]
-- !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "enter"]
 - !private ["s28CustomDebugStringConvertibleP", "global"]
 - ["s28CustomDebugStringConvertibleP", "init"]
@@ -64,7 +58,6 @@ depends-member:
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "values"]
 - !private ["s23CustomStringConvertibleP", "async"]
-- !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "enter"]
 - !private ["s23CustomStringConvertibleP", "global"]
 - ["s23CustomStringConvertibleP", "init"]
@@ -119,7 +112,6 @@ depends-member:
 - ["10Shark_HTTP10HTTPLoaderC", "init"]
 - ["10Shark_HTTP10HTTPLoaderC", "load"]
 - !private ["10Shark_HTTP10HTTPLoaderC", "nextLoader"]
-- !private ["10Shark_HTTP10HTTPLoaderC", "print"]
 - ["10Shark_HTTP10HTTPLoaderC", "queue"]
 - ["10Shark_HTTP10HTTPLoaderC", "reset"]
 - !private ["10Shark_HTTP8HTTPTaskC", "addCompletionHandler"]
@@ -134,7 +126,6 @@ depends-member:
 - !private ["SH", "sync"]
 - !private ["SH", "userInitiated"]
 - !private ["SH", "values"]
-- !private ["SM", "count"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "activate"]
 - !private ["So8NSObjectC", "async"]
@@ -175,12 +166,10 @@ depends-member:
 - !private ["ST", "Element"]
 - !private ["ST", "Iterator"]
 - ["ST", ""]
-- !private ["ST", "count"]
 - ["ST", "init"]
 - !private ["ST", "makeIterator"]
 - !private ["ST", "subscript"]
 - !private ["ST", "values"]
-- !private ["SD6ValuesV", "count"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
@@ -219,14 +208,12 @@ depends-nominal:
 - "10Shark_HTTP10HTTPLoaderC"
 - !private "10Shark_HTTP8HTTPTaskC"
 - "SH"
-- !private "SM"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - "So9OS_objectC"
 - !private "8Dispatch0A3QoSV0B6SClassO"
 - "7Combine9SchedulerP"
 - "ST"
-- !private "SD6ValuesV"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
@@ -262,4 +249,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6ccae6c7c6870893206f61e3f18d7e0a"
+interface-hash: "0a84675a8d4fdce2a547d572da43b6ee"

@@ -19,6 +19,7 @@ extension HTTPResult {
     }
     
     public var response: HTTPResponse? {
+        
         switch self {
             case .success(let response):
                 return response

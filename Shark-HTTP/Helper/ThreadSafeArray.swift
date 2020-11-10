@@ -8,8 +8,9 @@
 import Foundation
 
 public class ThreadSafeArray<Element> {
+    
     private var array: Array<Element>
-    private let queue = DispatchQueue(label: "theard safe array queue", attributes: .concurrent)
+    private let queue = DispatchQueue(label: "theard.safe.array.queue", attributes: .concurrent)
     
     public init() {
         array = Array<Element>()

@@ -8,7 +8,7 @@
 import Foundation
 
 public protocol HTTPRequestOption {
-    associatedtype Value
     
+    associatedtype Value
     static var defaultOptionValue: Value { get }
 }

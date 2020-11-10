@@ -10,29 +10,22 @@ import Foundation
 public class PrintLoader: HTTPLoader {
     
     open override func load(task: HTTPTask) {
-//        print("Loading \(task.request)")
-        
         let completion = task.completion
-        
         task.completion = { result in
-            print("_________________")
-            print("GO result: \(result)")
-            print("___________________")
+            print("""
+                -------------------
+                ⛳️ Result:
+                \(result)
+                -------------------
+                """)
             completion(result)
         }
-        
+    
         super.load(task: task)
     }
     
     public override func reset(with group: DispatchGroup) {
         super.reset(with: group)
     }
-//    public override func reset(compleitonHandler: @escaping () -> Void) {
-//       
-//        super.reset() {
-//            print("reset print loader")
-//            compleitonHandler()
-//        }
-//    }
 }
 

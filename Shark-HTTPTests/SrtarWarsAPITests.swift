@@ -35,12 +35,11 @@ class SrtartWarsAPITests: XCTestCase {
         mock.then { (request, handler) in
             handler(.success(.init(request: request, response: HTTPURLResponse(url: request.url!, statusCode: 204, httpVersion: "1.1", headerFields: nil)!, body: responseData)))
         }
+        
         api.requestPeople { (peoples) in
-          
             XCTAssertEqual(peoples[1].first_name, "Will")
         }
     }
-    
     
     
 }

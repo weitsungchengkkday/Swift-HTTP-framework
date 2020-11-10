@@ -9,6 +9,7 @@ provides-dynamic-lookup:
 - "environment"
 - "load"
 depends-top-level:
+- !private "!"
 - !private "+"
 - !private "=="
 - !private "??"
@@ -75,7 +76,6 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
-- !private ["10Shark_HTTP9HTTPErrorV", ""]
 - ["10Shark_HTTP10HTTPLoaderC", "HTTPTask"]
 - ["10Shark_HTTP10HTTPLoaderC", "ServerEnvironment"]
 - ["10Shark_HTTP10HTTPLoaderC", ""]
@@ -189,7 +189,6 @@ depends-nominal:
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "10Shark_HTTP9HTTPErrorV"
 - "10Shark_HTTP10HTTPLoaderC"
 - !private "10Shark_HTTP11HTTPRequestV"
 - !private "10Shark_HTTP17HTTPRequestOptionP"

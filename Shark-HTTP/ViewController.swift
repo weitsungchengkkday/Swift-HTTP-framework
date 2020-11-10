@@ -10,6 +10,8 @@ import UIKit
 class ViewController: UIViewController {
 
     var api3: StarWarsAPI!
+    var api4: OdooBugAPI!
+    var api5: TwilioAPI!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -82,65 +84,98 @@ class ViewController: UIViewController {
 //
     
         
+        
+//        let printLoader = PrintLoader()
+//        let mr = ResetGuard()
+//        let autoCancelLoader = AutoCancel()
+//        let applyLoader = ApplyEnvironment(environment: ServerEnvironment(host: ""))
+//        let sessionLoader = URLSessionLoader(session: URLSession.shared)
+//
+//        let loader: HTTPLoader = applyLoader
+//
+////        printLoader --> mr
+////        mr --> autoCancelLoader
+////        autoCancelLoader --> applyLoader
+////        applyLoader --> sessionLoader
+////
+//        applyLoader --> sessionLoader
+//
+//        api3 = StarWarsAPI(loader: loader)
+       
+        
+    
+        
         let printLoader = PrintLoader()
-        let mr = ResetGuard()
-        let autoCancelLoader = AutoCancel()
-        let applyLoader = ApplyEnvironment(environment: ServerEnvironment(host: ""))
-        let sessionLoader = URLSessionLoader(session: URLSession.shared)
+        let sessionLoader1 = URLSessionLoader()
+        let serverEnviroment = ServerEnvironment.odooLocal
+        let applyEnviroment = ApplyEnvironment(environment: serverEnviroment)
         
-        let loader: HTTPLoader = printLoader
+        printLoader --> applyEnviroment
+        applyEnviroment --> sessionLoader1
         
-        printLoader --> mr
-        mr --> autoCancelLoader
-        autoCancelLoader --> applyLoader
-        applyLoader --> sessionLoader
+        api4 = OdooBugAPI(loader: printLoader)
         
-        api3 = StarWarsAPI(loader: loader)
-       
-       
         
+        
+        
+        let sessionLoader2 = URLSessionLoader()
+        api5 = TwilioAPI(loader: sessionLoader2)
+        
+         
+     
     }
     
     
     @IBAction func CallAPI1(_ sender: UIButton) {
-        api3.requestPeople { peoples in
-            print("API 1: \(peoples[0].name)")
-        }
+//        api3.requestPeople { peoples in
+//            print("API 1: \(peoples[0].name)")
+//        }
         
 //        print(autoCancelLoader.currentTasks.count)
-        
-        api3.requestPlanets { planets in
-            print("API 2: \(planets[0].name)")
-        }
-        
+//
+//        api3.requestPlanets { planets in
+//            print("API 2: \(planets[0].name)")
+//        }
+//
      //   print(autoCancelLoader.currentTasks.count)
 
 //
+//        api4.getBugs { (odooBugs) in
+//            print(odooBugs)
+//        }
+
+        api4.getBugWithCondition { bugs in
+            print(bugs)
+        }
+      
         
     }
     
     
     @IBAction func CallAPI2(_ sender: UIButton) {
 //        print(autoCancelLoader.currentTasks.count)
-        api3.resetPlanets()
+//        api3.resetPlanets()
 
+        api4.postBug { (odooBugs) in
+            print(odooBugs)
+        }
     }
     
     @IBAction func CancelAPI1(_ sender: UIButton) {
        
+        
+        api4.deleteBug { (odooBugs) in
+            print(odooBugs)
+        }
     }
     
     
     
     @IBAction func CancelAPI2(_ sender: UIButton) {
-    
+        api5.postData { data in
+            print(data)
+        }
     }
-    
-    
-    
-    
-    
-
 }
 
 

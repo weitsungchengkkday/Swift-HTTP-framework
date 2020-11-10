@@ -19,6 +19,7 @@ final public class AtomicTransaction<V> {
     
     public var wrappedValue: V {
         get { queue.sync { return value } }
+        
         set { queue.async(flags: .barrier) {
             self.value = newValue
         }}

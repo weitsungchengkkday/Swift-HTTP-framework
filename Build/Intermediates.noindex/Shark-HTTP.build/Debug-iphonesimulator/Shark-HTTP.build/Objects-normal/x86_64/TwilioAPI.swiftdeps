@@ -1,0 +1,308 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TwilioAPI"
+- "TwilioData"
+provides-nominal:
+- "10Shark_HTTP9TwilioAPIC"
+- "10Shark_HTTP10TwilioDataV"
+provides-member:
+- ["10Shark_HTTP9TwilioAPIC", ""]
+- ["10Shark_HTTP10TwilioDataV", ""]
+provides-dynamic-lookup:
+- "loader"
+- "postData"
+depends-top-level:
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "Codable"
+- !private "Dictionary"
+- "FloatLiteralType"
+- !private "FormBody"
+- "HTTPLoader"
+- !private "HTTPRequest"
+- "IntegerLiteralType"
+- "JSONSerialization"
+- "String"
+- "StringLiteralType"
+- "TwilioAPI"
+- "TwilioData"
+- !private "URLQueryItem"
+- "Void"
+- !private "loader"
+- "print"
+- !private "~="
+depends-member:
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["Se", ""]
+- !private ["Se", "contact_channel_address"]
+- ["Se", "encode"]
+- ["Se", "init"]
+- !private ["Se", "status"]
+- !private ["Se", "subscript"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- ["SE", ""]
+- !private ["SE", "contact_channel_address"]
+- ["SE", "encode"]
+- ["SE", "init"]
+- !private ["SE", "status"]
+- !private ["SE", "subscript"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "ArrayLiteralElement"]
+- !private ["SQ", "Element"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "create"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "failure"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "post"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["10Shark_HTTP8FormBodyV", ""]
+- !private ["10Shark_HTTP8FormBodyV", "init"]
+- !private ["10Shark_HTTP8HTTPBodyP", "init"]
+- !private ["10Shark_HTTP9HTTPErrorV", ""]
+- !private ["10Shark_HTTP10HTTPLoaderC", "load"]
+- !private ["10Shark_HTTP10HTTPMethodV", "post"]
+- !private ["10Shark_HTTP11HTTPRequestV", "body"]
+- !private ["10Shark_HTTP11HTTPRequestV", "headers"]
+- !private ["10Shark_HTTP11HTTPRequestV", "host"]
+- !private ["10Shark_HTTP11HTTPRequestV", "init"]
+- !private ["10Shark_HTTP11HTTPRequestV", "method"]
+- !private ["10Shark_HTTP11HTTPRequestV", "path"]
+- !private ["10Shark_HTTP12HTTPResponseV", "body"]
+- !private ["10Shark_HTTP12HTTPResponseV", "status"]
+- !private ["10Shark_HTTP10HTTPStatusV", ""]
+- !private ["10Shark_HTTP10HTTPStatusV", "create"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "create"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "failure"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "post"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- !private ["s6HasherV", "combine"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSObjectC", "JSONObjectWithData"]
+- !private ["So8NSObjectC", "JSONObjectWithStream"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectP", "JSONObjectWithData"]
+- !private ["So8NSObjectP", "JSONObjectWithStream"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["s9OptionSetP", "ArrayLiteralElement"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "init"]
+- !private ["SY", "ArrayLiteralElement"]
+- !private ["SY", "Element"]
+- !private ["SY", ""]
+- !private ["SY", "init"]
+- !private ["So20NSJSONReadingOptionsV", "ArrayLiteralElement"]
+- !private ["So20NSJSONReadingOptionsV", "Element"]
+- !private ["So20NSJSONReadingOptionsV", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "ArrayLiteralElement"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10Shark_HTTP9TwilioAPIC", "FormBody"]
+- ["10Shark_HTTP9TwilioAPIC", "HTTPLoader"]
+- !private ["10Shark_HTTP9TwilioAPIC", "HTTPRequest"]
+- !private ["10Shark_HTTP9TwilioAPIC", "JSONSerialization"]
+- !private ["10Shark_HTTP9TwilioAPIC", "String"]
+- ["10Shark_HTTP9TwilioAPIC", "TwilioData"]
+- !private ["10Shark_HTTP9TwilioAPIC", "URLQueryItem"]
+- ["10Shark_HTTP9TwilioAPIC", "Void"]
+- ["10Shark_HTTP9TwilioAPIC", "deinit"]
+- ["10Shark_HTTP9TwilioAPIC", "init"]
+- !private ["10Shark_HTTP9TwilioAPIC", "loader"]
+- ["10Shark_HTTP9TwilioAPIC", "postData"]
+- !private ["10Shark_HTTP9TwilioAPIC", "print"]
+- ["10Shark_HTTP10TwilioDataV", "CodingKeys"]
+- ["10Shark_HTTP10TwilioDataV", "String"]
+- ["10Shark_HTTP10TwilioDataV", ""]
+- ["10Shark_HTTP10TwilioDataV", "contact_channel_address"]
+- ["10Shark_HTTP10TwilioDataV", "encode"]
+- ["10Shark_HTTP10TwilioDataV", "init"]
+- ["10Shark_HTTP10TwilioDataV", "status"]
+- !private ["10Foundation12URLQueryItemV", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jsonObject"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "10Shark_HTTP8FormBodyV"
+- !private "10Shark_HTTP8HTTPBodyP"
+- !private "10Shark_HTTP9HTTPErrorV"
+- !private "10Shark_HTTP10HTTPLoaderC"
+- !private "10Shark_HTTP10HTTPMethodV"
+- !private "10Shark_HTTP11HTTPRequestV"
+- !private "10Shark_HTTP12HTTPResponseV"
+- !private "10Shark_HTTP10HTTPStatusV"
+- "SH"
+- !private "s6HasherV"
+- !private "So19NSJSONSerializationC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "So20NSJSONReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s6ResultO"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "10Shark_HTTP9TwilioAPIC"
+- "10Shark_HTTP10TwilioDataV"
+- !private "10Foundation12URLQueryItemV"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bd2be4a7f7d32cb81bcfd20540cea7fe"

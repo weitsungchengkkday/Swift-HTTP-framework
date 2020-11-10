@@ -8,7 +8,8 @@
 import Foundation
 
 public class ResetGuard: HTTPLoader {
-    @AtomicTransaction(wrappedValue: false, queue: DispatchQueue(label: "reset Guard Queue", qos: .background))
+    
+    @AtomicTransaction(wrappedValue: false, queue: DispatchQueue(label: "reset.guard.queue", qos: .background))
     private var isResetting: Bool
     
     open override func load(task: HTTPTask) {
@@ -19,37 +20,23 @@ public class ResetGuard: HTTPLoader {
         }
     }
     
-    //    public override func load(request: HTTPRequest, completion: @escaping (HTTPResult) -> Void) {
-    //
-    //        if isResetting == false {
-    //            super.load(request: request, completion: completion)
-    //        } else {
-    //            let error = HTTPError(code: .resetInProgress, request: request, response: nil, underlyingError: nil)
-    //            completion(.failure(error))
-    //        }
-    //    }
-    
     public override func reset(with group: DispatchGroup) {
-        
-        //  print(Thread.current.isMainThread)
         if isResetting == true {
             return
         }
+        
         guard let next = nextLoader else { return }
-        print("guard reset in")
+        
         group.enter()
-    
+        
         _isResetting.mutate { bool in
             bool = true
         }
-        //        isResetting = true
+
         next.reset {
-            //     print(Thread.current.isMainThread)
             self._isResetting.mutate { bool in
                 bool = false
             }
-            //  self.isResetting = false
-            print("guard reset out")
             group.leave()
         }
     }

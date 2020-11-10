@@ -8,6 +8,7 @@
 import Foundation
 
 class ModifyRequest: HTTPLoader {
+    
     private let modifier: (HTTPRequest) -> HTTPRequest
     
     public init(modifier: @escaping (HTTPRequest) -> HTTPRequest) {
@@ -20,5 +21,5 @@ class ModifyRequest: HTTPLoader {
         task.request = modifiedRequest
         super.load(task: task)
     }
-    
+
 }

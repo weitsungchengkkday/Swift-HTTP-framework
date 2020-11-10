@@ -50,17 +50,17 @@ class StarWarsAPI {
         }
     }
     
-    
     func requestPlanets(completion: @escaping ([StartWarsPlanets]) -> Void) {
         var r = HTTPRequest()
         r.serverEnvironment = .testServer
         r.path = "/planets"
-        
+         
         loader.load(request: r) { result in
             
             switch result{
             case.failure(let error):
                 print("❌ERROR: \(error)")
+
             case .success(let response):
                 print("✅SUCCESS")
                 guard let data = response.body else {
@@ -87,7 +87,7 @@ class StarWarsAPI {
     
     func resetPlanets() {
         loader.reset {
-            print("HIIIIIIIIIIIIIIII")
+            print("HI")
         }
     }
     

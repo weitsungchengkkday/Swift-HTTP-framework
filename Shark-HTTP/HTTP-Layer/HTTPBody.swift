@@ -8,23 +8,30 @@
 import Foundation
 
 public protocol HTTPBody {
+    
     var isEmpty: Bool { get }
     var additionalHeaders: [String: String] { get }
+    
     func encode() throws -> Data
 }
 
 extension HTTPBody {
+    
     public var isEmpty: Bool { return false }
     public var additionalHeaders: [String: String] { return [:] }
 }
 
 public struct EmptyBody: HTTPBody {
+    
     public let isEmpty: Bool = true
+    
     public init() {}
+    
     public func encode() throws -> Data { return Data()}
 }
 
 public struct DataBody: HTTPBody {
+    
     private let data: Data
     public var isEmpty: Bool { return data.isEmpty }
     public var additionalHeaders: [String : String]
@@ -33,10 +40,12 @@ public struct DataBody: HTTPBody {
         self.data = data
         self.additionalHeaders = additionalHeaders
     }
+    
     public func encode() throws -> Data { data }
 }
 
 public struct JSONBody: HTTPBody {
+    
     public let isEmpty: Bool = false
     public var additionalHeaders: [String : String] = [
         "Content-Type": "application/json; charset=utf-8"
@@ -53,11 +62,13 @@ public struct JSONBody: HTTPBody {
 
 
 public struct FormBody: HTTPBody {
+    
     public var isEmpty: Bool { values.isEmpty }
     public let additionalHeaders: [String : String] = [
         "Content-Type": "application/x-www-form-urlencoded; charset=utf-8"
     ]
     private let values: [URLQueryItem]
+    
     public init(_ values: [URLQueryItem]) {
         self.values = values
     }
@@ -84,7 +95,6 @@ public struct FormBody: HTTPBody {
         let allowedCharacters = CharacterSet.alphanumerics
         return string.addingPercentEncoding(withAllowedCharacters: allowedCharacters) ?? ""
     }
-    
 }
 
 
