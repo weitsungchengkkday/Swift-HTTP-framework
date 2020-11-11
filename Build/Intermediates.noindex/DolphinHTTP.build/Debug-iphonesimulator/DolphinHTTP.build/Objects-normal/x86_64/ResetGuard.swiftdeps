@@ -55,7 +55,6 @@ depends-member:
 - ["SQ", "init"]
 - !private ["SQ", "leave"]
 - !private ["SQ", "resetInProgress"]
-- !private ["11DolphinHTTP9HTTPErrorV", ""]
 - ["11DolphinHTTP10HTTPLoaderC", "AtomicTransaction"]
 - ["11DolphinHTTP10HTTPLoaderC", "Bool"]
 - ["11DolphinHTTP10HTTPLoaderC", "DispatchGroup"]
@@ -133,7 +132,6 @@ depends-nominal:
 - "8Dispatch0A3QoSV"
 - "So17OS_dispatch_queueC"
 - "SQ"
-- !private "11DolphinHTTP9HTTPErrorV"
 - "11DolphinHTTP10HTTPLoaderC"
 - !private "11DolphinHTTP8HTTPTaskC"
 - "SH"

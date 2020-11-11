@@ -16,7 +16,6 @@ depends-top-level:
 - "ModifyRequest"
 - !private "modifier"
 depends-member:
-- !private ["11DolphinHTTP9HTTPErrorV", ""]
 - ["11DolphinHTTP10HTTPLoaderC", "HTTPRequest"]
 - ["11DolphinHTTP10HTTPLoaderC", "HTTPTask"]
 - ["11DolphinHTTP10HTTPLoaderC", ""]
@@ -33,7 +32,6 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 depends-nominal:
-- !private "11DolphinHTTP9HTTPErrorV"
 - "11DolphinHTTP10HTTPLoaderC"
 - !private "11DolphinHTTP8HTTPTaskC"
 - "11DolphinHTTP13ModifyRequestC"

@@ -25,6 +25,7 @@ depends-member:
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["11DolphinHTTP9HTTPErrorV", ""]
 - ["11DolphinHTTP10HTTPLoaderC", "DispatchGroup"]
 - ["11DolphinHTTP10HTTPLoaderC", "HTTPTask"]
 - ["11DolphinHTTP10HTTPLoaderC", ""]
@@ -51,6 +52,7 @@ depends-nominal:
 - !private "s23CustomStringConvertibleP"
 - !private "s26DefaultStringInterpolationV"
 - !private "s32ExpressibleByStringInterpolationP"
+- !private "11DolphinHTTP9HTTPErrorV"
 - "11DolphinHTTP10HTTPLoaderC"
 - !private "11DolphinHTTP8HTTPTaskC"
 - "11DolphinHTTP11PrintLoaderC"
