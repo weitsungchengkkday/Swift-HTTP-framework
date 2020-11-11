@@ -31,7 +31,6 @@ depends-member:
 - ["11DolphinHTTP9HTTPErrorV4CodeO", "invalidResponse"]
 - ["11DolphinHTTP9HTTPErrorV4CodeO", "resetInProgress"]
 - ["11DolphinHTTP9HTTPErrorV4CodeO", "unknown"]
-- ["Se", "init"]
 - ["SQ", "=="]
 - ["SQ", ""]
 - ["SQ", "_rawHashValue"]
@@ -69,10 +68,9 @@ depends-member:
 - !private ["s6HasherV", "combine"]
 - ["So8NSCodingP", ""]
 - ["So8NSObjectP", ""]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 depends-nominal:
 - "11DolphinHTTP9HTTPErrorV4CodeO"
-- "Se"
 - "SQ"
 - "s5ErrorP"
 - "11DolphinHTTP9HTTPErrorV"
@@ -80,7 +78,7 @@ depends-nominal:
 - !private "s6HasherV"
 - "So8NSCodingP"
 - "So8NSObjectP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"

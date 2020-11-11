@@ -102,7 +102,6 @@ depends-member:
 - ["s30ExpressibleByDictionaryLiteralP", "init"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "values"]
-- !private ["11DolphinHTTP9HTTPErrorV", ""]
 - ["11DolphinHTTP10HTTPLoaderC", "DispatchGroup"]
 - ["11DolphinHTTP10HTTPLoaderC", "DispatchQueue"]
 - ["11DolphinHTTP10HTTPLoaderC", "HTTPTask"]
@@ -167,7 +166,6 @@ depends-member:
 - !private ["ST", "Iterator"]
 - ["ST", ""]
 - ["ST", "init"]
-- !private ["ST", "makeIterator"]
 - !private ["ST", "subscript"]
 - !private ["ST", "values"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
@@ -204,7 +202,6 @@ depends-nominal:
 - "SE"
 - "SQ"
 - "s30ExpressibleByDictionaryLiteralP"
-- !private "11DolphinHTTP9HTTPErrorV"
 - "11DolphinHTTP10HTTPLoaderC"
 - !private "11DolphinHTTP8HTTPTaskC"
 - "SH"

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DolphinHTTP",
+        "repositoryURL": "git@github.com:WeiTsungCheng/DolphinHTTP.git",
+        "state": {
+          "branch": null,
+          "revision": "8f7acee360d62691cd92d4e6519b19a7f563803a",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

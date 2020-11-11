@@ -13,7 +13,7 @@
 		F490B673255A4067008B428E /* OdooLocalEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490B672255A4067008B428E /* OdooLocalEnv.swift */; };
 		F490B67B255A6F8E008B428E /* TestEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490B67A255A6F8E008B428E /* TestEnv.swift */; };
 		F490B689255A80AC008B428E /* OdooBugAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490B688255A80AC008B428E /* OdooBugAPITests.swift */; };
-		F4945260255BBD9100BC5A05 /* DolphinHTTP in Frameworks */ = {isa = PBXBuildFile; productRef = F494525F255BBD9100BC5A05 /* DolphinHTTP */; };
+		F4B92BCD255BDE810044D357 /* DolphinHTTP in Frameworks */ = {isa = PBXBuildFile; productRef = F4B92BCC255BDE810044D357 /* DolphinHTTP */; };
 		F4D4D5F72558F6BB002BA0C5 /* OdooBugAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D4D5F62558F6BB002BA0C5 /* OdooBugAPI.swift */; };
 		F4E319552546A48A000614ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319542546A48A000614ED /* AppDelegate.swift */; };
 		F4E319572546A48A000614ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E319562546A48A000614ED /* SceneDelegate.swift */; };
@@ -52,7 +52,6 @@
 		F490B672255A4067008B428E /* OdooLocalEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdooLocalEnv.swift; sourceTree = "<group>"; };
 		F490B67A255A6F8E008B428E /* TestEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEnv.swift; sourceTree = "<group>"; };
 		F490B688255A80AC008B428E /* OdooBugAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdooBugAPITests.swift; sourceTree = "<group>"; };
-		F4945257255BBC6100BC5A05 /* DolphinHTTP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DolphinHTTP; sourceTree = "<group>"; };
 		F4D4D5F62558F6BB002BA0C5 /* OdooBugAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdooBugAPI.swift; sourceTree = "<group>"; };
 		F4E319512546A48A000614ED /* Shark-HTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shark-HTTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E319542546A48A000614ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4945260255BBD9100BC5A05 /* DolphinHTTP in Frameworks */,
+				F4B92BCD255BDE810044D357 /* DolphinHTTP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +126,6 @@
 		F4E319482546A48A000614ED = {
 			isa = PBXGroup;
 			children = (
-				F4945257255BBC6100BC5A05 /* DolphinHTTP */,
 				F4E319532546A48A000614ED /* Shark-HTTP */,
 				F4E3196A2546A48B000614ED /* Shark-HTTPTests */,
 				F4E319752546A48B000614ED /* Shark-HTTPUITests */,
@@ -211,7 +209,7 @@
 			);
 			name = "Shark-HTTP";
 			packageProductDependencies = (
-				F494525F255BBD9100BC5A05 /* DolphinHTTP */,
+				F4B92BCC255BDE810044D357 /* DolphinHTTP */,
 			);
 			productName = "Shark-HTTP";
 			productReference = F4E319512546A48A000614ED /* Shark-HTTP.app */;
@@ -284,6 +282,9 @@
 				Base,
 			);
 			mainGroup = F4E319482546A48A000614ED;
+			packageReferences = (
+				F4B92BCB255BDE810044D357 /* XCRemoteSwiftPackageReference "DolphinHTTP" */,
+			);
 			productRefGroup = F4E319522546A48A000614ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -673,9 +674,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		F4B92BCB255BDE810044D357 /* XCRemoteSwiftPackageReference "DolphinHTTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:WeiTsungCheng/DolphinHTTP.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		F494525F255BBD9100BC5A05 /* DolphinHTTP */ = {
+		F4B92BCC255BDE810044D357 /* DolphinHTTP */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = F4B92BCB255BDE810044D357 /* XCRemoteSwiftPackageReference "DolphinHTTP" */;
 			productName = DolphinHTTP;
 		};
 /* End XCSwiftPackageProductDependency section */
