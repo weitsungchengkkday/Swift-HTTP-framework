@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import DolphinHTTP
 
 class TestAPI {
 

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import DolphinHTTP
 
 class ViewController: UIViewController {
 

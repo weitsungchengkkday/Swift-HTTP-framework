@@ -1,0 +1,4 @@
+module DolphinHTTP {
+header "DolphinHTTP-Swift.h"
+export *
+}

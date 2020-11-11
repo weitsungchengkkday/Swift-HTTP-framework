@@ -1,0 +1,169 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResetGuard"
+provides-nominal:
+- "11DolphinHTTP10ResetGuardC"
+provides-member:
+- ["11DolphinHTTP10ResetGuardC", ""]
+provides-dynamic-lookup:
+- "_isResetting"
+- "isResetting"
+- "load"
+- "reset"
+depends-top-level:
+- !private "=="
+- !private "AssignmentPrecedence"
+- "AtomicTransaction"
+- "Bool"
+- "BooleanLiteralType"
+- "DispatchGroup"
+- "DispatchQueue"
+- "HTTPLoader"
+- "HTTPTask"
+- "ResetGuard"
+- "StringLiteralType"
+- !private "_isResetting"
+- !private "isResetting"
+- !private "nextLoader"
+depends-member:
+- ["11DolphinHTTP17AtomicTransactionC", "init"]
+- !private ["11DolphinHTTP17AtomicTransactionC", "mutate"]
+- ["11DolphinHTTP17AtomicTransactionC", "subscript"]
+- ["11DolphinHTTP17AtomicTransactionC", "wrappedValue"]
+- !private ["s7CVarArgP", "enter"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "leave"]
+- !private ["11DolphinHTTP9HTTPErrorV4CodeO", "resetInProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "enter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "leave"]
+- !private ["s23CustomStringConvertibleP", "enter"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "leave"]
+- !private ["So17OS_dispatch_groupC", "enter"]
+- !private ["So17OS_dispatch_groupC", "leave"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "enter"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "leave"]
+- ["So18OS_dispatch_objectC", "sync"]
+- ["8Dispatch0A3QoSV", "background"]
+- ["So17OS_dispatch_queueC", "init"]
+- ["SQ", ""]
+- ["SQ", "background"]
+- !private ["SQ", "enter"]
+- ["SQ", "init"]
+- !private ["SQ", "leave"]
+- !private ["SQ", "resetInProgress"]
+- !private ["11DolphinHTTP9HTTPErrorV", ""]
+- ["11DolphinHTTP10HTTPLoaderC", "AtomicTransaction"]
+- ["11DolphinHTTP10HTTPLoaderC", "Bool"]
+- ["11DolphinHTTP10HTTPLoaderC", "DispatchGroup"]
+- ["11DolphinHTTP10HTTPLoaderC", "DispatchQueue"]
+- ["11DolphinHTTP10HTTPLoaderC", "HTTPTask"]
+- ["11DolphinHTTP10HTTPLoaderC", ""]
+- ["11DolphinHTTP10HTTPLoaderC", "_isResetting"]
+- ["11DolphinHTTP10HTTPLoaderC", "init"]
+- ["11DolphinHTTP10HTTPLoaderC", "isResetting"]
+- ["11DolphinHTTP10HTTPLoaderC", "load"]
+- !private ["11DolphinHTTP10HTTPLoaderC", "nextLoader"]
+- ["11DolphinHTTP10HTTPLoaderC", "reset"]
+- !private ["11DolphinHTTP8HTTPTaskC", "fail"]
+- !private ["SH", "enter"]
+- ["SH", "init"]
+- !private ["SH", "leave"]
+- !private ["SH", "resetInProgress"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "enter"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "leave"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "suspend"]
+- ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "enter"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "leave"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "suspend"]
+- ["So8NSObjectP", "sync"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "enter"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "leave"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- ["So9OS_objectC", "suspend"]
+- ["So9OS_objectC", "sync"]
+- ["11DolphinHTTP10ResetGuardC", "AtomicTransaction"]
+- ["11DolphinHTTP10ResetGuardC", "Bool"]
+- ["11DolphinHTTP10ResetGuardC", "DispatchGroup"]
+- ["11DolphinHTTP10ResetGuardC", "DispatchQueue"]
+- ["11DolphinHTTP10ResetGuardC", "HTTPTask"]
+- !private ["11DolphinHTTP10ResetGuardC", "_isResetting"]
+- ["11DolphinHTTP10ResetGuardC", "deinit"]
+- ["11DolphinHTTP10ResetGuardC", "init"]
+- !private ["11DolphinHTTP10ResetGuardC", "isResetting"]
+- ["11DolphinHTTP10ResetGuardC", "load"]
+- !private ["11DolphinHTTP10ResetGuardC", "nextLoader"]
+- ["11DolphinHTTP10ResetGuardC", "reset"]
+- ["7Combine9SchedulerP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leave"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "enter"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leave"]
+depends-nominal:
+- "11DolphinHTTP17AtomicTransactionC"
+- "s7CVarArgP"
+- !private "11DolphinHTTP9HTTPErrorV4CodeO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "So17OS_dispatch_groupC"
+- "So18OS_dispatch_objectC"
+- "8Dispatch0A3QoSV"
+- "So17OS_dispatch_queueC"
+- "SQ"
+- !private "11DolphinHTTP9HTTPErrorV"
+- "11DolphinHTTP10HTTPLoaderC"
+- !private "11DolphinHTTP8HTTPTaskC"
+- "SH"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- "11DolphinHTTP10ResetGuardC"
+- "7Combine9SchedulerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ef49ef52cf9ce65348a688b874170e1b"

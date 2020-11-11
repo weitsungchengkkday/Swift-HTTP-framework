@@ -1,0 +1,131 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPResponse"
+provides-nominal:
+- "11DolphinHTTP12HTTPResponseV"
+provides-member:
+- ["11DolphinHTTP12HTTPResponseV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyHashable"
+- "AssignmentPrecedence"
+- "Data"
+- "HTTPRequest"
+- "HTTPResponse"
+- "HTTPStatus"
+- "HTTPURLResponse"
+- "String"
+- !private "response"
+depends-member:
+- !private ["s7CVarArgP", "allHeaderFields"]
+- !private ["s7CVarArgP", "localizedString"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "allHeaderFields"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedString"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "allHeaderFields"]
+- !private ["s23CustomStringConvertibleP", "localizedString"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- ["Se", "init"]
+- ["SQ", ""]
+- !private ["SQ", "allHeaderFields"]
+- !private ["SQ", "init"]
+- !private ["SQ", "localizedString"]
+- !private ["SQ", "statusCode"]
+- ["11DolphinHTTP12HTTPResponseV", "AnyHashable"]
+- ["11DolphinHTTP12HTTPResponseV", "Data"]
+- ["11DolphinHTTP12HTTPResponseV", "HTTPRequest"]
+- ["11DolphinHTTP12HTTPResponseV", "HTTPStatus"]
+- ["11DolphinHTTP12HTTPResponseV", "HTTPURLResponse"]
+- ["11DolphinHTTP12HTTPResponseV", "String"]
+- ["11DolphinHTTP12HTTPResponseV", "body"]
+- ["11DolphinHTTP12HTTPResponseV", "headers"]
+- ["11DolphinHTTP12HTTPResponseV", "init"]
+- ["11DolphinHTTP12HTTPResponseV", "message"]
+- ["11DolphinHTTP12HTTPResponseV", "request"]
+- !private ["11DolphinHTTP12HTTPResponseV", "response"]
+- ["11DolphinHTTP12HTTPResponseV", "status"]
+- !private ["11DolphinHTTP10HTTPStatusV", "init"]
+- !private ["So17NSHTTPURLResponseC", "allHeaderFields"]
+- !private ["So17NSHTTPURLResponseC", "localizedString"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["SH", "allHeaderFields"]
+- !private ["SH", "init"]
+- !private ["SH", "localizedString"]
+- !private ["SH", "statusCode"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "allHeaderFields"]
+- !private ["So8NSCodingP", "localizedString"]
+- !private ["So8NSCodingP", "localizedStringForStatusCode"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "allHeaderFields"]
+- !private ["So9NSCopyingP", "localizedString"]
+- !private ["So9NSCopyingP", "localizedStringForStatusCode"]
+- !private ["So9NSCopyingP", "statusCode"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "allHeaderFields"]
+- !private ["So8NSObjectC", "localizedString"]
+- !private ["So8NSObjectC", "localizedStringForStatusCode"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "allHeaderFields"]
+- !private ["So8NSObjectP", "localizedString"]
+- !private ["So8NSObjectP", "localizedStringForStatusCode"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "allHeaderFields"]
+- !private ["So14NSSecureCodingP", "localizedString"]
+- !private ["So14NSSecureCodingP", "localizedStringForStatusCode"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- ["So13NSURLResponseC", ""]
+- !private ["So13NSURLResponseC", "allHeaderFields"]
+- !private ["So13NSURLResponseC", "localizedString"]
+- !private ["So13NSURLResponseC", "localizedStringForStatusCode"]
+- !private ["So13NSURLResponseC", "statusCode"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allHeaderFields"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "allHeaderFields"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "localizedString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- "SQ"
+- "11DolphinHTTP12HTTPResponseV"
+- !private "11DolphinHTTP10HTTPStatusV"
+- !private "So17NSHTTPURLResponseC"
+- !private "SH"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So13NSURLResponseC"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1453a67a7be2df822642c3ff1bb6c4ba"

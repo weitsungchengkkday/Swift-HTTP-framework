@@ -44,12 +44,12 @@ depends-member:
 - !private ["SQ", "global"]
 - !private ["SQ", "leave"]
 - !private ["SQ", "userInitiated"]
-- ["10Shark_HTTP10HTTPLoaderC", "DispatchGroup"]
-- !private ["10Shark_HTTP10HTTPLoaderC", "DispatchQueue"]
-- ["10Shark_HTTP10HTTPLoaderC", ""]
-- ["10Shark_HTTP10HTTPLoaderC", "init"]
-- !private ["10Shark_HTTP10HTTPLoaderC", "print"]
-- ["10Shark_HTTP10HTTPLoaderC", "reset"]
+- ["11DolphinHTTP10HTTPLoaderC", "DispatchGroup"]
+- !private ["11DolphinHTTP10HTTPLoaderC", "DispatchQueue"]
+- ["11DolphinHTTP10HTTPLoaderC", ""]
+- ["11DolphinHTTP10HTTPLoaderC", "init"]
+- !private ["11DolphinHTTP10HTTPLoaderC", "print"]
+- ["11DolphinHTTP10HTTPLoaderC", "reset"]
 - !private ["SH", "async"]
 - !private ["SH", "enter"]
 - !private ["SH", "global"]
@@ -113,7 +113,7 @@ depends-nominal:
 - "So18OS_dispatch_objectC"
 - !private "So17OS_dispatch_queueC"
 - !private "SQ"
-- "10Shark_HTTP10HTTPLoaderC"
+- "11DolphinHTTP10HTTPLoaderC"
 - !private "SH"
 - "10Shark_HTTP17MyCustomLoaderTwoC"
 - "So8NSObjectC"
@@ -127,6 +127,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Build/Products/Debug-iphonesimulator/DolphinHTTP.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -154,4 +155,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b7758b97a6b9e4d23f817e940bd04ad2"
+interface-hash: "6235598a85f9bc4811736c9a0c2b3baf"

@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPLoader"
+provides-nominal:
+- "11DolphinHTTP10HTTPLoaderC"
+provides-member:
+- ["11DolphinHTTP10HTTPLoaderC", ""]
+- ["11DolphinHTTP10HTTPLoaderC", "reset"]
+- ["11DolphinHTTP10HTTPLoaderC", "load"]
+provides-dynamic-lookup:
+- "load"
+- "nextLoader"
+- "reset"
+depends-top-level:
+- !private "=="
+- "DispatchGroup"
+- "DispatchQueue"
+- "HTTPLoader"
+- "HTTPRequest"
+- "HTTPResult"
+- "HTTPTask"
+- !private "StringLiteralType"
+- "Void"
+- !private "fatalError"
+- !private "load"
+- !private "nextLoader"
+depends-member:
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "notify"]
+- !private ["11DolphinHTTP9HTTPErrorV4CodeO", "cannotConnect"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "notify"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "notify"]
+- !private ["So17OS_dispatch_groupC", "init"]
+- !private ["So17OS_dispatch_groupC", "notify"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "notify"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SQ", ""]
+- !private ["SQ", "cannotConnect"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "notify"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- ["11DolphinHTTP10HTTPLoaderC", "DispatchGroup"]
+- ["11DolphinHTTP10HTTPLoaderC", "DispatchQueue"]
+- ["11DolphinHTTP10HTTPLoaderC", "HTTPLoader"]
+- ["11DolphinHTTP10HTTPLoaderC", "HTTPRequest"]
+- ["11DolphinHTTP10HTTPLoaderC", "HTTPResult"]
+- ["11DolphinHTTP10HTTPLoaderC", "HTTPTask"]
+- ["11DolphinHTTP10HTTPLoaderC", "Void"]
+- ["11DolphinHTTP10HTTPLoaderC", ""]
+- ["11DolphinHTTP10HTTPLoaderC", "deinit"]
+- !private ["11DolphinHTTP10HTTPLoaderC", "fatalError"]
+- ["11DolphinHTTP10HTTPLoaderC", "init"]
+- ["11DolphinHTTP10HTTPLoaderC", "load"]
+- ["11DolphinHTTP10HTTPLoaderC", "nextLoader"]
+- ["11DolphinHTTP10HTTPLoaderC", "reset"]
+- !private ["11DolphinHTTP8HTTPTaskC", "fail"]
+- !private ["11DolphinHTTP8HTTPTaskC", "init"]
+- !private ["SH", "cannotConnect"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "notify"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "notify"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "notify"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "notify"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notify"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "notify"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "11DolphinHTTP9HTTPErrorV4CodeO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "So17OS_dispatch_groupC"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "11DolphinHTTP10HTTPLoaderC"
+- !private "11DolphinHTTP8HTTPTaskC"
+- !private "SH"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "So9OS_objectC"
+- !private "7Combine9SchedulerP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b9048bad95aa2afcdd75437440ee04bc"

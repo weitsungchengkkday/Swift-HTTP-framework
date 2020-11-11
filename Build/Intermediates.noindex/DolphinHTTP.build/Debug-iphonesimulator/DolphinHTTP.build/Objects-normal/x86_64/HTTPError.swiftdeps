@@ -1,0 +1,103 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPError"
+provides-nominal:
+- "11DolphinHTTP9HTTPErrorV"
+- "11DolphinHTTP9HTTPErrorV4CodeO"
+provides-member:
+- ["11DolphinHTTP9HTTPErrorV", ""]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Code"
+- "Error"
+- !private "FloatLiteralType"
+- "HTTPError"
+- "HTTPRequest"
+- "HTTPResponse"
+- !private "IntegerLiteralType"
+depends-member:
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "=="]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", ""]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "__derived_enum_equals"]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "_rawHashValue"]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "cancelled"]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "cannotConnect"]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "hash"]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "hashValue"]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "insecureConnection"]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "invalidRequest"]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "invalidResponse"]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "resetInProgress"]
+- ["11DolphinHTTP9HTTPErrorV4CodeO", "unknown"]
+- ["Se", "init"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "userInfo"]
+- ["11DolphinHTTP9HTTPErrorV", "Code"]
+- ["11DolphinHTTP9HTTPErrorV", "Error"]
+- ["11DolphinHTTP9HTTPErrorV", "HTTPRequest"]
+- ["11DolphinHTTP9HTTPErrorV", "HTTPResponse"]
+- ["11DolphinHTTP9HTTPErrorV", ""]
+- ["11DolphinHTTP9HTTPErrorV", "_code"]
+- ["11DolphinHTTP9HTTPErrorV", "_domain"]
+- ["11DolphinHTTP9HTTPErrorV", "_getEmbeddedNSError"]
+- ["11DolphinHTTP9HTTPErrorV", "_userInfo"]
+- ["11DolphinHTTP9HTTPErrorV", "code"]
+- ["11DolphinHTTP9HTTPErrorV", "domain"]
+- ["11DolphinHTTP9HTTPErrorV", "init"]
+- ["11DolphinHTTP9HTTPErrorV", "request"]
+- ["11DolphinHTTP9HTTPErrorV", "response"]
+- ["11DolphinHTTP9HTTPErrorV", "underlyingError"]
+- ["11DolphinHTTP9HTTPErrorV", "userInfo"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+depends-nominal:
+- "11DolphinHTTP9HTTPErrorV4CodeO"
+- "Se"
+- "SQ"
+- "s5ErrorP"
+- "11DolphinHTTP9HTTPErrorV"
+- "SH"
+- !private "s6HasherV"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "94a8bf0064e8a5067998c9b79e4b2e7a"

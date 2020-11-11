@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		DrrOeY5RKi0/ttCudgu8Dt2oXXE=
+		h+eeWGVYjSR8cT1ROqiKcPanF74=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		PD/v0GPZdfGFQ7KXmpUeJ+H3TRU=
+		lvuB9ZiaAJ0ratmdYCbJGWyTnTI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		sWUfrswb3JTIAEe5mOGkFki9lTM=
+		KlrW50RJYj5TaG152//jcDBqkto=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -26,51 +26,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		cDO7qqsvaobBkoONGCcIS+GKZvk=
-		</data>
-		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
-		<data>
-		FKLte4ICwiOfyS6kTHAS8LzDl08=
-		</data>
-		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
-		<data>
-		Yx2ygGCtgbPP9c9id7ejZ/1YjlY=
-		</data>
-		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
-		<data>
-		YBYL7lneDU2CG2FwOhFRFOoAKDw=
-		</data>
-		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
-		<data>
-		ZBWDtXPK6Pr0r43mP0IUUpNQF1g=
-		</data>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
-		<data>
-		BfWOl1q0CyYvst3TJN7lQOmXE8w=
-		</data>
-		<key>Frameworks/XCTest.framework/XCTest</key>
-		<data>
-		WojAri9J1auuEw0mkJQYe44Cu68=
-		</data>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
-		<data>
-		DWToONJXc2p8rC+UcfIF9hqJCgM=
-		</data>
-		<key>Frameworks/XCTest.framework/version.plist</key>
-		<data>
-		ZBWDtXPK6Pr0r43mP0IUUpNQF1g=
-		</data>
-		<key>Frameworks/libXCTestBundleInject.dylib</key>
-		<data>
-		xYfhkPmu2U/ThjZJMK3zQWg4IyQ=
-		</data>
-		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
-		<data>
-		7YL27Gdyvz9WusaA6hD5u9T6iR0=
-		</data>
-		<key>Frameworks/libclang_rt.tsan_iossim_dynamic.dylib</key>
-		<data>
-		z+ZgdKGEvLgQThlAic6xkhTcz7I=
+		/oc/7j970EqvQ4xffSMofa1PKKI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -80,18 +36,6 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>PlugIns/Shark-HTTPTests.xctest/Info.plist</key>
-		<data>
-		+Sk5GPySkCjMFJgQ9G6z6ygGONk=
-		</data>
-		<key>PlugIns/Shark-HTTPTests.xctest/Shark-HTTPTests</key>
-		<data>
-		lpt99hz1uPxMMFchFpwBMq/Ij7A=
-		</data>
-		<key>PlugIns/Shark-HTTPTests.xctest/_CodeSignature/CodeResources</key>
-		<data>
-		43Uu/sJiyLusPMY1kqAciXeoBgM=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -99,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GjRn233sMCEm6ANjylFZEnj5xgLiP+39b/axK1nADeI=
+			WVE3bNZK0HesePAEFWvwc285MyPAAR9JNiZ/UIgd7Tk=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -113,14 +57,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JWefZ//UVUEypqC2RbUcym/laZ7IAHkZ9yRIS7P0IiU=
+			mo5rwng0k3RnIUcXJc15BBe7UgwpirpTOOjOaDdyjaE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Btlp57w5xEcX9sMDA71iuKIAnG27iuUltJjh0L2gaNQ=
+			GxKeqOcU9a2ZtvOb4xxZshOI0FYDbiZHFWgJ/lPaEZ8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -134,105 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SUGggfBf4HQIFEAS7yZCl8/XMwHHvl/FhYaTqMPF4Mg=
-			</data>
-		</dict>
-		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cGQQxd0FGfLY1VniDDu1hjDgZp/moynKA1OiihX81JI=
-			</data>
-		</dict>
-		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9NgNdzGtSojMBK/GuM0D9MfLP1WAVXalVA6+F4NCIDw=
-			</data>
-		</dict>
-		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V0PsZTzQHz8L/XQNvIUjkZvh7PME53dtIYdskBEyeSI=
-			</data>
-		</dict>
-		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ETn1yf1whuEz0L3DyHG4x64W9mZrR29ZoP0gahWFRbM=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ezv14BWjWjtfjzMaJkKbfcCUxNdonQeia//xwlogbfA=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/XCTest</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gkcoBBW13EVfznT904oWzGOx3J3bPhQV/yg1XwLJ2Pk=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IMxCtI2jIXmr1GPl1Ok3AkEMtR6JRMsAmgRgaRUjw6g=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ETn1yf1whuEz0L3DyHG4x64W9mZrR29ZoP0gahWFRbM=
-			</data>
-		</dict>
-		<key>Frameworks/libXCTestBundleInject.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ELwff1UtN6dc9Q/usZS7zg2/C2X9+syZoUpt/HSkUdc=
-			</data>
-		</dict>
-		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9q9+75OOlwPCElp7LLkAWrMPh8ZKLyH1ScWzZhgVW00=
-			</data>
-		</dict>
-		<key>Frameworks/libclang_rt.tsan_iossim_dynamic.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RcaMM925ZvN57/wmH6l/3Mrtv0TZTS9o0lL1ZYRHpQw=
-			</data>
-		</dict>
-		<key>PlugIns/Shark-HTTPTests.xctest/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9IrLdByJtmn7uydc2bXnj/67OKAgtgkHAi4T58mq980=
-			</data>
-		</dict>
-		<key>PlugIns/Shark-HTTPTests.xctest/Shark-HTTPTests</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zwmfahNNzPVL3IG7N03btoMphSk1xWpVlBwsXkY90cU=
-			</data>
-		</dict>
-		<key>PlugIns/Shark-HTTPTests.xctest/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fd9/96HykSLEY3Ge1BINK49uEPxx+WaW1LvEKPjbOS4=
+			j3zH7VXfxHTPRANESHaEvCO0SQCWUVdVPWNZaiDv2pg=
 			</data>
 		</dict>
 	</dict>

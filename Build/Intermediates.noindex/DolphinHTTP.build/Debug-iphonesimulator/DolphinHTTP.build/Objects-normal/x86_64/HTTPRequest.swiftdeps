@@ -1,0 +1,224 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPRequest"
+provides-nominal:
+- "11DolphinHTTP11HTTPRequestV"
+provides-member:
+- ["11DolphinHTTP11HTTPRequestV", ""]
+- ["11DolphinHTTP11HTTPRequestV", "scheme"]
+- ["11DolphinHTTP11HTTPRequestV", "url"]
+- ["11DolphinHTTP11HTTPRequestV", "host"]
+- ["11DolphinHTTP11HTTPRequestV", "path"]
+- ["11DolphinHTTP11HTTPRequestV", "queryItems"]
+- ["11DolphinHTTP11HTTPRequestV", "port"]
+- ["11DolphinHTTP11HTTPRequestV", "serverEnvironment"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "EmptyBody"
+- "HTTPBody"
+- "HTTPMethod"
+- "HTTPRequest"
+- "HTTPRequestOption"
+- "Int"
+- "ObjectIdentifier"
+- "ServerEnvironment"
+- "String"
+- "StringLiteralType"
+- "URL"
+- "URLComponents"
+- "URLQueryItem"
+- "UUID"
+- !private "options"
+- !private "urlComponents"
+depends-member:
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "host"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "port"]
+- !private ["s28CustomDebugStringConvertibleP", "queryItems"]
+- !private ["s28CustomDebugStringConvertibleP", "scheme"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "host"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "path"]
+- !private ["s17CustomReflectableP", "port"]
+- !private ["s17CustomReflectableP", "queryItems"]
+- !private ["s17CustomReflectableP", "scheme"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "url"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "host"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "port"]
+- !private ["s23CustomStringConvertibleP", "queryItems"]
+- !private ["s23CustomStringConvertibleP", "scheme"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["Se", "host"]
+- ["Se", "init"]
+- !private ["Se", "path"]
+- !private ["Se", "port"]
+- !private ["Se", "queryItems"]
+- !private ["Se", "scheme"]
+- !private ["Se", "subscript"]
+- !private ["Se", "url"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["11DolphinHTTP9EmptyBodyV", ""]
+- ["11DolphinHTTP9EmptyBodyV", "init"]
+- !private ["SE", "host"]
+- ["SE", "init"]
+- !private ["SE", "path"]
+- !private ["SE", "port"]
+- !private ["SE", "queryItems"]
+- !private ["SE", "scheme"]
+- !private ["SE", "subscript"]
+- !private ["SE", "url"]
+- ["SQ", ""]
+- ["SQ", "get"]
+- !private ["SQ", "host"]
+- ["SQ", "init"]
+- !private ["SQ", "path"]
+- !private ["SQ", "port"]
+- !private ["SQ", "queryItems"]
+- !private ["SQ", "scheme"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "url"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["11DolphinHTTP8HTTPBodyP", "init"]
+- ["11DolphinHTTP10HTTPMethodV", "get"]
+- ["11DolphinHTTP11HTTPRequestV", "EmptyBody"]
+- ["11DolphinHTTP11HTTPRequestV", "HTTPBody"]
+- ["11DolphinHTTP11HTTPRequestV", "HTTPMethod"]
+- ["11DolphinHTTP11HTTPRequestV", "HTTPRequestOption"]
+- ["11DolphinHTTP11HTTPRequestV", "Int"]
+- ["11DolphinHTTP11HTTPRequestV", "ObjectIdentifier"]
+- ["11DolphinHTTP11HTTPRequestV", "ServerEnvironment"]
+- ["11DolphinHTTP11HTTPRequestV", "String"]
+- ["11DolphinHTTP11HTTPRequestV", "URL"]
+- ["11DolphinHTTP11HTTPRequestV", "URLComponents"]
+- ["11DolphinHTTP11HTTPRequestV", "URLQueryItem"]
+- ["11DolphinHTTP11HTTPRequestV", "UUID"]
+- ["11DolphinHTTP11HTTPRequestV", ""]
+- ["11DolphinHTTP11HTTPRequestV", "body"]
+- ["11DolphinHTTP11HTTPRequestV", "headers"]
+- ["11DolphinHTTP11HTTPRequestV", "host"]
+- ["11DolphinHTTP11HTTPRequestV", "id"]
+- ["11DolphinHTTP11HTTPRequestV", "init"]
+- ["11DolphinHTTP11HTTPRequestV", "method"]
+- !private ["11DolphinHTTP11HTTPRequestV", "options"]
+- ["11DolphinHTTP11HTTPRequestV", "path"]
+- ["11DolphinHTTP11HTTPRequestV", "port"]
+- ["11DolphinHTTP11HTTPRequestV", "queryItems"]
+- ["11DolphinHTTP11HTTPRequestV", "scheme"]
+- ["11DolphinHTTP11HTTPRequestV", "serverEnvironment"]
+- ["11DolphinHTTP11HTTPRequestV", "subscript"]
+- ["11DolphinHTTP11HTTPRequestV", "url"]
+- !private ["11DolphinHTTP11HTTPRequestV", "urlComponents"]
+- ["11DolphinHTTP17HTTPRequestOptionP", "Value"]
+- !private ["11DolphinHTTP17HTTPRequestOptionP", "defaultOptionValue"]
+- ["SH", ""]
+- ["SH", "get"]
+- !private ["SH", "host"]
+- ["SH", "init"]
+- !private ["SH", "path"]
+- !private ["SH", "port"]
+- !private ["SH", "queryItems"]
+- !private ["SH", "scheme"]
+- !private ["SH", "subscript"]
+- !private ["SH", "url"]
+- ["So8NSCodingP", ""]
+- !private ["SO", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "host"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["10Foundation20ReferenceConvertibleP", "port"]
+- !private ["10Foundation20ReferenceConvertibleP", "queryItems"]
+- !private ["10Foundation20ReferenceConvertibleP", "scheme"]
+- !private ["10Foundation20ReferenceConvertibleP", "url"]
+- ["ST", ""]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["11DolphinHTTP17ServerEnvironmentV", ""]
+- !private ["10Foundation13URLComponentsV", "host"]
+- ["10Foundation13URLComponentsV", "init"]
+- !private ["10Foundation13URLComponentsV", "path"]
+- !private ["10Foundation13URLComponentsV", "port"]
+- !private ["10Foundation13URLComponentsV", "queryItems"]
+- !private ["10Foundation13URLComponentsV", "scheme"]
+- !private ["10Foundation13URLComponentsV", "url"]
+- ["10Foundation4UUIDV", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "host"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "port"]
+- !private ["s21_ObjectiveCBridgeableP", "queryItems"]
+- !private ["s21_ObjectiveCBridgeableP", "scheme"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "url"]
+depends-nominal:
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "11DolphinHTTP9EmptyBodyV"
+- "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "11DolphinHTTP8HTTPBodyP"
+- "11DolphinHTTP10HTTPMethodV"
+- "11DolphinHTTP11HTTPRequestV"
+- "11DolphinHTTP17HTTPRequestOptionP"
+- "SH"
+- "So8NSCodingP"
+- !private "SO"
+- "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "11DolphinHTTP17ServerEnvironmentV"
+- "10Foundation13URLComponentsV"
+- "10Foundation4UUIDV"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b082f2cca2ff9f63997a85ad9dd0fe21"

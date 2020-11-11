@@ -121,22 +121,19 @@ depends-member:
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- !private ["10Shark_HTTP8FormBodyV", ""]
-- !private ["10Shark_HTTP8FormBodyV", "init"]
-- !private ["10Shark_HTTP8HTTPBodyP", "init"]
-- !private ["10Shark_HTTP9HTTPErrorV", ""]
-- !private ["10Shark_HTTP10HTTPLoaderC", "load"]
-- !private ["10Shark_HTTP10HTTPMethodV", "post"]
-- !private ["10Shark_HTTP11HTTPRequestV", "body"]
-- !private ["10Shark_HTTP11HTTPRequestV", "headers"]
-- !private ["10Shark_HTTP11HTTPRequestV", "host"]
-- !private ["10Shark_HTTP11HTTPRequestV", "init"]
-- !private ["10Shark_HTTP11HTTPRequestV", "method"]
-- !private ["10Shark_HTTP11HTTPRequestV", "path"]
-- !private ["10Shark_HTTP12HTTPResponseV", "body"]
-- !private ["10Shark_HTTP12HTTPResponseV", "status"]
-- !private ["10Shark_HTTP10HTTPStatusV", ""]
-- !private ["10Shark_HTTP10HTTPStatusV", "create"]
+- !private ["11DolphinHTTP8FormBodyV", "init"]
+- !private ["11DolphinHTTP8HTTPBodyP", "init"]
+- !private ["11DolphinHTTP10HTTPLoaderC", "load"]
+- !private ["11DolphinHTTP10HTTPMethodV", "post"]
+- !private ["11DolphinHTTP11HTTPRequestV", "body"]
+- !private ["11DolphinHTTP11HTTPRequestV", "headers"]
+- !private ["11DolphinHTTP11HTTPRequestV", "host"]
+- !private ["11DolphinHTTP11HTTPRequestV", "init"]
+- !private ["11DolphinHTTP11HTTPRequestV", "method"]
+- !private ["11DolphinHTTP11HTTPRequestV", "path"]
+- !private ["11DolphinHTTP12HTTPResponseV", "body"]
+- !private ["11DolphinHTTP12HTTPResponseV", "status"]
+- !private ["11DolphinHTTP10HTTPStatusV", "create"]
 - ["SH", "=="]
 - !private ["SH", ""]
 - ["SH", "_rawHashValue"]
@@ -239,14 +236,13 @@ depends-nominal:
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
-- !private "10Shark_HTTP8FormBodyV"
-- !private "10Shark_HTTP8HTTPBodyP"
-- !private "10Shark_HTTP9HTTPErrorV"
-- !private "10Shark_HTTP10HTTPLoaderC"
-- !private "10Shark_HTTP10HTTPMethodV"
-- !private "10Shark_HTTP11HTTPRequestV"
-- !private "10Shark_HTTP12HTTPResponseV"
-- !private "10Shark_HTTP10HTTPStatusV"
+- !private "11DolphinHTTP8FormBodyV"
+- !private "11DolphinHTTP8HTTPBodyP"
+- !private "11DolphinHTTP10HTTPLoaderC"
+- !private "11DolphinHTTP10HTTPMethodV"
+- !private "11DolphinHTTP11HTTPRequestV"
+- !private "11DolphinHTTP12HTTPResponseV"
+- !private "11DolphinHTTP10HTTPStatusV"
 - "SH"
 - !private "s6HasherV"
 - !private "So19NSJSONSerializationC"
@@ -278,6 +274,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Build/Products/Debug-iphonesimulator/DolphinHTTP.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -305,4 +302,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "bd2be4a7f7d32cb81bcfd20540cea7fe"
+interface-hash: "68b81c3c883b11f456104d41b57a451d"

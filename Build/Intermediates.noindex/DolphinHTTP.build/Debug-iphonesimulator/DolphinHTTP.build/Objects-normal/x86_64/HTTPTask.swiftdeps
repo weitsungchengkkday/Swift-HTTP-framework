@@ -1,0 +1,298 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPTask"
+provides-nominal:
+- "11DolphinHTTP8HTTPTaskC"
+provides-member:
+- ["11DolphinHTTP8HTTPTaskC", ""]
+provides-dynamic-lookup:
+- "addCancellationHandler"
+- "addCompletionHandler"
+- "cancel"
+- "cancellationHandlers"
+- "complete"
+- "completion"
+- "completionHandlers"
+- "fail"
+- "id"
+- "request"
+- "taskCancelQueue"
+- "taskCompleteQueue"
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- "DispatchQueue"
+- "Error"
+- "HTTPError"
+- "HTTPRequest"
+- "HTTPResponse"
+- "HTTPResult"
+- "HTTPTask"
+- "StringLiteralType"
+- "UUID"
+- "Void"
+- !private "completion"
+- !private "request"
+- !private "taskCancelQueue"
+- !private "taskCompleteQueue"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- ["Sa", "init"]
+- !private ["Sa", "reversed"]
+- ["So17OS_dispatch_queueC8DispatchE10AttributesV", "concurrent"]
+- ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "forEach"]
+- ["SK", "init"]
+- !private ["SK", "reversed"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "reversed"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "forEach"]
+- ["Sl", "init"]
+- !private ["Sl", "reversed"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "reversed"]
+- !private ["Se", "append"]
+- !private ["Se", "forEach"]
+- ["Se", "init"]
+- !private ["Se", "reversed"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "init"]
+- ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["8Dispatch0A13WorkItemFlagsV", "barrier"]
+- !private ["SE", "append"]
+- !private ["SE", "forEach"]
+- ["SE", "init"]
+- !private ["SE", "reversed"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "async"]
+- !private ["SQ", "barrier"]
+- ["SQ", "concurrent"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "forEach"]
+- ["SQ", "init"]
+- !private ["SQ", "reversed"]
+- ["s5ErrorP", "Code"]
+- !private ["s5ErrorP", "init"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "barrier"]
+- ["s25ExpressibleByArrayLiteralP", "concurrent"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
+- ["11DolphinHTTP9HTTPErrorV", "Code"]
+- ["11DolphinHTTP9HTTPErrorV", ""]
+- !private ["11DolphinHTTP9HTTPErrorV", "init"]
+- !private ["11DolphinHTTP11HTTPRequestV", "id"]
+- ["11DolphinHTTP8HTTPTaskC", "Array"]
+- ["11DolphinHTTP8HTTPTaskC", "DispatchQueue"]
+- ["11DolphinHTTP8HTTPTaskC", "Error"]
+- ["11DolphinHTTP8HTTPTaskC", "HTTPError"]
+- ["11DolphinHTTP8HTTPTaskC", "HTTPRequest"]
+- ["11DolphinHTTP8HTTPTaskC", "HTTPResponse"]
+- ["11DolphinHTTP8HTTPTaskC", "HTTPResult"]
+- ["11DolphinHTTP8HTTPTaskC", "UUID"]
+- ["11DolphinHTTP8HTTPTaskC", "Void"]
+- ["11DolphinHTTP8HTTPTaskC", "addCancellationHandler"]
+- ["11DolphinHTTP8HTTPTaskC", "addCompletionHandler"]
+- ["11DolphinHTTP8HTTPTaskC", "cancel"]
+- !private ["11DolphinHTTP8HTTPTaskC", "cancellationHandlers"]
+- ["11DolphinHTTP8HTTPTaskC", "complete"]
+- ["11DolphinHTTP8HTTPTaskC", "completion"]
+- !private ["11DolphinHTTP8HTTPTaskC", "completionHandlers"]
+- ["11DolphinHTTP8HTTPTaskC", "deinit"]
+- ["11DolphinHTTP8HTTPTaskC", "fail"]
+- ["11DolphinHTTP8HTTPTaskC", "id"]
+- ["11DolphinHTTP8HTTPTaskC", "init"]
+- ["11DolphinHTTP8HTTPTaskC", "request"]
+- !private ["11DolphinHTTP8HTTPTaskC", "taskCancelQueue"]
+- !private ["11DolphinHTTP8HTTPTaskC", "taskCompleteQueue"]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "failure"]
+- !private ["SH", "forEach"]
+- ["SH", "init"]
+- !private ["SH", "reversed"]
+- !private ["s20LazySequenceProtocolP", "forEach"]
+- ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "forEach"]
+- ["SM", "init"]
+- !private ["SM", "reversed"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "reversed"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "suspend"]
+- ["So8NSObjectC", "sync"]
+- ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "suspend"]
+- ["So8NSObjectP", "sync"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "init"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- ["So9OS_objectC", "suspend"]
+- ["So9OS_objectC", "sync"]
+- !private ["s9OptionSetP", "barrier"]
+- ["s9OptionSetP", "concurrent"]
+- ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "forEach"]
+- ["Sk", "init"]
+- !private ["Sk", "reversed"]
+- ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "forEach"]
+- ["Sm", "init"]
+- !private ["Sm", "reversed"]
+- ["SY", ""]
+- !private ["SY", "barrier"]
+- ["SY", "concurrent"]
+- !private ["s6ResultO", "failure"]
+- !private ["s18ReversedCollectionV", "forEach"]
+- !private ["7Combine9SchedulerP", "async"]
+- ["7Combine9SchedulerP", "init"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "forEach"]
+- ["ST", "init"]
+- !private ["ST", "reversed"]
+- ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "barrier"]
+- ["s10SetAlgebraP", "concurrent"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reversed"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reversed"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "reversed"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reversed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
+depends-nominal:
+- "Sa"
+- "So17OS_dispatch_queueC8DispatchE10AttributesV"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- !private "8Dispatch0A13WorkItemFlagsV"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "11DolphinHTTP9HTTPErrorV"
+- !private "11DolphinHTTP11HTTPRequestV"
+- "11DolphinHTTP8HTTPTaskC"
+- "SH"
+- !private "s20LazySequenceProtocolP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- "s9OptionSetP"
+- "Sk"
+- "Sm"
+- "SY"
+- !private "s6ResultO"
+- !private "s18ReversedCollectionV"
+- "7Combine9SchedulerP"
+- "ST"
+- "s10SetAlgebraP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1c10d4ac1e223c98567165e1ead7f4c0"

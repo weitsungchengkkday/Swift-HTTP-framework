@@ -2,8 +2,8 @@
 provides-top-level:
 provides-nominal:
 provides-member:
-- ["10Shark_HTTP17ServerEnvironmentV", ""]
-- ["10Shark_HTTP17ServerEnvironmentV", "odooLocal"]
+- ["11DolphinHTTP17ServerEnvironmentV", ""]
+- ["11DolphinHTTP17ServerEnvironmentV", "odooLocal"]
 provides-dynamic-lookup:
 depends-top-level:
 - "Array"
@@ -16,22 +16,23 @@ depends-member:
 - ["s30ExpressibleByDictionaryLiteralP", "Key"]
 - ["s30ExpressibleByDictionaryLiteralP", "Value"]
 - ["s30ExpressibleByDictionaryLiteralP", "init"]
-- ["10Shark_HTTP17HTTPRequestOptionP", "ServerEnvironment"]
-- ["10Shark_HTTP17HTTPRequestOptionP", "init"]
-- ["10Shark_HTTP17ServerEnvironmentV", "ServerEnvironment"]
-- ["10Shark_HTTP17ServerEnvironmentV", ""]
-- ["10Shark_HTTP17ServerEnvironmentV", "init"]
-- ["10Shark_HTTP17ServerEnvironmentV", "odooLocal"]
+- ["11DolphinHTTP17HTTPRequestOptionP", "ServerEnvironment"]
+- ["11DolphinHTTP17HTTPRequestOptionP", "init"]
+- ["11DolphinHTTP17ServerEnvironmentV", "ServerEnvironment"]
+- ["11DolphinHTTP17ServerEnvironmentV", ""]
+- ["11DolphinHTTP17ServerEnvironmentV", "init"]
+- ["11DolphinHTTP17ServerEnvironmentV", "odooLocal"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 depends-nominal:
 - "s25ExpressibleByArrayLiteralP"
 - "s30ExpressibleByDictionaryLiteralP"
-- "10Shark_HTTP17HTTPRequestOptionP"
-- "10Shark_HTTP17ServerEnvironmentV"
+- "11DolphinHTTP17HTTPRequestOptionP"
+- "11DolphinHTTP17ServerEnvironmentV"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Build/Products/Debug-iphonesimulator/DolphinHTTP.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -59,4 +60,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e91d5a1d8d1abdaca2b631795e1ca747"
+interface-hash: "d05c8d3468908b582a4998b2ac11d151"

@@ -157,16 +157,15 @@ depends-member:
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["s17FixedWidthIntegerP", "init"]
-- !private ["10Shark_HTTP9HTTPErrorV", ""]
-- ["10Shark_HTTP10HTTPLoaderC", ""]
-- !private ["10Shark_HTTP10HTTPLoaderC", "load"]
-- !private ["10Shark_HTTP10HTTPLoaderC", "reset"]
-- !private ["10Shark_HTTP11HTTPRequestV", "init"]
-- !private ["10Shark_HTTP11HTTPRequestV", "path"]
-- !private ["10Shark_HTTP11HTTPRequestV", "queryItems"]
-- !private ["10Shark_HTTP11HTTPRequestV", "serverEnvironment"]
-- !private ["10Shark_HTTP17HTTPRequestOptionP", "testServer"]
-- !private ["10Shark_HTTP12HTTPResponseV", "body"]
+- ["11DolphinHTTP10HTTPLoaderC", ""]
+- !private ["11DolphinHTTP10HTTPLoaderC", "load"]
+- !private ["11DolphinHTTP10HTTPLoaderC", "reset"]
+- !private ["11DolphinHTTP11HTTPRequestV", "init"]
+- !private ["11DolphinHTTP11HTTPRequestV", "path"]
+- !private ["11DolphinHTTP11HTTPRequestV", "queryItems"]
+- !private ["11DolphinHTTP11HTTPRequestV", "serverEnvironment"]
+- !private ["11DolphinHTTP17HTTPRequestOptionP", "testServer"]
+- !private ["11DolphinHTTP12HTTPResponseV", "body"]
 - ["SH", "=="]
 - !private ["SH", ""]
 - ["SH", "_rawHashValue"]
@@ -230,7 +229,7 @@ depends-member:
 - !private ["s10SIMDScalarP", "init"]
 - !private ["ST", ""]
 - !private ["ST", "subscript"]
-- !private ["10Shark_HTTP17ServerEnvironmentV", "testServer"]
+- !private ["11DolphinHTTP17ServerEnvironmentV", "testServer"]
 - !private ["s10SetAlgebraP", "ArrayLiteralElement"]
 - !private ["s10SetAlgebraP", "Element"]
 - !private ["s10SetAlgebraP", ""]
@@ -280,7 +279,7 @@ depends-member:
 - !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["10Foundation12URLQueryItemV", "init"]
 - !private ["So12NSURLSessionC", "shared"]
-- !private ["10Shark_HTTP16URLSessionLoaderC", "init"]
+- !private ["11DolphinHTTP16URLSessionLoaderC", "init"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
@@ -325,11 +324,10 @@ depends-nominal:
 - !private "s23ExpressibleByNilLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s17FixedWidthIntegerP"
-- !private "10Shark_HTTP9HTTPErrorV"
-- "10Shark_HTTP10HTTPLoaderC"
-- !private "10Shark_HTTP11HTTPRequestV"
-- !private "10Shark_HTTP17HTTPRequestOptionP"
-- !private "10Shark_HTTP12HTTPResponseV"
+- "11DolphinHTTP10HTTPLoaderC"
+- !private "11DolphinHTTP11HTTPRequestV"
+- !private "11DolphinHTTP17HTTPRequestOptionP"
+- !private "11DolphinHTTP12HTTPResponseV"
 - "SH"
 - !private "s6HasherV"
 - !private "Si"
@@ -356,7 +354,7 @@ depends-nominal:
 - !private "s6ResultO"
 - !private "s10SIMDScalarP"
 - !private "ST"
-- !private "10Shark_HTTP17ServerEnvironmentV"
+- !private "11DolphinHTTP17ServerEnvironmentV"
 - !private "s10SetAlgebraP"
 - !private "SZ"
 - !private "s13SignedNumericP"
@@ -368,7 +366,7 @@ depends-nominal:
 - !private "s16TextOutputStreamP"
 - !private "10Foundation12URLQueryItemV"
 - !private "So12NSURLSessionC"
-- !private "10Shark_HTTP16URLSessionLoaderC"
+- !private "11DolphinHTTP16URLSessionLoaderC"
 - !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
@@ -382,6 +380,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Build/Products/Debug-iphonesimulator/DolphinHTTP.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -409,4 +408,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "1a7da3a6cc66a85464aa8c93092cb2ba"
+interface-hash: "7178f5156f6adf4114592d5d67015076"
