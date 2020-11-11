@@ -209,7 +209,7 @@ depends-member:
 - !private ["SM", ""]
 - !private ["SM", "compactMap"]
 - !private ["10Foundation19MutableDataProtocolP", "compactMap"]
-- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", ""]
 - !private ["So8NSObjectC", "JSONObjectWithData"]
 - !private ["So8NSObjectC", "JSONObjectWithStream"]
 - ["So8NSObjectC", ""]
@@ -218,7 +218,6 @@ depends-member:
 - !private ["So8NSObjectC", "jsonObject"]
 - !private ["So8NSObjectP", "JSONObjectWithData"]
 - !private ["So8NSObjectP", "JSONObjectWithStream"]
-- ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "data"]
 - !private ["So8NSObjectP", "dataWithJSONObject"]
 - !private ["So8NSObjectP", "jsonObject"]
@@ -340,9 +339,9 @@ depends-nominal:
 - !private "s30KeyedEncodingContainerProtocolP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
-- "So8NSCodingP"
+- !private "So8NSCodingP"
 - "So8NSObjectC"
-- "So8NSObjectP"
+- !private "So8NSObjectP"
 - "10Shark_HTTP7OdooBugV"
 - "10Shark_HTTP10OdooBugAPIC"
 - "10Shark_HTTP8OdooDataV"

@@ -11,7 +11,7 @@ open class URLSessionLoader: HTTPLoader {
     
     var session: URLSession
     
-    init(session: URLSession = URLSession.shared) {
+    public init(session: URLSession = URLSession.shared) {
         self.session = session
         super.init()
     }

@@ -178,7 +178,6 @@ depends-member:
 - !private ["s6ResultO", "success"]
 - !private ["ST", "Element"]
 - !private ["ST", "Iterator"]
-- !private ["ST", "makeIterator"]
 - !private ["So21NSURLSessionTaskStateV", "canceling"]
 - !private ["So21NSURLSessionTaskStateV", "completed"]
 - !private ["So21NSURLSessionTaskStateV", "running"]
@@ -311,4 +310,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a66a38250098dbb291a582979869d7b2"
+interface-hash: "e17602c85859f8339c73540edf465629"

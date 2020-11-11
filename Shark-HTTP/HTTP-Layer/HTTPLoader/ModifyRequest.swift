@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ModifyRequest: HTTPLoader {
+public class ModifyRequest: HTTPLoader {
     
     private let modifier: (HTTPRequest) -> HTTPRequest
     

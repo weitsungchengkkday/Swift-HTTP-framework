@@ -4,11 +4,11 @@
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPMethod.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/TestCustomLoader/MyCustomLoaderTwo.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/Environment/OdooLocalEnv.swift
-/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/Helper/ThreadSafeArray.swift
+/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/Helper/ThreadSafeArray.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/TestCustomLoader/MyCustomLoader.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPError.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/ViewController.swift
-/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/Helper/AtomicTransaction.swift
+/Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/Helper/AtomicTransaction.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/Model/StarWarsAPI.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/Operator/LoaderChainingPrecedence.swift
 /Users/wei-tsung-cheng/Desktop/Terre_des_hommes/Shark-HTTP/Shark-HTTP/HTTP-Layer/HTTPLoader/HTTPLoader.swift
