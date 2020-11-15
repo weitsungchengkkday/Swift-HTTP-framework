@@ -8,6 +8,7 @@
 import Foundation
 import DolphinHTTP
 
+// API 文件 https://swapi.dev/documentation
 class StarWarsAPI {
     private let loader: HTTPLoader
     
