@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     var api4: OdooBugAPI!
     var api5: TwilioAPI!
     
+    var api100: TwilioAPIPostWithDataBody!
+    var api101: TwilioAPIPostWithDataBodyTwo!
+    var api200: TwilioAPIPostWithFormBody!
+    var api300: TwilioAPIPostWithJSONBody!
+    
+    var apiX: LocalhostURLAPI!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -105,24 +113,82 @@ class ViewController: UIViewController {
         
     
         
-        let printLoader = PrintLoader()
-        let sessionLoader1 = URLSessionLoader()
-        let serverEnviroment = ServerEnvironment.odooLocal
-        let applyEnviroment = ApplyEnvironment(environment: serverEnviroment)
+//        let printLoader = PrintLoader()
+//        let sessionLoader1 = URLSessionLoader()
+//        let serverEnviroment = ServerEnvironment.odooLocal
+//        let applyEnviroment = ApplyEnvironment(environment: serverEnviroment)
+//
+//        printLoader --> applyEnviroment
+//        applyEnviroment --> sessionLoader1
+//
+//        api4 = OdooBugAPI(loader: printLoader)
+//
+//
+//
+//
+//        let sessionLoader2 = URLSessionLoader()
+//        api5 = TwilioAPI(loader: sessionLoader2)
+//
+//
         
-        printLoader --> applyEnviroment
-        applyEnviroment --> sessionLoader1
-        
-        api4 = OdooBugAPI(loader: printLoader)
         
         
         
         
-        let sessionLoader2 = URLSessionLoader()
-        api5 = TwilioAPI(loader: sessionLoader2)
+        ///// 四種方式完成 POST
+        // 方法一
+        // DataBody (用JSONEncode)
+        // 方法二
+        // DataBody (用JSONEncode)
+        // 方法三
+        // FormBody
+        // 方法四
+        // JSONBody
         
-         
+//        // 方法一
+//        api100 = TwilioAPIPostWithDataBody(loader: URLSessionLoader())
+//
+//        let url = URL(string: "https://sit-william-two-5696.twil.io/accessToken")!
+//        api100.postData(url: url) { (result) in
+//            print(result)
+//        }
+//
+//        // 方法二
+//        api101 = TwilioAPIPostWithDataBodyTwo(loader: URLSessionLoader())
+//
+//        let ur2 = URL(string: "https://sit-william-two-5696.twil.io/accessToken")!
+//        api101.postData(url: ur2) { (result) in
+//            print(result)
+//        }
+//
+//        // 方法三
+//        api200 = TwilioAPIPostWithFormBody(loader: URLSessionLoader())
+//
+//        let ur3 = URL(string: "https://sit-william-two-5696.twil.io/accessToken")!
+//        api200.postData(url: url) { (result) in
+//            print(result)
+//        }
+        
+        // 方法四
+//        api300 = TwilioAPIPostWithJSONBody(loader: URLSessionLoader())
+//
+//        let ur4 = URL(string: "https://sit-william-two-5696.twil.io/accessToken")!
+//        api300.postData(url: ur4) { (result) in
+//            print(result)
+//        }
+        
+        
      
+        // localhost 請求的方法
+        // 解決 Shark-HTTP 會自動使用 https的問題
+        
+        apiX = LocalhostURLAPI(loader: URLSessionLoader())
+        let url = URL(string: "http://localhost:5000/items")!
+        
+        apiX.getData(url: url) { text in
+            print(text)
+        }
+        
     }
     
     
@@ -148,7 +214,6 @@ class ViewController: UIViewController {
             print(bugs)
         }
       
-        
     }
     
     
